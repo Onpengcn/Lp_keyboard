@@ -1,0 +1,6627 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 630A9402
+P 11550 3950
+F 0 "#PWR?" H 11550 3750 50  0001 C CNN
+F 1 "GNDPWR" H 11554 3796 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 11550 3900 50  0001 C CNN
+F 3 "" H 11550 3900 50  0001 C CNN
+	1    11550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-IC-Logic:74HC165D U?
+U 1 1 630A9409
+P 12100 2250
+F 0 "U?" H 12100 3004 45  0000 C CNN
+F 1 "74HC165D" H 12100 2920 45  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 12100 2950 20  0001 C CNN
+F 3 "" H 12100 2250 50  0001 C CNN
+F 4 "" H 12100 2250 60  0001 C CNN "Field4"
+	1    12100 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A940F
+P 12500 3750
+F 0 "SW?" H 12500 3985 50  0000 C CNN
+F 1 "SW_SPST" H 12500 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 12500 3750 50  0001 C CNN
+F 3 "~" H 12500 3750 50  0001 C CNN
+	1    12500 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A9415
+P 12300 3750
+F 0 "SW?" H 12300 3985 50  0000 C CNN
+F 1 "SW_SPST" H 12300 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 12300 3750 50  0001 C CNN
+F 3 "~" H 12300 3750 50  0001 C CNN
+	1    12300 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A941B
+P 12200 3750
+F 0 "SW?" H 12200 3985 50  0000 C CNN
+F 1 "SW_SPST" H 12200 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 12200 3750 50  0001 C CNN
+F 3 "~" H 12200 3750 50  0001 C CNN
+	1    12200 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A9421
+P 12000 3750
+F 0 "SW?" H 12000 3985 50  0000 C CNN
+F 1 "SW_SPST" H 12000 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 12000 3750 50  0001 C CNN
+F 3 "~" H 12000 3750 50  0001 C CNN
+	1    12000 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A9427
+P 11900 3750
+F 0 "SW?" H 11900 3985 50  0000 C CNN
+F 1 "SW_SPST" H 11900 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 11900 3750 50  0001 C CNN
+F 3 "~" H 11900 3750 50  0001 C CNN
+	1    11900 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A942D
+P 11800 3750
+F 0 "SW?" H 11800 3985 50  0000 C CNN
+F 1 "SW_SPST" H 11800 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 11800 3750 50  0001 C CNN
+F 3 "~" H 11800 3750 50  0001 C CNN
+	1    11800 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A9433
+P 12400 3750
+F 0 "SW?" H 12400 3985 50  0000 C CNN
+F 1 "SW_SPST" H 12400 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 12400 3750 50  0001 C CNN
+F 3 "~" H 12400 3750 50  0001 C CNN
+	1    12400 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12500 2650 12500 2700
+Wire Wire Line
+	12400 2650 12400 2800
+Wire Wire Line
+	12300 2650 12300 2900
+Wire Wire Line
+	12200 2650 12200 3000
+Wire Wire Line
+	12000 2650 12000 3200
+Wire Wire Line
+	12700 2700 12500 2700
+Connection ~ 12500 2700
+Wire Wire Line
+	12500 2700 12500 3550
+Wire Wire Line
+	12700 2800 12400 2800
+Connection ~ 12400 2800
+Wire Wire Line
+	12400 2800 12400 3550
+Wire Wire Line
+	12700 2900 12300 2900
+Connection ~ 12300 2900
+Wire Wire Line
+	12300 2900 12300 3550
+Wire Wire Line
+	12700 3000 12200 3000
+Connection ~ 12200 3000
+Wire Wire Line
+	12200 3000 12200 3550
+Wire Wire Line
+	12700 3100 12100 3100
+Connection ~ 12100 3100
+Wire Wire Line
+	12100 3100 12100 2650
+Wire Wire Line
+	12700 3200 12000 3200
+Connection ~ 12000 3200
+Wire Wire Line
+	12000 3200 12000 3550
+Wire Wire Line
+	12700 3300 11900 3300
+Connection ~ 11900 3300
+Wire Wire Line
+	11900 3300 11900 2650
+Wire Wire Line
+	12700 3400 11800 3400
+Wire Wire Line
+	11800 2650 11800 3400
+Connection ~ 11800 3400
+Wire Wire Line
+	11800 3400 11800 3550
+Wire Wire Line
+	12100 3550 12100 3100
+Wire Wire Line
+	11900 3550 11900 3300
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A9459
+P 12100 3750
+F 0 "SW?" H 12100 3985 50  0000 C CNN
+F 1 "SW_SPST" H 12100 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 12100 3750 50  0001 C CNN
+F 3 "~" H 12100 3750 50  0001 C CNN
+	1    12100 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11700 1750 11700 1850
+Wire Wire Line
+	12600 1750 12600 1850
+Wire Wire Line
+	13200 1750 13100 1750
+Connection ~ 13100 1750
+Wire Wire Line
+	13100 1750 12600 1750
+Wire Wire Line
+	11700 1750 11550 1750
+Wire Wire Line
+	11550 1750 11550 3950
+Wire Wire Line
+	11550 3950 11800 3950
+Connection ~ 12400 3950
+Wire Wire Line
+	12400 3950 12500 3950
+Connection ~ 12300 3950
+Wire Wire Line
+	12300 3950 12400 3950
+Connection ~ 12200 3950
+Wire Wire Line
+	12200 3950 12300 3950
+Connection ~ 12100 3950
+Wire Wire Line
+	12100 3950 12200 3950
+Connection ~ 12000 3950
+Wire Wire Line
+	12000 3950 12100 3950
+Connection ~ 11900 3950
+Wire Wire Line
+	11900 3950 12000 3950
+Connection ~ 11800 3950
+Wire Wire Line
+	11800 3950 11900 3950
+Wire Wire Line
+	12400 1850 12400 1150
+Wire Wire Line
+	12200 1850 12200 1250
+Wire Wire Line
+	12300 1350 12300 1850
+Connection ~ 11550 3950
+Wire Wire Line
+	12000 1550 12000 1850
+$Comp
+L power:+3.3V #PWR?
+U 1 1 630A9480
+P 13200 1750
+F 0 "#PWR?" H 13200 1600 50  0001 C CNN
+F 1 "+3.3V" H 13215 1923 50  0000 C CNN
+F 2 "" H 13200 1750 50  0001 C CNN
+F 3 "" H 13200 1750 50  0001 C CNN
+	1    13200 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 630A9486
+P 12900 2900
+F 0 "RN?" V 12483 2900 50  0000 C CNN
+F 1 "R_Pack04" V 12574 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 13175 2900 50  0001 C CNN
+F 3 "~" H 12900 2900 50  0001 C CNN
+	1    12900 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13100 1750 13100 2700
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 630A948D
+P 12900 3300
+F 0 "RN?" V 12483 3300 50  0000 C CNN
+F 1 "R_Pack04" V 12574 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 13175 3300 50  0001 C CNN
+F 3 "~" H 12900 3300 50  0001 C CNN
+	1    12900 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13100 3400 13100 3300
+Connection ~ 13100 2700
+Connection ~ 13100 2800
+Wire Wire Line
+	13100 2800 13100 2700
+Connection ~ 13100 2900
+Wire Wire Line
+	13100 2900 13100 2800
+Connection ~ 13100 3000
+Wire Wire Line
+	13100 3000 13100 2900
+Connection ~ 13100 3100
+Wire Wire Line
+	13100 3100 13100 3000
+Connection ~ 13100 3200
+Wire Wire Line
+	13100 3200 13100 3100
+Connection ~ 13100 3300
+Wire Wire Line
+	13100 3300 13100 3200
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 63108FB7
+P 9600 3950
+F 0 "#PWR?" H 9600 3750 50  0001 C CNN
+F 1 "GNDPWR" H 9604 3796 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9600 3900 50  0001 C CNN
+F 3 "" H 9600 3900 50  0001 C CNN
+	1    9600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-IC-Logic:74HC165D U?
+U 1 1 63108FBE
+P 10150 2250
+F 0 "U?" H 10150 3004 45  0000 C CNN
+F 1 "74HC165D" H 10150 2920 45  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 10150 2950 20  0001 C CNN
+F 3 "" H 10150 2250 50  0001 C CNN
+F 4 "" H 10150 2250 60  0001 C CNN "Field4"
+	1    10150 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63108FC4
+P 10550 3750
+F 0 "SW?" H 10550 3985 50  0000 C CNN
+F 1 "SW_SPST" H 10550 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 10550 3750 50  0001 C CNN
+F 3 "~" H 10550 3750 50  0001 C CNN
+	1    10550 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63108FCA
+P 10350 3750
+F 0 "SW?" H 10350 3985 50  0000 C CNN
+F 1 "SW_SPST" H 10350 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 10350 3750 50  0001 C CNN
+F 3 "~" H 10350 3750 50  0001 C CNN
+	1    10350 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63108FD0
+P 10250 3750
+F 0 "SW?" H 10250 3985 50  0000 C CNN
+F 1 "SW_SPST" H 10250 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 10250 3750 50  0001 C CNN
+F 3 "~" H 10250 3750 50  0001 C CNN
+	1    10250 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63108FD6
+P 10050 3750
+F 0 "SW?" H 10050 3985 50  0000 C CNN
+F 1 "SW_SPST" H 10050 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 10050 3750 50  0001 C CNN
+F 3 "~" H 10050 3750 50  0001 C CNN
+	1    10050 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63108FDC
+P 9950 3750
+F 0 "SW?" H 9950 3985 50  0000 C CNN
+F 1 "SW_SPST" H 9950 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 9950 3750 50  0001 C CNN
+F 3 "~" H 9950 3750 50  0001 C CNN
+	1    9950 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63108FE2
+P 9850 3750
+F 0 "SW?" H 9850 3985 50  0000 C CNN
+F 1 "SW_SPST" H 9850 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 9850 3750 50  0001 C CNN
+F 3 "~" H 9850 3750 50  0001 C CNN
+	1    9850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63108FE8
+P 10450 3750
+F 0 "SW?" H 10450 3985 50  0000 C CNN
+F 1 "SW_SPST" H 10450 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 10450 3750 50  0001 C CNN
+F 3 "~" H 10450 3750 50  0001 C CNN
+	1    10450 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 2650 10550 2700
+Wire Wire Line
+	10450 2650 10450 2800
+Wire Wire Line
+	10350 2650 10350 2900
+Wire Wire Line
+	10250 2650 10250 3000
+Wire Wire Line
+	10050 2650 10050 3200
+Wire Wire Line
+	10750 2700 10550 2700
+Connection ~ 10550 2700
+Wire Wire Line
+	10550 2700 10550 3550
+Wire Wire Line
+	10750 2800 10450 2800
+Connection ~ 10450 2800
+Wire Wire Line
+	10450 2800 10450 3550
+Wire Wire Line
+	10750 2900 10350 2900
+Connection ~ 10350 2900
+Wire Wire Line
+	10350 2900 10350 3550
+Wire Wire Line
+	10750 3000 10250 3000
+Connection ~ 10250 3000
+Wire Wire Line
+	10250 3000 10250 3550
+Wire Wire Line
+	10750 3100 10150 3100
+Connection ~ 10150 3100
+Wire Wire Line
+	10150 3100 10150 2650
+Wire Wire Line
+	10750 3200 10050 3200
+Connection ~ 10050 3200
+Wire Wire Line
+	10050 3200 10050 3550
+Wire Wire Line
+	10750 3300 9950 3300
+Connection ~ 9950 3300
+Wire Wire Line
+	9950 3300 9950 2650
+Wire Wire Line
+	10750 3400 9850 3400
+Wire Wire Line
+	9850 2650 9850 3400
+Connection ~ 9850 3400
+Wire Wire Line
+	9850 3400 9850 3550
+Wire Wire Line
+	10150 3550 10150 3100
+Wire Wire Line
+	9950 3550 9950 3300
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6310900E
+P 10150 3750
+F 0 "SW?" H 10150 3985 50  0000 C CNN
+F 1 "SW_SPST" H 10150 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 10150 3750 50  0001 C CNN
+F 3 "~" H 10150 3750 50  0001 C CNN
+	1    10150 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9750 1750 9750 1850
+Wire Wire Line
+	10650 1750 10650 1850
+$Comp
+L power:+3.3V #PWR?
+U 1 1 63109016
+P 11250 1750
+F 0 "#PWR?" H 11250 1600 50  0001 C CNN
+F 1 "+3.3V" H 11265 1923 50  0000 C CNN
+F 2 "" H 11250 1750 50  0001 C CNN
+F 3 "" H 11250 1750 50  0001 C CNN
+	1    11250 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9750 1750 9600 1750
+Wire Wire Line
+	9600 1750 9600 3950
+Wire Wire Line
+	9600 3950 9850 3950
+Connection ~ 10450 3950
+Wire Wire Line
+	10450 3950 10550 3950
+Connection ~ 10350 3950
+Wire Wire Line
+	10350 3950 10450 3950
+Connection ~ 10250 3950
+Wire Wire Line
+	10250 3950 10350 3950
+Connection ~ 10150 3950
+Wire Wire Line
+	10150 3950 10250 3950
+Connection ~ 10050 3950
+Wire Wire Line
+	10050 3950 10150 3950
+Connection ~ 9950 3950
+Wire Wire Line
+	9950 3950 10050 3950
+Connection ~ 9850 3950
+Wire Wire Line
+	9850 3950 9950 3950
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 6310902D
+P 7600 3950
+F 0 "#PWR?" H 7600 3750 50  0001 C CNN
+F 1 "GNDPWR" H 7604 3796 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7600 3900 50  0001 C CNN
+F 3 "" H 7600 3900 50  0001 C CNN
+	1    7600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-IC-Logic:74HC165D U?
+U 1 1 63109034
+P 8150 2250
+F 0 "U?" H 8150 3004 45  0000 C CNN
+F 1 "74HC165D" H 8150 2920 45  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 8150 2950 20  0001 C CNN
+F 3 "" H 8150 2250 50  0001 C CNN
+F 4 "" H 8150 2250 60  0001 C CNN "Field4"
+	1    8150 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6310903A
+P 8550 3750
+F 0 "SW?" H 8550 3985 50  0000 C CNN
+F 1 "SW_SPST" H 8550 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 8550 3750 50  0001 C CNN
+F 3 "~" H 8550 3750 50  0001 C CNN
+	1    8550 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63109040
+P 8350 3750
+F 0 "SW?" H 8350 3985 50  0000 C CNN
+F 1 "SW_SPST" H 8350 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 8350 3750 50  0001 C CNN
+F 3 "~" H 8350 3750 50  0001 C CNN
+	1    8350 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63109046
+P 8250 3750
+F 0 "SW?" H 8250 3985 50  0000 C CNN
+F 1 "SW_SPST" H 8250 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 8250 3750 50  0001 C CNN
+F 3 "~" H 8250 3750 50  0001 C CNN
+	1    8250 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6310904C
+P 8050 3750
+F 0 "SW?" H 8050 3985 50  0000 C CNN
+F 1 "SW_SPST" H 8050 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 8050 3750 50  0001 C CNN
+F 3 "~" H 8050 3750 50  0001 C CNN
+	1    8050 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63109052
+P 7950 3750
+F 0 "SW?" H 7950 3985 50  0000 C CNN
+F 1 "SW_SPST" H 7950 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 7950 3750 50  0001 C CNN
+F 3 "~" H 7950 3750 50  0001 C CNN
+	1    7950 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63109058
+P 7850 3750
+F 0 "SW?" H 7850 3985 50  0000 C CNN
+F 1 "SW_SPST" H 7850 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 7850 3750 50  0001 C CNN
+F 3 "~" H 7850 3750 50  0001 C CNN
+	1    7850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6310905E
+P 8450 3750
+F 0 "SW?" H 8450 3985 50  0000 C CNN
+F 1 "SW_SPST" H 8450 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 8450 3750 50  0001 C CNN
+F 3 "~" H 8450 3750 50  0001 C CNN
+	1    8450 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8550 2650 8550 2700
+Wire Wire Line
+	8450 2650 8450 2800
+Wire Wire Line
+	8350 2650 8350 2900
+Wire Wire Line
+	8250 2650 8250 3000
+Wire Wire Line
+	8050 2650 8050 3200
+Wire Wire Line
+	8750 2700 8550 2700
+Connection ~ 8550 2700
+Wire Wire Line
+	8550 2700 8550 3550
+Wire Wire Line
+	8750 2800 8450 2800
+Connection ~ 8450 2800
+Wire Wire Line
+	8450 2800 8450 3550
+Wire Wire Line
+	8750 2900 8350 2900
+Connection ~ 8350 2900
+Wire Wire Line
+	8350 2900 8350 3550
+Wire Wire Line
+	8750 3000 8250 3000
+Connection ~ 8250 3000
+Wire Wire Line
+	8250 3000 8250 3550
+Wire Wire Line
+	8750 3100 8150 3100
+Connection ~ 8150 3100
+Wire Wire Line
+	8150 3100 8150 2650
+Wire Wire Line
+	8750 3200 8050 3200
+Connection ~ 8050 3200
+Wire Wire Line
+	8050 3200 8050 3550
+Wire Wire Line
+	8750 3300 7950 3300
+Connection ~ 7950 3300
+Wire Wire Line
+	7950 3300 7950 2650
+Wire Wire Line
+	8750 3400 7850 3400
+Wire Wire Line
+	7850 2650 7850 3400
+Connection ~ 7850 3400
+Wire Wire Line
+	7850 3400 7850 3550
+Wire Wire Line
+	8150 3550 8150 3100
+Wire Wire Line
+	7950 3550 7950 3300
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63109084
+P 8150 3750
+F 0 "SW?" H 8150 3985 50  0000 C CNN
+F 1 "SW_SPST" H 8150 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 8150 3750 50  0001 C CNN
+F 3 "~" H 8150 3750 50  0001 C CNN
+	1    8150 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 1750 7750 1850
+Wire Wire Line
+	8650 1750 8650 1850
+Wire Wire Line
+	9250 1750 9150 1750
+Connection ~ 9150 1750
+Wire Wire Line
+	9150 1750 8650 1750
+Wire Wire Line
+	7750 1750 7600 1750
+Wire Wire Line
+	7600 1750 7600 3950
+Wire Wire Line
+	7600 3950 7850 3950
+Connection ~ 8450 3950
+Wire Wire Line
+	8450 3950 8550 3950
+Connection ~ 8350 3950
+Wire Wire Line
+	8350 3950 8450 3950
+Connection ~ 8250 3950
+Wire Wire Line
+	8250 3950 8350 3950
+Connection ~ 8150 3950
+Wire Wire Line
+	8150 3950 8250 3950
+Connection ~ 8050 3950
+Wire Wire Line
+	8050 3950 8150 3950
+Connection ~ 7950 3950
+Wire Wire Line
+	7950 3950 8050 3950
+Connection ~ 7850 3950
+Wire Wire Line
+	7850 3950 7950 3950
+Wire Wire Line
+	8450 1850 8450 1150
+Wire Wire Line
+	8250 1850 8250 1250
+Wire Wire Line
+	10350 1350 10350 1850
+Wire Wire Line
+	10450 1850 10450 1150
+Wire Wire Line
+	10250 1850 10250 1250
+Wire Wire Line
+	8350 1350 8350 1850
+Connection ~ 9600 3950
+Connection ~ 7600 3950
+Wire Wire Line
+	8050 1550 8050 1850
+Wire Wire Line
+	10150 1550 10150 1850
+$Comp
+L power:+3.3V #PWR?
+U 1 1 631090AB
+P 9250 1750
+F 0 "#PWR?" H 9250 1600 50  0001 C CNN
+F 1 "+3.3V" H 9265 1923 50  0000 C CNN
+F 2 "" H 9250 1750 50  0001 C CNN
+F 3 "" H 9250 1750 50  0001 C CNN
+	1    9250 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 631090B1
+P 8950 2900
+F 0 "RN?" V 8533 2900 50  0000 C CNN
+F 1 "R_Pack04" V 8624 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 9225 2900 50  0001 C CNN
+F 3 "~" H 8950 2900 50  0001 C CNN
+	1    8950 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 1750 9150 2700
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 631090B8
+P 8950 3300
+F 0 "RN?" V 8533 3300 50  0000 C CNN
+F 1 "R_Pack04" V 8624 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 9225 3300 50  0001 C CNN
+F 3 "~" H 8950 3300 50  0001 C CNN
+	1    8950 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 3400 9150 3300
+Connection ~ 9150 2700
+Connection ~ 9150 2800
+Wire Wire Line
+	9150 2800 9150 2700
+Connection ~ 9150 2900
+Wire Wire Line
+	9150 2900 9150 2800
+Connection ~ 9150 3000
+Wire Wire Line
+	9150 3000 9150 2900
+Connection ~ 9150 3100
+Wire Wire Line
+	9150 3100 9150 3000
+Connection ~ 9150 3200
+Wire Wire Line
+	9150 3200 9150 3100
+Connection ~ 9150 3300
+Wire Wire Line
+	9150 3300 9150 3200
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 631090CC
+P 10950 2900
+F 0 "RN?" V 10533 2900 50  0000 C CNN
+F 1 "R_Pack04" V 10624 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 11225 2900 50  0001 C CNN
+F 3 "~" H 10950 2900 50  0001 C CNN
+	1    10950 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 631090D2
+P 10950 3300
+F 0 "RN?" V 10533 3300 50  0000 C CNN
+F 1 "R_Pack04" V 10624 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 11225 3300 50  0001 C CNN
+F 3 "~" H 10950 3300 50  0001 C CNN
+	1    10950 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10650 1750 11150 1750
+Wire Wire Line
+	11150 3400 11150 3300
+Connection ~ 11150 1750
+Wire Wire Line
+	11150 1750 11250 1750
+Connection ~ 11150 2700
+Wire Wire Line
+	11150 2700 11150 1750
+Connection ~ 11150 2800
+Wire Wire Line
+	11150 2800 11150 2700
+Connection ~ 11150 2900
+Wire Wire Line
+	11150 2900 11150 2800
+Connection ~ 11150 3000
+Wire Wire Line
+	11150 3000 11150 2900
+Connection ~ 11150 3100
+Wire Wire Line
+	11150 3100 11150 3000
+Connection ~ 11150 3200
+Wire Wire Line
+	11150 3200 11150 3100
+Connection ~ 11150 3300
+Wire Wire Line
+	11150 3300 11150 3200
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 631090EA
+P 5400 3950
+F 0 "#PWR?" H 5400 3750 50  0001 C CNN
+F 1 "GNDPWR" H 5404 3796 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5400 3900 50  0001 C CNN
+F 3 "" H 5400 3900 50  0001 C CNN
+	1    5400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-IC-Logic:74HC165D U?
+U 1 1 631090F1
+P 5950 2250
+F 0 "U?" H 5950 3004 45  0000 C CNN
+F 1 "74HC165D" H 5950 2920 45  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 5950 2950 20  0001 C CNN
+F 3 "" H 5950 2250 50  0001 C CNN
+F 4 "" H 5950 2250 60  0001 C CNN "Field4"
+	1    5950 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 631090F7
+P 6350 3750
+F 0 "SW?" H 6350 3985 50  0000 C CNN
+F 1 "SW_SPST" H 6350 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 6350 3750 50  0001 C CNN
+F 3 "~" H 6350 3750 50  0001 C CNN
+	1    6350 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 631090FD
+P 6150 3750
+F 0 "SW?" H 6150 3985 50  0000 C CNN
+F 1 "SW_SPST" H 6150 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 6150 3750 50  0001 C CNN
+F 3 "~" H 6150 3750 50  0001 C CNN
+	1    6150 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63109103
+P 6050 3750
+F 0 "SW?" H 6050 3985 50  0000 C CNN
+F 1 "SW_SPST" H 6050 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 6050 3750 50  0001 C CNN
+F 3 "~" H 6050 3750 50  0001 C CNN
+	1    6050 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63109109
+P 5850 3750
+F 0 "SW?" H 5850 3985 50  0000 C CNN
+F 1 "SW_SPST" H 5850 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 5850 3750 50  0001 C CNN
+F 3 "~" H 5850 3750 50  0001 C CNN
+	1    5850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6310910F
+P 5750 3750
+F 0 "SW?" H 5750 3985 50  0000 C CNN
+F 1 "SW_SPST" H 5750 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 5750 3750 50  0001 C CNN
+F 3 "~" H 5750 3750 50  0001 C CNN
+	1    5750 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63109115
+P 5650 3750
+F 0 "SW?" H 5650 3985 50  0000 C CNN
+F 1 "SW_SPST" H 5650 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 5650 3750 50  0001 C CNN
+F 3 "~" H 5650 3750 50  0001 C CNN
+	1    5650 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6310911B
+P 6250 3750
+F 0 "SW?" H 6250 3985 50  0000 C CNN
+F 1 "SW_SPST" H 6250 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 6250 3750 50  0001 C CNN
+F 3 "~" H 6250 3750 50  0001 C CNN
+	1    6250 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 2650 6350 2700
+Wire Wire Line
+	6250 2650 6250 2800
+Wire Wire Line
+	6150 2650 6150 2900
+Wire Wire Line
+	6050 2650 6050 3000
+Wire Wire Line
+	5850 2650 5850 3200
+Wire Wire Line
+	6550 2700 6350 2700
+Connection ~ 6350 2700
+Wire Wire Line
+	6350 2700 6350 3550
+Wire Wire Line
+	6550 2800 6250 2800
+Connection ~ 6250 2800
+Wire Wire Line
+	6250 2800 6250 3550
+Wire Wire Line
+	6550 2900 6150 2900
+Connection ~ 6150 2900
+Wire Wire Line
+	6150 2900 6150 3550
+Wire Wire Line
+	6550 3000 6050 3000
+Connection ~ 6050 3000
+Wire Wire Line
+	6050 3000 6050 3550
+Wire Wire Line
+	6550 3100 5950 3100
+Connection ~ 5950 3100
+Wire Wire Line
+	5950 3100 5950 2650
+Wire Wire Line
+	6550 3200 5850 3200
+Connection ~ 5850 3200
+Wire Wire Line
+	5850 3200 5850 3550
+Wire Wire Line
+	6550 3300 5750 3300
+Connection ~ 5750 3300
+Wire Wire Line
+	5750 3300 5750 2650
+Wire Wire Line
+	6550 3400 5650 3400
+Wire Wire Line
+	5650 2650 5650 3400
+Connection ~ 5650 3400
+Wire Wire Line
+	5650 3400 5650 3550
+Wire Wire Line
+	5950 3550 5950 3100
+Wire Wire Line
+	5750 3550 5750 3300
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63109141
+P 5950 3750
+F 0 "SW?" H 5950 3985 50  0000 C CNN
+F 1 "SW_SPST" H 5950 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 5950 3750 50  0001 C CNN
+F 3 "~" H 5950 3750 50  0001 C CNN
+	1    5950 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 1750 5550 1850
+Wire Wire Line
+	6450 1750 6450 1850
+$Comp
+L power:+3.3V #PWR?
+U 1 1 63109149
+P 7050 1750
+F 0 "#PWR?" H 7050 1600 50  0001 C CNN
+F 1 "+3.3V" H 7065 1923 50  0000 C CNN
+F 2 "" H 7050 1750 50  0001 C CNN
+F 3 "" H 7050 1750 50  0001 C CNN
+	1    7050 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 1750 5400 1750
+Wire Wire Line
+	5400 1750 5400 3950
+Wire Wire Line
+	5400 3950 5650 3950
+Connection ~ 6250 3950
+Wire Wire Line
+	6250 3950 6350 3950
+Connection ~ 6150 3950
+Wire Wire Line
+	6150 3950 6250 3950
+Connection ~ 6050 3950
+Wire Wire Line
+	6050 3950 6150 3950
+Connection ~ 5950 3950
+Wire Wire Line
+	5950 3950 6050 3950
+Connection ~ 5850 3950
+Wire Wire Line
+	5850 3950 5950 3950
+Connection ~ 5750 3950
+Wire Wire Line
+	5750 3950 5850 3950
+Connection ~ 5650 3950
+Wire Wire Line
+	5650 3950 5750 3950
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 63109160
+P 3100 3950
+F 0 "#PWR?" H 3100 3750 50  0001 C CNN
+F 1 "GNDPWR" H 3104 3796 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3100 3900 50  0001 C CNN
+F 3 "" H 3100 3900 50  0001 C CNN
+	1    3100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-IC-Logic:74HC165D U?
+U 1 1 63109167
+P 3650 2250
+F 0 "U?" H 3650 3004 45  0000 C CNN
+F 1 "74HC165D" H 3650 2920 45  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3650 2950 20  0001 C CNN
+F 3 "" H 3650 2250 50  0001 C CNN
+F 4 "" H 3650 2250 60  0001 C CNN "Field4"
+	1    3650 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6310916D
+P 4050 3750
+F 0 "SW?" H 4050 3985 50  0000 C CNN
+F 1 "SW_SPST" H 4050 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 4050 3750 50  0001 C CNN
+F 3 "~" H 4050 3750 50  0001 C CNN
+	1    4050 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63109173
+P 3850 3750
+F 0 "SW?" H 3850 3985 50  0000 C CNN
+F 1 "SW_SPST" H 3850 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 3850 3750 50  0001 C CNN
+F 3 "~" H 3850 3750 50  0001 C CNN
+	1    3850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63109179
+P 3750 3750
+F 0 "SW?" H 3750 3985 50  0000 C CNN
+F 1 "SW_SPST" H 3750 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 3750 3750 50  0001 C CNN
+F 3 "~" H 3750 3750 50  0001 C CNN
+	1    3750 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6310917F
+P 3550 3750
+F 0 "SW?" H 3550 3985 50  0000 C CNN
+F 1 "SW_SPST" H 3550 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 3550 3750 50  0001 C CNN
+F 3 "~" H 3550 3750 50  0001 C CNN
+	1    3550 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63109185
+P 3450 3750
+F 0 "SW?" H 3450 3985 50  0000 C CNN
+F 1 "SW_SPST" H 3450 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 3450 3750 50  0001 C CNN
+F 3 "~" H 3450 3750 50  0001 C CNN
+	1    3450 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6310918B
+P 3350 3750
+F 0 "SW?" H 3350 3985 50  0000 C CNN
+F 1 "SW_SPST" H 3350 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 3350 3750 50  0001 C CNN
+F 3 "~" H 3350 3750 50  0001 C CNN
+	1    3350 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 63109191
+P 3950 3750
+F 0 "SW?" H 3950 3985 50  0000 C CNN
+F 1 "SW_SPST" H 3950 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 3950 3750 50  0001 C CNN
+F 3 "~" H 3950 3750 50  0001 C CNN
+	1    3950 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 2650 4050 2700
+Wire Wire Line
+	3950 2650 3950 2800
+Wire Wire Line
+	3850 2650 3850 2900
+Wire Wire Line
+	3750 2650 3750 3000
+Wire Wire Line
+	3550 2650 3550 3200
+Wire Wire Line
+	4250 2700 4050 2700
+Connection ~ 4050 2700
+Wire Wire Line
+	4050 2700 4050 3550
+Wire Wire Line
+	4250 2800 3950 2800
+Connection ~ 3950 2800
+Wire Wire Line
+	3950 2800 3950 3550
+Wire Wire Line
+	4250 2900 3850 2900
+Connection ~ 3850 2900
+Wire Wire Line
+	3850 2900 3850 3550
+Wire Wire Line
+	4250 3000 3750 3000
+Connection ~ 3750 3000
+Wire Wire Line
+	3750 3000 3750 3550
+Wire Wire Line
+	4250 3100 3650 3100
+Connection ~ 3650 3100
+Wire Wire Line
+	3650 3100 3650 2650
+Wire Wire Line
+	4250 3200 3550 3200
+Connection ~ 3550 3200
+Wire Wire Line
+	3550 3200 3550 3550
+Wire Wire Line
+	4250 3300 3450 3300
+Connection ~ 3450 3300
+Wire Wire Line
+	3450 3300 3450 2650
+Wire Wire Line
+	4250 3400 3350 3400
+Wire Wire Line
+	3350 2650 3350 3400
+Connection ~ 3350 3400
+Wire Wire Line
+	3350 3400 3350 3550
+Wire Wire Line
+	3650 3550 3650 3100
+Wire Wire Line
+	3450 3550 3450 3300
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 631091B7
+P 3650 3750
+F 0 "SW?" H 3650 3985 50  0000 C CNN
+F 1 "SW_SPST" H 3650 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 3650 3750 50  0001 C CNN
+F 3 "~" H 3650 3750 50  0001 C CNN
+	1    3650 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 1750 3250 1850
+Wire Wire Line
+	4150 1750 4150 1850
+Wire Wire Line
+	4750 1750 4650 1750
+Connection ~ 4650 1750
+Wire Wire Line
+	4650 1750 4150 1750
+Wire Wire Line
+	3250 1750 3100 1750
+Wire Wire Line
+	3100 1750 3100 3950
+Wire Wire Line
+	3100 3950 3350 3950
+Connection ~ 3950 3950
+Wire Wire Line
+	3950 3950 4050 3950
+Connection ~ 3850 3950
+Wire Wire Line
+	3850 3950 3950 3950
+Connection ~ 3750 3950
+Wire Wire Line
+	3750 3950 3850 3950
+Connection ~ 3650 3950
+Wire Wire Line
+	3650 3950 3750 3950
+Connection ~ 3550 3950
+Wire Wire Line
+	3550 3950 3650 3950
+Connection ~ 3450 3950
+Wire Wire Line
+	3450 3950 3550 3950
+Connection ~ 3350 3950
+Wire Wire Line
+	3350 3950 3450 3950
+Wire Wire Line
+	3950 1850 3950 1150
+Wire Wire Line
+	3750 1850 3750 1250
+Wire Wire Line
+	6150 1350 6150 1850
+Wire Wire Line
+	6250 1850 6250 1150
+Wire Wire Line
+	6050 1850 6050 1250
+Wire Wire Line
+	3850 1350 3850 1850
+Connection ~ 5400 3950
+Connection ~ 3100 3950
+Wire Wire Line
+	3550 1550 3550 1850
+Wire Wire Line
+	5950 1550 5950 1850
+$Comp
+L power:+3.3V #PWR?
+U 1 1 631091DE
+P 4750 1750
+F 0 "#PWR?" H 4750 1600 50  0001 C CNN
+F 1 "+3.3V" H 4765 1923 50  0000 C CNN
+F 2 "" H 4750 1750 50  0001 C CNN
+F 3 "" H 4750 1750 50  0001 C CNN
+	1    4750 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 631091E4
+P 4450 2900
+F 0 "RN?" V 4033 2900 50  0000 C CNN
+F 1 "R_Pack04" V 4124 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4725 2900 50  0001 C CNN
+F 3 "~" H 4450 2900 50  0001 C CNN
+	1    4450 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 1750 4650 2700
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 631091EB
+P 4450 3300
+F 0 "RN?" V 4033 3300 50  0000 C CNN
+F 1 "R_Pack04" V 4124 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4725 3300 50  0001 C CNN
+F 3 "~" H 4450 3300 50  0001 C CNN
+	1    4450 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 3400 4650 3300
+Connection ~ 4650 2700
+Connection ~ 4650 2800
+Wire Wire Line
+	4650 2800 4650 2700
+Connection ~ 4650 2900
+Wire Wire Line
+	4650 2900 4650 2800
+Connection ~ 4650 3000
+Wire Wire Line
+	4650 3000 4650 2900
+Connection ~ 4650 3100
+Wire Wire Line
+	4650 3100 4650 3000
+Connection ~ 4650 3200
+Wire Wire Line
+	4650 3200 4650 3100
+Connection ~ 4650 3300
+Wire Wire Line
+	4650 3300 4650 3200
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 631091FF
+P 6750 2900
+F 0 "RN?" V 6333 2900 50  0000 C CNN
+F 1 "R_Pack04" V 6424 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7025 2900 50  0001 C CNN
+F 3 "~" H 6750 2900 50  0001 C CNN
+	1    6750 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 63109205
+P 6750 3300
+F 0 "RN?" V 6333 3300 50  0000 C CNN
+F 1 "R_Pack04" V 6424 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7025 3300 50  0001 C CNN
+F 3 "~" H 6750 3300 50  0001 C CNN
+	1    6750 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 1750 6950 1750
+Wire Wire Line
+	6950 3400 6950 3300
+Connection ~ 6950 1750
+Wire Wire Line
+	6950 1750 7050 1750
+Connection ~ 6950 2700
+Wire Wire Line
+	6950 2700 6950 1750
+Connection ~ 6950 2800
+Wire Wire Line
+	6950 2800 6950 2700
+Connection ~ 6950 2900
+Wire Wire Line
+	6950 2900 6950 2800
+Connection ~ 6950 3000
+Wire Wire Line
+	6950 3000 6950 2900
+Connection ~ 6950 3100
+Wire Wire Line
+	6950 3100 6950 3000
+Connection ~ 6950 3200
+Wire Wire Line
+	6950 3200 6950 3100
+Connection ~ 6950 3300
+Wire Wire Line
+	6950 3300 6950 3200
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 6325DCCB
+P 1050 3950
+F 0 "#PWR?" H 1050 3750 50  0001 C CNN
+F 1 "GNDPWR" H 1054 3796 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1050 3900 50  0001 C CNN
+F 3 "" H 1050 3900 50  0001 C CNN
+	1    1050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-IC-Logic:74HC165D U?
+U 1 1 6325DCD2
+P 1600 2250
+F 0 "U?" H 1600 3004 45  0000 C CNN
+F 1 "74HC165D" H 1600 2920 45  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 1600 2950 20  0001 C CNN
+F 3 "" H 1600 2250 50  0001 C CNN
+F 4 "" H 1600 2250 60  0001 C CNN "Field4"
+	1    1600 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6325DCD8
+P 2000 3750
+F 0 "SW?" H 2000 3985 50  0000 C CNN
+F 1 "SW_SPST" H 2000 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 2000 3750 50  0001 C CNN
+F 3 "~" H 2000 3750 50  0001 C CNN
+	1    2000 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6325DCDE
+P 1800 3750
+F 0 "SW?" H 1800 3985 50  0000 C CNN
+F 1 "SW_SPST" H 1800 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 1800 3750 50  0001 C CNN
+F 3 "~" H 1800 3750 50  0001 C CNN
+	1    1800 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6325DCE4
+P 1700 3750
+F 0 "SW?" H 1700 3985 50  0000 C CNN
+F 1 "SW_SPST" H 1700 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 1700 3750 50  0001 C CNN
+F 3 "~" H 1700 3750 50  0001 C CNN
+	1    1700 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6325DCEA
+P 1500 3750
+F 0 "SW?" H 1500 3985 50  0000 C CNN
+F 1 "SW_SPST" H 1500 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 1500 3750 50  0001 C CNN
+F 3 "~" H 1500 3750 50  0001 C CNN
+	1    1500 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6325DCF0
+P 1400 3750
+F 0 "SW?" H 1400 3985 50  0000 C CNN
+F 1 "SW_SPST" H 1400 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 1400 3750 50  0001 C CNN
+F 3 "~" H 1400 3750 50  0001 C CNN
+	1    1400 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6325DCF6
+P 1300 3750
+F 0 "SW?" H 1300 3985 50  0000 C CNN
+F 1 "SW_SPST" H 1300 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 1300 3750 50  0001 C CNN
+F 3 "~" H 1300 3750 50  0001 C CNN
+	1    1300 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6325DCFC
+P 1900 3750
+F 0 "SW?" H 1900 3985 50  0000 C CNN
+F 1 "SW_SPST" H 1900 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 1900 3750 50  0001 C CNN
+F 3 "~" H 1900 3750 50  0001 C CNN
+	1    1900 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 2650 2000 2700
+Wire Wire Line
+	1900 2650 1900 2800
+Wire Wire Line
+	1800 2650 1800 2900
+Wire Wire Line
+	1700 2650 1700 3000
+Wire Wire Line
+	1500 2650 1500 3200
+Wire Wire Line
+	2200 2700 2000 2700
+Connection ~ 2000 2700
+Wire Wire Line
+	2000 2700 2000 3550
+Wire Wire Line
+	2200 2800 1900 2800
+Connection ~ 1900 2800
+Wire Wire Line
+	1900 2800 1900 3550
+Wire Wire Line
+	2200 2900 1800 2900
+Connection ~ 1800 2900
+Wire Wire Line
+	1800 2900 1800 3550
+Wire Wire Line
+	2200 3000 1700 3000
+Connection ~ 1700 3000
+Wire Wire Line
+	1700 3000 1700 3550
+Wire Wire Line
+	2200 3100 1600 3100
+Connection ~ 1600 3100
+Wire Wire Line
+	1600 3100 1600 2650
+Wire Wire Line
+	2200 3200 1500 3200
+Connection ~ 1500 3200
+Wire Wire Line
+	1500 3200 1500 3550
+Wire Wire Line
+	2200 3300 1400 3300
+Connection ~ 1400 3300
+Wire Wire Line
+	1400 3300 1400 2650
+Wire Wire Line
+	2200 3400 1300 3400
+Wire Wire Line
+	1300 2650 1300 3400
+Connection ~ 1300 3400
+Wire Wire Line
+	1300 3400 1300 3550
+Wire Wire Line
+	1600 3550 1600 3100
+Wire Wire Line
+	1400 3550 1400 3300
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 6325DD22
+P 1600 3750
+F 0 "SW?" H 1600 3985 50  0000 C CNN
+F 1 "SW_SPST" H 1600 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 1600 3750 50  0001 C CNN
+F 3 "~" H 1600 3750 50  0001 C CNN
+	1    1600 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 1750 1200 1850
+Wire Wire Line
+	2100 1750 2100 1850
+Wire Wire Line
+	2700 1750 2600 1750
+Connection ~ 2600 1750
+Wire Wire Line
+	2600 1750 2100 1750
+Wire Wire Line
+	1200 1750 1050 1750
+Wire Wire Line
+	1050 1750 1050 3950
+Wire Wire Line
+	1050 3950 1300 3950
+Connection ~ 1900 3950
+Wire Wire Line
+	1900 3950 2000 3950
+Connection ~ 1800 3950
+Wire Wire Line
+	1800 3950 1900 3950
+Connection ~ 1700 3950
+Wire Wire Line
+	1700 3950 1800 3950
+Connection ~ 1600 3950
+Wire Wire Line
+	1600 3950 1700 3950
+Connection ~ 1500 3950
+Wire Wire Line
+	1500 3950 1600 3950
+Connection ~ 1400 3950
+Wire Wire Line
+	1400 3950 1500 3950
+Connection ~ 1300 3950
+Wire Wire Line
+	1300 3950 1400 3950
+Wire Wire Line
+	1900 1850 1900 1150
+Wire Wire Line
+	1700 1850 1700 1250
+Wire Wire Line
+	1800 1350 1800 1850
+Connection ~ 1050 3950
+Wire Wire Line
+	1500 1550 1500 1850
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6325DD43
+P 2700 1750
+F 0 "#PWR?" H 2700 1600 50  0001 C CNN
+F 1 "+3.3V" H 2715 1923 50  0000 C CNN
+F 2 "" H 2700 1750 50  0001 C CNN
+F 3 "" H 2700 1750 50  0001 C CNN
+	1    2700 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 6325DD49
+P 2400 2900
+F 0 "RN?" V 1983 2900 50  0000 C CNN
+F 1 "R_Pack04" V 2074 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 2675 2900 50  0001 C CNN
+F 3 "~" H 2400 2900 50  0001 C CNN
+	1    2400 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 1750 2600 2700
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 6325DD50
+P 2400 3300
+F 0 "RN?" V 1983 3300 50  0000 C CNN
+F 1 "R_Pack04" V 2074 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 2675 3300 50  0001 C CNN
+F 3 "~" H 2400 3300 50  0001 C CNN
+	1    2400 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 3400 2600 3300
+Connection ~ 2600 2700
+Connection ~ 2600 2800
+Wire Wire Line
+	2600 2800 2600 2700
+Connection ~ 2600 2900
+Wire Wire Line
+	2600 2900 2600 2800
+Connection ~ 2600 3000
+Wire Wire Line
+	2600 3000 2600 2900
+Connection ~ 2600 3100
+Wire Wire Line
+	2600 3100 2600 3000
+Connection ~ 2600 3200
+Wire Wire Line
+	2600 3200 2600 3100
+Connection ~ 2600 3300
+Wire Wire Line
+	2600 3300 2600 3200
+Wire Wire Line
+	1900 1150 3950 1150
+Connection ~ 3950 1150
+Wire Wire Line
+	3950 1150 6250 1150
+Connection ~ 6250 1150
+Wire Wire Line
+	6250 1150 8450 1150
+Connection ~ 8450 1150
+Wire Wire Line
+	8450 1150 10450 1150
+Wire Wire Line
+	1700 1250 3750 1250
+Connection ~ 3750 1250
+Wire Wire Line
+	3750 1250 6050 1250
+Connection ~ 6050 1250
+Wire Wire Line
+	6050 1250 8250 1250
+Connection ~ 8250 1250
+Wire Wire Line
+	8250 1250 10250 1250
+Wire Wire Line
+	1800 1350 3850 1350
+Connection ~ 3850 1350
+Wire Wire Line
+	3850 1350 6150 1350
+Connection ~ 6150 1350
+Wire Wire Line
+	6150 1350 8350 1350
+Connection ~ 8350 1350
+Wire Wire Line
+	8350 1350 10350 1350
+Wire Wire Line
+	3550 1550 1600 1550
+Wire Wire Line
+	1600 1550 1600 1850
+Wire Wire Line
+	5850 1550 3650 1550
+Wire Wire Line
+	3650 1550 3650 1850
+Wire Wire Line
+	5850 1550 5850 1850
+Wire Wire Line
+	8050 1550 5950 1550
+Wire Wire Line
+	8150 1850 8150 1550
+Wire Wire Line
+	10050 1550 10050 1850
+Wire Wire Line
+	12100 1850 12100 1550
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U?
+U 1 1 63925BC1
+P 3100 10950
+F 0 "U?" H 3050 9361 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 3050 9270 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2500 9550 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 3100 10950 50  0001 C CNN
+	1    3100 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 6392D7D2
+P 3050 12700
+F 0 "#PWR?" H 3050 12500 50  0001 C CNN
+F 1 "GNDPWR" H 3054 12546 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3050 12650 50  0001 C CNN
+F 3 "" H 3050 12650 50  0001 C CNN
+	1    3050 12700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 12450 2900 12700
+Wire Wire Line
+	2900 12700 3000 12700
+Wire Wire Line
+	3000 12450 3000 12700
+Connection ~ 3000 12700
+Wire Wire Line
+	3000 12700 3050 12700
+Wire Wire Line
+	3100 12450 3100 12700
+Wire Wire Line
+	3100 12700 3050 12700
+Connection ~ 3050 12700
+Wire Wire Line
+	3200 12450 3200 12700
+Wire Wire Line
+	3200 12700 3100 12700
+Connection ~ 3100 12700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 63ADC3FC
+P 3150 9300
+F 0 "#PWR?" H 3150 9150 50  0001 C CNN
+F 1 "+3.3V" H 3165 9473 50  0000 C CNN
+F 2 "" H 3150 9300 50  0001 C CNN
+F 3 "" H 3150 9300 50  0001 C CNN
+	1    3150 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 9450 3000 9300
+Wire Wire Line
+	3000 9300 3100 9300
+Wire Wire Line
+	3100 9450 3100 9300
+Connection ~ 3100 9300
+Wire Wire Line
+	3100 9300 3150 9300
+Wire Wire Line
+	3200 9450 3200 9300
+Wire Wire Line
+	3200 9300 3150 9300
+Connection ~ 3150 9300
+Wire Wire Line
+	3300 9450 3300 9300
+Wire Wire Line
+	3300 9300 3200 9300
+Connection ~ 3200 9300
+$Comp
+L Device:Crystal_Small Y?
+U 1 1 63D0E675
+P 1800 10100
+F 0 "Y?" V 1754 10188 50  0000 L CNN
+F 1 "8M" V 1845 10188 50  0000 L CNN
+F 2 "" H 1800 10100 50  0001 C CNN
+F 3 "~" H 1800 10100 50  0001 C CNN
+	1    1800 10100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63D11B66
+P 2050 10100
+F 0 "R?" H 2109 10146 50  0000 L CNN
+F 1 "1M" H 2109 10055 50  0000 L CNN
+F 2 "" H 2050 10100 50  0001 C CNN
+F 3 "~" H 2050 10100 50  0001 C CNN
+	1    2050 10100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 10000 1800 9900
+Wire Wire Line
+	1800 9900 2050 9900
+Wire Wire Line
+	2050 9900 2050 10000
+Wire Wire Line
+	1800 10200 1800 10300
+Wire Wire Line
+	1800 10300 2050 10300
+Wire Wire Line
+	2050 10300 2050 10200
+$Comp
+L Device:C_Small C?
+U 1 1 63DF710B
+P 1550 9900
+F 0 "C?" V 1321 9900 50  0000 C CNN
+F 1 "20pf" V 1412 9900 50  0000 C CNN
+F 2 "" H 1550 9900 50  0001 C CNN
+F 3 "~" H 1550 9900 50  0001 C CNN
+	1    1550 9900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63DF78D5
+P 1550 10300
+F 0 "C?" V 1321 10300 50  0000 C CNN
+F 1 "20pf" V 1412 10300 50  0000 C CNN
+F 2 "" H 1550 10300 50  0001 C CNN
+F 3 "~" H 1550 10300 50  0001 C CNN
+	1    1550 10300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 9900 1800 9900
+Connection ~ 1800 9900
+Wire Wire Line
+	1650 10300 1800 10300
+Connection ~ 1800 10300
+Wire Wire Line
+	1450 9900 1350 9900
+Wire Wire Line
+	1350 9900 1350 10100
+Wire Wire Line
+	1350 10300 1450 10300
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 63F51F22
+P 1150 10100
+F 0 "#PWR?" H 1150 9900 50  0001 C CNN
+F 1 "GNDPWR" H 1154 9946 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1150 10050 50  0001 C CNN
+F 3 "" H 1150 10050 50  0001 C CNN
+	1    1150 10100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 10100 1150 10100
+Connection ~ 1350 10100
+Wire Wire Line
+	1350 10100 1350 10300
+Wire Wire Line
+	2050 9900 2250 9900
+Wire Wire Line
+	2250 9900 2250 10050
+Wire Wire Line
+	2250 10050 2400 10050
+Connection ~ 2050 9900
+Wire Wire Line
+	2050 10300 2250 10300
+Wire Wire Line
+	2250 10300 2250 10150
+Wire Wire Line
+	2250 10150 2400 10150
+Connection ~ 2050 10300
+Text Label 3700 11250 0    50   ~ 0
+SPI1_CLK
+Text Label 3700 11350 0    50   ~ 0
+SPI1_MISO
+Text Label 3700 12150 0    50   ~ 0
+SWCLK
+Text Label 3700 12050 0    50   ~ 0
+SWDIO
+Text Label 4400 11950 0    50   ~ 0
+USB_DP
+Text Label 4400 11850 0    50   ~ 0
+USB_DN
+Wire Wire Line
+	2400 9850 1150 9850
+Wire Wire Line
+	1150 9850 1150 10100
+Connection ~ 1150 10100
+$Comp
+L Device:R_Small R?
+U 1 1 642262A9
+P 2100 9500
+F 0 "R?" H 2159 9546 50  0000 L CNN
+F 1 "10K" H 2159 9455 50  0000 L CNN
+F 2 "" H 2100 9500 50  0001 C CNN
+F 3 "~" H 2100 9500 50  0001 C CNN
+	1    2100 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 9600 2100 9650
+Wire Wire Line
+	2100 9650 2400 9650
+Wire Wire Line
+	2100 9400 2100 9300
+Wire Wire Line
+	2100 9300 3000 9300
+Connection ~ 3000 9300
+$Comp
+L Device:C_Small C?
+U 1 1 6431A00B
+P 1850 9650
+F 0 "C?" V 1621 9650 50  0000 C CNN
+F 1 "0.1uf" V 1712 9650 50  0000 C CNN
+F 2 "" H 1850 9650 50  0001 C CNN
+F 3 "~" H 1850 9650 50  0001 C CNN
+	1    1850 9650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 9650 1950 9650
+Connection ~ 2100 9650
+Wire Wire Line
+	1750 9650 1150 9650
+Wire Wire Line
+	1150 9650 1150 9850
+Connection ~ 1150 9850
+Text Label 2400 12250 2    50   ~ 0
+SPI2_MOSI
+Text Label 2400 12050 2    50   ~ 0
+SPI2_CLK
+Text Label 2400 11050 2    50   ~ 0
+SCAN_CE
+Text Label 2400 11150 2    50   ~ 0
+SCAN_PL
+NoConn ~ 3700 10750
+NoConn ~ 3700 10850
+NoConn ~ 3700 10950
+NoConn ~ 3700 11050
+NoConn ~ 3700 11150
+NoConn ~ 3700 11450
+NoConn ~ 3700 11550
+NoConn ~ 3700 11650
+NoConn ~ 3700 11750
+NoConn ~ 2400 11850
+NoConn ~ 2400 11950
+NoConn ~ 2400 12150
+NoConn ~ 2400 11750
+NoConn ~ 2400 11650
+NoConn ~ 2400 11550
+NoConn ~ 2400 11450
+NoConn ~ 2400 11350
+NoConn ~ 2400 11250
+NoConn ~ 2400 10950
+NoConn ~ 2400 10850
+NoConn ~ 2400 10750
+NoConn ~ 2400 10550
+NoConn ~ 2400 10450
+NoConn ~ 2400 10350
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65005027
+P 4700 9750
+F 0 "#PWR?" H 4700 9600 50  0001 C CNN
+F 1 "+3.3V" H 4715 9923 50  0000 C CNN
+F 2 "" H 4700 9750 50  0001 C CNN
+F 3 "" H 4700 9750 50  0001 C CNN
+	1    4700 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 6500554D
+P 4700 10200
+F 0 "#PWR?" H 4700 10000 50  0001 C CNN
+F 1 "GNDPWR" H 4704 10046 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4700 10150 50  0001 C CNN
+F 3 "" H 4700 10150 50  0001 C CNN
+	1    4700 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 65005D8A
+P 4700 9950
+F 0 "C?" H 4608 9904 50  0000 R CNN
+F 1 "0.1uf" H 4608 9995 50  0000 R CNN
+F 2 "" H 4700 9950 50  0001 C CNN
+F 3 "~" H 4700 9950 50  0001 C CNN
+	1    4700 9950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 65007559
+P 4450 9950
+F 0 "C?" H 4358 9904 50  0000 R CNN
+F 1 "0.1uf" H 4358 9995 50  0000 R CNN
+F 2 "" H 4450 9950 50  0001 C CNN
+F 3 "~" H 4450 9950 50  0001 C CNN
+	1    4450 9950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 65007758
+P 4950 9950
+F 0 "C?" H 4858 9904 50  0000 R CNN
+F 1 "0.1uf" H 4858 9995 50  0000 R CNN
+F 2 "" H 4950 9950 50  0001 C CNN
+F 3 "~" H 4950 9950 50  0001 C CNN
+	1    4950 9950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 9850 4700 9850
+Wire Wire Line
+	4700 9850 4700 9750
+Connection ~ 4700 9850
+Wire Wire Line
+	4950 9850 4700 9850
+Wire Wire Line
+	4450 10050 4700 10050
+Connection ~ 4700 10050
+Wire Wire Line
+	4700 10050 4950 10050
+Wire Wire Line
+	4700 10050 4700 10200
+$Comp
+L Device:C_Small C?
+U 1 1 651FB2CD
+P 4200 9950
+F 0 "C?" H 4108 9904 50  0000 R CNN
+F 1 "0.1uf" H 4108 9995 50  0000 R CNN
+F 2 "" H 4200 9950 50  0001 C CNN
+F 3 "~" H 4200 9950 50  0001 C CNN
+	1    4200 9950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 651FB64A
+P 3950 9950
+F 0 "C?" H 3858 9904 50  0000 R CNN
+F 1 "10uf" H 3858 9995 50  0000 R CNN
+F 2 "" H 3950 9950 50  0001 C CNN
+F 3 "~" H 3950 9950 50  0001 C CNN
+	1    3950 9950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 9850 4200 9850
+Connection ~ 4450 9850
+Connection ~ 4200 9850
+Wire Wire Line
+	4200 9850 4450 9850
+Wire Wire Line
+	3950 10050 4200 10050
+Connection ~ 4450 10050
+Connection ~ 4200 10050
+Wire Wire Line
+	4200 10050 4450 10050
+$Comp
+L Device:R_Small R?
+U 1 1 652F8207
+P 4100 11850
+F 0 "R?" V 3904 11850 50  0000 C CNN
+F 1 "22" V 4050 12000 50  0000 C CNN
+F 2 "" H 4100 11850 50  0001 C CNN
+F 3 "~" H 4100 11850 50  0001 C CNN
+	1    4100 11850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 652F8CE9
+P 4100 11950
+F 0 "R?" V 4296 11950 50  0000 C CNN
+F 1 "22" V 4050 11800 50  0000 C CNN
+F 2 "" H 4100 11950 50  0001 C CNN
+F 3 "~" H 4100 11950 50  0001 C CNN
+	1    4100 11950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 11850 4000 11850
+Wire Wire Line
+	4200 11850 4400 11850
+Wire Wire Line
+	3700 11950 4000 11950
+Wire Wire Line
+	4200 11950 4350 11950
+$Comp
+L power:+3.3V #PWR?
+U 1 1 654F46CE
+P 4350 12250
+F 0 "#PWR?" H 4350 12100 50  0001 C CNN
+F 1 "+3.3V" H 4365 12423 50  0000 C CNN
+F 2 "" H 4350 12250 50  0001 C CNN
+F 3 "" H 4350 12250 50  0001 C CNN
+	1    4350 12250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 654F61C0
+P 4350 12100
+F 0 "R?" V 4546 12100 50  0000 C CNN
+F 1 "1.5k" V 4300 11950 50  0000 C CNN
+F 2 "" H 4350 12100 50  0001 C CNN
+F 3 "~" H 4350 12100 50  0001 C CNN
+	1    4350 12100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 12250 4350 12200
+Wire Wire Line
+	4350 12000 4350 11950
+Connection ~ 4350 11950
+Wire Wire Line
+	4350 11950 4400 11950
+$Comp
+L LED:WS2812B D?
+U 1 1 655FDDA7
+P 1550 4950
+F 0 "D?" H 1894 4996 50  0000 L CNN
+F 1 "WS2812B" H 1894 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1600 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1650 4575 50  0001 L TNN
+	1    1550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 655FEE0E
+P 1550 4650
+F 0 "#PWR?" H 1550 4500 50  0001 C CNN
+F 1 "+3.3V" H 1565 4823 50  0000 C CNN
+F 2 "" H 1550 4650 50  0001 C CNN
+F 3 "" H 1550 4650 50  0001 C CNN
+	1    1550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 655FF760
+P 1550 5250
+F 0 "#PWR?" H 1550 5050 50  0001 C CNN
+F 1 "GNDPWR" H 1554 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1550 5200 50  0001 C CNN
+F 3 "" H 1550 5200 50  0001 C CNN
+	1    1550 5250
+	1    0    0    -1  
+$EndComp
+Text Label 1250 4950 2    50   ~ 0
+SPI2_MOSI
+$Comp
+L LED:WS2812B D?
+U 1 1 6560140C
+P 2450 4950
+F 0 "D?" H 2794 4996 50  0000 L CNN
+F 1 "WS2812B" H 2794 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2500 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2550 4575 50  0001 L TNN
+	1    2450 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65601412
+P 2450 4650
+F 0 "#PWR?" H 2450 4500 50  0001 C CNN
+F 1 "+3.3V" H 2465 4823 50  0000 C CNN
+F 2 "" H 2450 4650 50  0001 C CNN
+F 3 "" H 2450 4650 50  0001 C CNN
+	1    2450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65601418
+P 2450 5250
+F 0 "#PWR?" H 2450 5050 50  0001 C CNN
+F 1 "GNDPWR" H 2454 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2450 5200 50  0001 C CNN
+F 3 "" H 2450 5200 50  0001 C CNN
+	1    2450 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4950 2150 4950
+Wire Wire Line
+	2750 4950 3050 4950
+$Comp
+L LED:WS2812B D?
+U 1 1 65812037
+P 3350 4950
+F 0 "D?" H 3694 4996 50  0000 L CNN
+F 1 "WS2812B" H 3694 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3400 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3450 4575 50  0001 L TNN
+	1    3350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6581203D
+P 3350 4650
+F 0 "#PWR?" H 3350 4500 50  0001 C CNN
+F 1 "+3.3V" H 3365 4823 50  0000 C CNN
+F 2 "" H 3350 4650 50  0001 C CNN
+F 3 "" H 3350 4650 50  0001 C CNN
+	1    3350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65812043
+P 3350 5250
+F 0 "#PWR?" H 3350 5050 50  0001 C CNN
+F 1 "GNDPWR" H 3354 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3350 5200 50  0001 C CNN
+F 3 "" H 3350 5200 50  0001 C CNN
+	1    3350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65812049
+P 4250 4950
+F 0 "D?" H 4594 4996 50  0000 L CNN
+F 1 "WS2812B" H 4594 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4300 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4350 4575 50  0001 L TNN
+	1    4250 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6581204F
+P 4250 4650
+F 0 "#PWR?" H 4250 4500 50  0001 C CNN
+F 1 "+3.3V" H 4265 4823 50  0000 C CNN
+F 2 "" H 4250 4650 50  0001 C CNN
+F 3 "" H 4250 4650 50  0001 C CNN
+	1    4250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65812055
+P 4250 5250
+F 0 "#PWR?" H 4250 5050 50  0001 C CNN
+F 1 "GNDPWR" H 4254 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4250 5200 50  0001 C CNN
+F 3 "" H 4250 5200 50  0001 C CNN
+	1    4250 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4950 3950 4950
+Wire Wire Line
+	4550 4950 4850 4950
+$Comp
+L LED:WS2812B D?
+U 1 1 658A012D
+P 5150 4950
+F 0 "D?" H 5494 4996 50  0000 L CNN
+F 1 "WS2812B" H 5494 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5200 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5250 4575 50  0001 L TNN
+	1    5150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 658A0133
+P 5150 4650
+F 0 "#PWR?" H 5150 4500 50  0001 C CNN
+F 1 "+3.3V" H 5165 4823 50  0000 C CNN
+F 2 "" H 5150 4650 50  0001 C CNN
+F 3 "" H 5150 4650 50  0001 C CNN
+	1    5150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 658A0139
+P 5150 5250
+F 0 "#PWR?" H 5150 5050 50  0001 C CNN
+F 1 "GNDPWR" H 5154 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5150 5200 50  0001 C CNN
+F 3 "" H 5150 5200 50  0001 C CNN
+	1    5150 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 658A013F
+P 6050 4950
+F 0 "D?" H 6394 4996 50  0000 L CNN
+F 1 "WS2812B" H 6394 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6100 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6150 4575 50  0001 L TNN
+	1    6050 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 658A0145
+P 6050 4650
+F 0 "#PWR?" H 6050 4500 50  0001 C CNN
+F 1 "+3.3V" H 6065 4823 50  0000 C CNN
+F 2 "" H 6050 4650 50  0001 C CNN
+F 3 "" H 6050 4650 50  0001 C CNN
+	1    6050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 658A014B
+P 6050 5250
+F 0 "#PWR?" H 6050 5050 50  0001 C CNN
+F 1 "GNDPWR" H 6054 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6050 5200 50  0001 C CNN
+F 3 "" H 6050 5200 50  0001 C CNN
+	1    6050 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4950 5750 4950
+Wire Wire Line
+	6350 4950 6650 4950
+$Comp
+L LED:WS2812B D?
+U 1 1 658A0153
+P 6950 4950
+F 0 "D?" H 7294 4996 50  0000 L CNN
+F 1 "WS2812B" H 7294 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7000 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7050 4575 50  0001 L TNN
+	1    6950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 658A0159
+P 6950 4650
+F 0 "#PWR?" H 6950 4500 50  0001 C CNN
+F 1 "+3.3V" H 6965 4823 50  0000 C CNN
+F 2 "" H 6950 4650 50  0001 C CNN
+F 3 "" H 6950 4650 50  0001 C CNN
+	1    6950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 658A015F
+P 6950 5250
+F 0 "#PWR?" H 6950 5050 50  0001 C CNN
+F 1 "GNDPWR" H 6954 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6950 5200 50  0001 C CNN
+F 3 "" H 6950 5200 50  0001 C CNN
+	1    6950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 658A0165
+P 7850 4950
+F 0 "D?" H 8194 4996 50  0000 L CNN
+F 1 "WS2812B" H 8194 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7900 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 4575 50  0001 L TNN
+	1    7850 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 658A016B
+P 7850 4650
+F 0 "#PWR?" H 7850 4500 50  0001 C CNN
+F 1 "+3.3V" H 7865 4823 50  0000 C CNN
+F 2 "" H 7850 4650 50  0001 C CNN
+F 3 "" H 7850 4650 50  0001 C CNN
+	1    7850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 658A0171
+P 7850 5250
+F 0 "#PWR?" H 7850 5050 50  0001 C CNN
+F 1 "GNDPWR" H 7854 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7850 5200 50  0001 C CNN
+F 3 "" H 7850 5200 50  0001 C CNN
+	1    7850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4950 7550 4950
+Wire Wire Line
+	8150 4950 8450 4950
+$Comp
+L LED:WS2812B D?
+U 1 1 65933A63
+P 8750 4950
+F 0 "D?" H 9094 4996 50  0000 L CNN
+F 1 "WS2812B" H 9094 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8800 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8850 4575 50  0001 L TNN
+	1    8750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65933A69
+P 8750 4650
+F 0 "#PWR?" H 8750 4500 50  0001 C CNN
+F 1 "+3.3V" H 8765 4823 50  0000 C CNN
+F 2 "" H 8750 4650 50  0001 C CNN
+F 3 "" H 8750 4650 50  0001 C CNN
+	1    8750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65933A6F
+P 8750 5250
+F 0 "#PWR?" H 8750 5050 50  0001 C CNN
+F 1 "GNDPWR" H 8754 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8750 5200 50  0001 C CNN
+F 3 "" H 8750 5200 50  0001 C CNN
+	1    8750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65933A75
+P 9650 4950
+F 0 "D?" H 9994 4996 50  0000 L CNN
+F 1 "WS2812B" H 9994 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9700 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9750 4575 50  0001 L TNN
+	1    9650 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65933A7B
+P 9650 4650
+F 0 "#PWR?" H 9650 4500 50  0001 C CNN
+F 1 "+3.3V" H 9665 4823 50  0000 C CNN
+F 2 "" H 9650 4650 50  0001 C CNN
+F 3 "" H 9650 4650 50  0001 C CNN
+	1    9650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65933A81
+P 9650 5250
+F 0 "#PWR?" H 9650 5050 50  0001 C CNN
+F 1 "GNDPWR" H 9654 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9650 5200 50  0001 C CNN
+F 3 "" H 9650 5200 50  0001 C CNN
+	1    9650 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 4950 9350 4950
+Wire Wire Line
+	9950 4950 10250 4950
+$Comp
+L LED:WS2812B D?
+U 1 1 65933A89
+P 10550 4950
+F 0 "D?" H 10894 4996 50  0000 L CNN
+F 1 "WS2812B" H 10894 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10600 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10650 4575 50  0001 L TNN
+	1    10550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65933A8F
+P 10550 4650
+F 0 "#PWR?" H 10550 4500 50  0001 C CNN
+F 1 "+3.3V" H 10565 4823 50  0000 C CNN
+F 2 "" H 10550 4650 50  0001 C CNN
+F 3 "" H 10550 4650 50  0001 C CNN
+	1    10550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65933A95
+P 10550 5250
+F 0 "#PWR?" H 10550 5050 50  0001 C CNN
+F 1 "GNDPWR" H 10554 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10550 5200 50  0001 C CNN
+F 3 "" H 10550 5200 50  0001 C CNN
+	1    10550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65933A9B
+P 11450 4950
+F 0 "D?" H 11794 4996 50  0000 L CNN
+F 1 "WS2812B" H 11794 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11500 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11550 4575 50  0001 L TNN
+	1    11450 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65933AA1
+P 11450 4650
+F 0 "#PWR?" H 11450 4500 50  0001 C CNN
+F 1 "+3.3V" H 11465 4823 50  0000 C CNN
+F 2 "" H 11450 4650 50  0001 C CNN
+F 3 "" H 11450 4650 50  0001 C CNN
+	1    11450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65933AA7
+P 11450 5250
+F 0 "#PWR?" H 11450 5050 50  0001 C CNN
+F 1 "GNDPWR" H 11454 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 11450 5200 50  0001 C CNN
+F 3 "" H 11450 5200 50  0001 C CNN
+	1    11450 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 4950 11150 4950
+Wire Wire Line
+	11750 4950 12050 4950
+$Comp
+L LED:WS2812B D?
+U 1 1 65933AAF
+P 12350 4950
+F 0 "D?" H 12694 4996 50  0000 L CNN
+F 1 "WS2812B" H 12694 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12400 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12450 4575 50  0001 L TNN
+	1    12350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65933AB5
+P 12350 4650
+F 0 "#PWR?" H 12350 4500 50  0001 C CNN
+F 1 "+3.3V" H 12365 4823 50  0000 C CNN
+F 2 "" H 12350 4650 50  0001 C CNN
+F 3 "" H 12350 4650 50  0001 C CNN
+	1    12350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65933ABB
+P 12350 5250
+F 0 "#PWR?" H 12350 5050 50  0001 C CNN
+F 1 "GNDPWR" H 12354 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12350 5200 50  0001 C CNN
+F 3 "" H 12350 5200 50  0001 C CNN
+	1    12350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65933AC1
+P 13250 4950
+F 0 "D?" H 13594 4996 50  0000 L CNN
+F 1 "WS2812B" H 13594 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 13300 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13350 4575 50  0001 L TNN
+	1    13250 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65933AC7
+P 13250 4650
+F 0 "#PWR?" H 13250 4500 50  0001 C CNN
+F 1 "+3.3V" H 13265 4823 50  0000 C CNN
+F 2 "" H 13250 4650 50  0001 C CNN
+F 3 "" H 13250 4650 50  0001 C CNN
+	1    13250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65933ACD
+P 13250 5250
+F 0 "#PWR?" H 13250 5050 50  0001 C CNN
+F 1 "GNDPWR" H 13254 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13250 5200 50  0001 C CNN
+F 3 "" H 13250 5200 50  0001 C CNN
+	1    13250 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12650 4950 12950 4950
+Wire Wire Line
+	13550 4950 13850 4950
+$Comp
+L LED:WS2812B D?
+U 1 1 65933AD5
+P 14150 4950
+F 0 "D?" H 14494 4996 50  0000 L CNN
+F 1 "WS2812B" H 14494 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 14200 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14250 4575 50  0001 L TNN
+	1    14150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65933ADB
+P 14150 4650
+F 0 "#PWR?" H 14150 4500 50  0001 C CNN
+F 1 "+3.3V" H 14165 4823 50  0000 C CNN
+F 2 "" H 14150 4650 50  0001 C CNN
+F 3 "" H 14150 4650 50  0001 C CNN
+	1    14150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65933AE1
+P 14150 5250
+F 0 "#PWR?" H 14150 5050 50  0001 C CNN
+F 1 "GNDPWR" H 14154 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 14150 5200 50  0001 C CNN
+F 3 "" H 14150 5200 50  0001 C CNN
+	1    14150 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65933AE7
+P 15050 4950
+F 0 "D?" H 15394 4996 50  0000 L CNN
+F 1 "WS2812B" H 15394 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 15100 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 15150 4575 50  0001 L TNN
+	1    15050 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65933AED
+P 15050 4650
+F 0 "#PWR?" H 15050 4500 50  0001 C CNN
+F 1 "+3.3V" H 15065 4823 50  0000 C CNN
+F 2 "" H 15050 4650 50  0001 C CNN
+F 3 "" H 15050 4650 50  0001 C CNN
+	1    15050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65933AF3
+P 15050 5250
+F 0 "#PWR?" H 15050 5050 50  0001 C CNN
+F 1 "GNDPWR" H 15054 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 5200 50  0001 C CNN
+F 3 "" H 15050 5200 50  0001 C CNN
+	1    15050 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 4950 14750 4950
+Wire Wire Line
+	15350 4950 15650 4950
+$Comp
+L LED:WS2812B D?
+U 1 1 65A6431D
+P 15950 4950
+F 0 "D?" H 16294 4996 50  0000 L CNN
+F 1 "WS2812B" H 16294 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 16000 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 16050 4575 50  0001 L TNN
+	1    15950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65A64323
+P 15950 4650
+F 0 "#PWR?" H 15950 4500 50  0001 C CNN
+F 1 "+3.3V" H 15965 4823 50  0000 C CNN
+F 2 "" H 15950 4650 50  0001 C CNN
+F 3 "" H 15950 4650 50  0001 C CNN
+	1    15950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65A64329
+P 15950 5250
+F 0 "#PWR?" H 15950 5050 50  0001 C CNN
+F 1 "GNDPWR" H 15954 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15950 5200 50  0001 C CNN
+F 3 "" H 15950 5200 50  0001 C CNN
+	1    15950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65A6432F
+P 16850 4950
+F 0 "D?" H 17194 4996 50  0000 L CNN
+F 1 "WS2812B" H 17194 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 16900 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 16950 4575 50  0001 L TNN
+	1    16850 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65A64335
+P 16850 4650
+F 0 "#PWR?" H 16850 4500 50  0001 C CNN
+F 1 "+3.3V" H 16865 4823 50  0000 C CNN
+F 2 "" H 16850 4650 50  0001 C CNN
+F 3 "" H 16850 4650 50  0001 C CNN
+	1    16850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65A6433B
+P 16850 5250
+F 0 "#PWR?" H 16850 5050 50  0001 C CNN
+F 1 "GNDPWR" H 16854 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 16850 5200 50  0001 C CNN
+F 3 "" H 16850 5200 50  0001 C CNN
+	1    16850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16250 4950 16550 4950
+Wire Wire Line
+	17150 4950 17450 4950
+$Comp
+L LED:WS2812B D?
+U 1 1 65A64343
+P 17750 4950
+F 0 "D?" H 18094 4996 50  0000 L CNN
+F 1 "WS2812B" H 18094 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 17800 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 17850 4575 50  0001 L TNN
+	1    17750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65A64349
+P 17750 4650
+F 0 "#PWR?" H 17750 4500 50  0001 C CNN
+F 1 "+3.3V" H 17765 4823 50  0000 C CNN
+F 2 "" H 17750 4650 50  0001 C CNN
+F 3 "" H 17750 4650 50  0001 C CNN
+	1    17750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65A6434F
+P 17750 5250
+F 0 "#PWR?" H 17750 5050 50  0001 C CNN
+F 1 "GNDPWR" H 17754 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 17750 5200 50  0001 C CNN
+F 3 "" H 17750 5200 50  0001 C CNN
+	1    17750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65A64355
+P 18650 4950
+F 0 "D?" H 18994 4996 50  0000 L CNN
+F 1 "WS2812B" H 18994 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 18700 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 18750 4575 50  0001 L TNN
+	1    18650 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65A6435B
+P 18650 4650
+F 0 "#PWR?" H 18650 4500 50  0001 C CNN
+F 1 "+3.3V" H 18665 4823 50  0000 C CNN
+F 2 "" H 18650 4650 50  0001 C CNN
+F 3 "" H 18650 4650 50  0001 C CNN
+	1    18650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65A64361
+P 18650 5250
+F 0 "#PWR?" H 18650 5050 50  0001 C CNN
+F 1 "GNDPWR" H 18654 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 18650 5200 50  0001 C CNN
+F 3 "" H 18650 5200 50  0001 C CNN
+	1    18650 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18050 4950 18350 4950
+Wire Wire Line
+	18950 4950 19250 4950
+$Comp
+L LED:WS2812B D?
+U 1 1 65A64369
+P 19550 4950
+F 0 "D?" H 19894 4996 50  0000 L CNN
+F 1 "WS2812B" H 19894 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 19600 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 19650 4575 50  0001 L TNN
+	1    19550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65A6436F
+P 19550 4650
+F 0 "#PWR?" H 19550 4500 50  0001 C CNN
+F 1 "+3.3V" H 19565 4823 50  0000 C CNN
+F 2 "" H 19550 4650 50  0001 C CNN
+F 3 "" H 19550 4650 50  0001 C CNN
+	1    19550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65A64375
+P 19550 5250
+F 0 "#PWR?" H 19550 5050 50  0001 C CNN
+F 1 "GNDPWR" H 19554 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 19550 5200 50  0001 C CNN
+F 3 "" H 19550 5200 50  0001 C CNN
+	1    19550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65A6437B
+P 20450 4950
+F 0 "D?" H 20794 4996 50  0000 L CNN
+F 1 "WS2812B" H 20794 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 20500 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 20550 4575 50  0001 L TNN
+	1    20450 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65A64381
+P 20450 4650
+F 0 "#PWR?" H 20450 4500 50  0001 C CNN
+F 1 "+3.3V" H 20465 4823 50  0000 C CNN
+F 2 "" H 20450 4650 50  0001 C CNN
+F 3 "" H 20450 4650 50  0001 C CNN
+	1    20450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65A64387
+P 20450 5250
+F 0 "#PWR?" H 20450 5050 50  0001 C CNN
+F 1 "GNDPWR" H 20454 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 20450 5200 50  0001 C CNN
+F 3 "" H 20450 5200 50  0001 C CNN
+	1    20450 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19850 4950 20150 4950
+Wire Wire Line
+	20750 4950 21050 4950
+$Comp
+L LED:WS2812B D?
+U 1 1 65A6438F
+P 21350 4950
+F 0 "D?" H 21694 4996 50  0000 L CNN
+F 1 "WS2812B" H 21694 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 21400 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 21450 4575 50  0001 L TNN
+	1    21350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65A64395
+P 21350 4650
+F 0 "#PWR?" H 21350 4500 50  0001 C CNN
+F 1 "+3.3V" H 21365 4823 50  0000 C CNN
+F 2 "" H 21350 4650 50  0001 C CNN
+F 3 "" H 21350 4650 50  0001 C CNN
+	1    21350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65A6439B
+P 21350 5250
+F 0 "#PWR?" H 21350 5050 50  0001 C CNN
+F 1 "GNDPWR" H 21354 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 21350 5200 50  0001 C CNN
+F 3 "" H 21350 5200 50  0001 C CNN
+	1    21350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65A643A1
+P 22250 4950
+F 0 "D?" H 22594 4996 50  0000 L CNN
+F 1 "WS2812B" H 22594 4905 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 22300 4650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 22350 4575 50  0001 L TNN
+	1    22250 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65A643A7
+P 22250 4650
+F 0 "#PWR?" H 22250 4500 50  0001 C CNN
+F 1 "+3.3V" H 22265 4823 50  0000 C CNN
+F 2 "" H 22250 4650 50  0001 C CNN
+F 3 "" H 22250 4650 50  0001 C CNN
+	1    22250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65A643AD
+P 22250 5250
+F 0 "#PWR?" H 22250 5050 50  0001 C CNN
+F 1 "GNDPWR" H 22254 5096 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 22250 5200 50  0001 C CNN
+F 3 "" H 22250 5200 50  0001 C CNN
+	1    22250 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21650 4950 21950 4950
+Wire Wire Line
+	22550 4950 22850 4950
+Wire Notes Line
+	550  4350 22900 4350
+Text Label 22850 4950 1    50   ~ 0
+rgb_continue_1
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1DE3
+P 1550 6050
+F 0 "D?" H 1894 6096 50  0000 L CNN
+F 1 "WS2812B" H 1894 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1600 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1650 5675 50  0001 L TNN
+	1    1550 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1DE9
+P 1550 5750
+F 0 "#PWR?" H 1550 5600 50  0001 C CNN
+F 1 "+3.3V" H 1565 5923 50  0000 C CNN
+F 2 "" H 1550 5750 50  0001 C CNN
+F 3 "" H 1550 5750 50  0001 C CNN
+	1    1550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1DEF
+P 1550 6350
+F 0 "#PWR?" H 1550 6150 50  0001 C CNN
+F 1 "GNDPWR" H 1554 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1550 6300 50  0001 C CNN
+F 3 "" H 1550 6300 50  0001 C CNN
+	1    1550 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1DF6
+P 2450 6050
+F 0 "D?" H 2794 6096 50  0000 L CNN
+F 1 "WS2812B" H 2794 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2500 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2550 5675 50  0001 L TNN
+	1    2450 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1DFC
+P 2450 5750
+F 0 "#PWR?" H 2450 5600 50  0001 C CNN
+F 1 "+3.3V" H 2465 5923 50  0000 C CNN
+F 2 "" H 2450 5750 50  0001 C CNN
+F 3 "" H 2450 5750 50  0001 C CNN
+	1    2450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1E02
+P 2450 6350
+F 0 "#PWR?" H 2450 6150 50  0001 C CNN
+F 1 "GNDPWR" H 2454 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2450 6300 50  0001 C CNN
+F 3 "" H 2450 6300 50  0001 C CNN
+	1    2450 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 6050 2150 6050
+Wire Wire Line
+	2750 6050 3050 6050
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1E0A
+P 3350 6050
+F 0 "D?" H 3694 6096 50  0000 L CNN
+F 1 "WS2812B" H 3694 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3400 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3450 5675 50  0001 L TNN
+	1    3350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1E10
+P 3350 5750
+F 0 "#PWR?" H 3350 5600 50  0001 C CNN
+F 1 "+3.3V" H 3365 5923 50  0000 C CNN
+F 2 "" H 3350 5750 50  0001 C CNN
+F 3 "" H 3350 5750 50  0001 C CNN
+	1    3350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1E16
+P 3350 6350
+F 0 "#PWR?" H 3350 6150 50  0001 C CNN
+F 1 "GNDPWR" H 3354 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3350 6300 50  0001 C CNN
+F 3 "" H 3350 6300 50  0001 C CNN
+	1    3350 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1E1C
+P 4250 6050
+F 0 "D?" H 4594 6096 50  0000 L CNN
+F 1 "WS2812B" H 4594 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4300 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4350 5675 50  0001 L TNN
+	1    4250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1E22
+P 4250 5750
+F 0 "#PWR?" H 4250 5600 50  0001 C CNN
+F 1 "+3.3V" H 4265 5923 50  0000 C CNN
+F 2 "" H 4250 5750 50  0001 C CNN
+F 3 "" H 4250 5750 50  0001 C CNN
+	1    4250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1E28
+P 4250 6350
+F 0 "#PWR?" H 4250 6150 50  0001 C CNN
+F 1 "GNDPWR" H 4254 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4250 6300 50  0001 C CNN
+F 3 "" H 4250 6300 50  0001 C CNN
+	1    4250 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 6050 3950 6050
+Wire Wire Line
+	4550 6050 4850 6050
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1E30
+P 5150 6050
+F 0 "D?" H 5494 6096 50  0000 L CNN
+F 1 "WS2812B" H 5494 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5200 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5250 5675 50  0001 L TNN
+	1    5150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1E36
+P 5150 5750
+F 0 "#PWR?" H 5150 5600 50  0001 C CNN
+F 1 "+3.3V" H 5165 5923 50  0000 C CNN
+F 2 "" H 5150 5750 50  0001 C CNN
+F 3 "" H 5150 5750 50  0001 C CNN
+	1    5150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1E3C
+P 5150 6350
+F 0 "#PWR?" H 5150 6150 50  0001 C CNN
+F 1 "GNDPWR" H 5154 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5150 6300 50  0001 C CNN
+F 3 "" H 5150 6300 50  0001 C CNN
+	1    5150 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1E42
+P 6050 6050
+F 0 "D?" H 6394 6096 50  0000 L CNN
+F 1 "WS2812B" H 6394 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6100 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6150 5675 50  0001 L TNN
+	1    6050 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1E48
+P 6050 5750
+F 0 "#PWR?" H 6050 5600 50  0001 C CNN
+F 1 "+3.3V" H 6065 5923 50  0000 C CNN
+F 2 "" H 6050 5750 50  0001 C CNN
+F 3 "" H 6050 5750 50  0001 C CNN
+	1    6050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1E4E
+P 6050 6350
+F 0 "#PWR?" H 6050 6150 50  0001 C CNN
+F 1 "GNDPWR" H 6054 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6050 6300 50  0001 C CNN
+F 3 "" H 6050 6300 50  0001 C CNN
+	1    6050 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 6050 5750 6050
+Wire Wire Line
+	6350 6050 6650 6050
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1E56
+P 6950 6050
+F 0 "D?" H 7294 6096 50  0000 L CNN
+F 1 "WS2812B" H 7294 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7000 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7050 5675 50  0001 L TNN
+	1    6950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1E5C
+P 6950 5750
+F 0 "#PWR?" H 6950 5600 50  0001 C CNN
+F 1 "+3.3V" H 6965 5923 50  0000 C CNN
+F 2 "" H 6950 5750 50  0001 C CNN
+F 3 "" H 6950 5750 50  0001 C CNN
+	1    6950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1E62
+P 6950 6350
+F 0 "#PWR?" H 6950 6150 50  0001 C CNN
+F 1 "GNDPWR" H 6954 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6950 6300 50  0001 C CNN
+F 3 "" H 6950 6300 50  0001 C CNN
+	1    6950 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1E68
+P 7850 6050
+F 0 "D?" H 8194 6096 50  0000 L CNN
+F 1 "WS2812B" H 8194 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7900 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 5675 50  0001 L TNN
+	1    7850 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1E6E
+P 7850 5750
+F 0 "#PWR?" H 7850 5600 50  0001 C CNN
+F 1 "+3.3V" H 7865 5923 50  0000 C CNN
+F 2 "" H 7850 5750 50  0001 C CNN
+F 3 "" H 7850 5750 50  0001 C CNN
+	1    7850 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1E74
+P 7850 6350
+F 0 "#PWR?" H 7850 6150 50  0001 C CNN
+F 1 "GNDPWR" H 7854 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7850 6300 50  0001 C CNN
+F 3 "" H 7850 6300 50  0001 C CNN
+	1    7850 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 6050 7550 6050
+Wire Wire Line
+	8150 6050 8450 6050
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1E7C
+P 8750 6050
+F 0 "D?" H 9094 6096 50  0000 L CNN
+F 1 "WS2812B" H 9094 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8800 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8850 5675 50  0001 L TNN
+	1    8750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1E82
+P 8750 5750
+F 0 "#PWR?" H 8750 5600 50  0001 C CNN
+F 1 "+3.3V" H 8765 5923 50  0000 C CNN
+F 2 "" H 8750 5750 50  0001 C CNN
+F 3 "" H 8750 5750 50  0001 C CNN
+	1    8750 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1E88
+P 8750 6350
+F 0 "#PWR?" H 8750 6150 50  0001 C CNN
+F 1 "GNDPWR" H 8754 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8750 6300 50  0001 C CNN
+F 3 "" H 8750 6300 50  0001 C CNN
+	1    8750 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1E8E
+P 9650 6050
+F 0 "D?" H 9994 6096 50  0000 L CNN
+F 1 "WS2812B" H 9994 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9700 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9750 5675 50  0001 L TNN
+	1    9650 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1E94
+P 9650 5750
+F 0 "#PWR?" H 9650 5600 50  0001 C CNN
+F 1 "+3.3V" H 9665 5923 50  0000 C CNN
+F 2 "" H 9650 5750 50  0001 C CNN
+F 3 "" H 9650 5750 50  0001 C CNN
+	1    9650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1E9A
+P 9650 6350
+F 0 "#PWR?" H 9650 6150 50  0001 C CNN
+F 1 "GNDPWR" H 9654 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9650 6300 50  0001 C CNN
+F 3 "" H 9650 6300 50  0001 C CNN
+	1    9650 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 6050 9350 6050
+Wire Wire Line
+	9950 6050 10250 6050
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1EA2
+P 10550 6050
+F 0 "D?" H 10894 6096 50  0000 L CNN
+F 1 "WS2812B" H 10894 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10600 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10650 5675 50  0001 L TNN
+	1    10550 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1EA8
+P 10550 5750
+F 0 "#PWR?" H 10550 5600 50  0001 C CNN
+F 1 "+3.3V" H 10565 5923 50  0000 C CNN
+F 2 "" H 10550 5750 50  0001 C CNN
+F 3 "" H 10550 5750 50  0001 C CNN
+	1    10550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1EAE
+P 10550 6350
+F 0 "#PWR?" H 10550 6150 50  0001 C CNN
+F 1 "GNDPWR" H 10554 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10550 6300 50  0001 C CNN
+F 3 "" H 10550 6300 50  0001 C CNN
+	1    10550 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1EB4
+P 11450 6050
+F 0 "D?" H 11794 6096 50  0000 L CNN
+F 1 "WS2812B" H 11794 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11500 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11550 5675 50  0001 L TNN
+	1    11450 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1EBA
+P 11450 5750
+F 0 "#PWR?" H 11450 5600 50  0001 C CNN
+F 1 "+3.3V" H 11465 5923 50  0000 C CNN
+F 2 "" H 11450 5750 50  0001 C CNN
+F 3 "" H 11450 5750 50  0001 C CNN
+	1    11450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1EC0
+P 11450 6350
+F 0 "#PWR?" H 11450 6150 50  0001 C CNN
+F 1 "GNDPWR" H 11454 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 11450 6300 50  0001 C CNN
+F 3 "" H 11450 6300 50  0001 C CNN
+	1    11450 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 6050 11150 6050
+Wire Wire Line
+	11750 6050 12050 6050
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1EC8
+P 12350 6050
+F 0 "D?" H 12694 6096 50  0000 L CNN
+F 1 "WS2812B" H 12694 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12400 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12450 5675 50  0001 L TNN
+	1    12350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1ECE
+P 12350 5750
+F 0 "#PWR?" H 12350 5600 50  0001 C CNN
+F 1 "+3.3V" H 12365 5923 50  0000 C CNN
+F 2 "" H 12350 5750 50  0001 C CNN
+F 3 "" H 12350 5750 50  0001 C CNN
+	1    12350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1ED4
+P 12350 6350
+F 0 "#PWR?" H 12350 6150 50  0001 C CNN
+F 1 "GNDPWR" H 12354 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12350 6300 50  0001 C CNN
+F 3 "" H 12350 6300 50  0001 C CNN
+	1    12350 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1EDA
+P 13250 6050
+F 0 "D?" H 13594 6096 50  0000 L CNN
+F 1 "WS2812B" H 13594 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 13300 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13350 5675 50  0001 L TNN
+	1    13250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1EE0
+P 13250 5750
+F 0 "#PWR?" H 13250 5600 50  0001 C CNN
+F 1 "+3.3V" H 13265 5923 50  0000 C CNN
+F 2 "" H 13250 5750 50  0001 C CNN
+F 3 "" H 13250 5750 50  0001 C CNN
+	1    13250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1EE6
+P 13250 6350
+F 0 "#PWR?" H 13250 6150 50  0001 C CNN
+F 1 "GNDPWR" H 13254 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13250 6300 50  0001 C CNN
+F 3 "" H 13250 6300 50  0001 C CNN
+	1    13250 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12650 6050 12950 6050
+Wire Wire Line
+	13550 6050 13850 6050
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1EEE
+P 14150 6050
+F 0 "D?" H 14494 6096 50  0000 L CNN
+F 1 "WS2812B" H 14494 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 14200 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14250 5675 50  0001 L TNN
+	1    14150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1EF4
+P 14150 5750
+F 0 "#PWR?" H 14150 5600 50  0001 C CNN
+F 1 "+3.3V" H 14165 5923 50  0000 C CNN
+F 2 "" H 14150 5750 50  0001 C CNN
+F 3 "" H 14150 5750 50  0001 C CNN
+	1    14150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1EFA
+P 14150 6350
+F 0 "#PWR?" H 14150 6150 50  0001 C CNN
+F 1 "GNDPWR" H 14154 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 14150 6300 50  0001 C CNN
+F 3 "" H 14150 6300 50  0001 C CNN
+	1    14150 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1F00
+P 15050 6050
+F 0 "D?" H 15394 6096 50  0000 L CNN
+F 1 "WS2812B" H 15394 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 15100 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 15150 5675 50  0001 L TNN
+	1    15050 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1F06
+P 15050 5750
+F 0 "#PWR?" H 15050 5600 50  0001 C CNN
+F 1 "+3.3V" H 15065 5923 50  0000 C CNN
+F 2 "" H 15050 5750 50  0001 C CNN
+F 3 "" H 15050 5750 50  0001 C CNN
+	1    15050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1F0C
+P 15050 6350
+F 0 "#PWR?" H 15050 6150 50  0001 C CNN
+F 1 "GNDPWR" H 15054 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 6300 50  0001 C CNN
+F 3 "" H 15050 6300 50  0001 C CNN
+	1    15050 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 6050 14750 6050
+Wire Wire Line
+	15350 6050 15650 6050
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1F14
+P 15950 6050
+F 0 "D?" H 16294 6096 50  0000 L CNN
+F 1 "WS2812B" H 16294 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 16000 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 16050 5675 50  0001 L TNN
+	1    15950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1F1A
+P 15950 5750
+F 0 "#PWR?" H 15950 5600 50  0001 C CNN
+F 1 "+3.3V" H 15965 5923 50  0000 C CNN
+F 2 "" H 15950 5750 50  0001 C CNN
+F 3 "" H 15950 5750 50  0001 C CNN
+	1    15950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1F20
+P 15950 6350
+F 0 "#PWR?" H 15950 6150 50  0001 C CNN
+F 1 "GNDPWR" H 15954 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15950 6300 50  0001 C CNN
+F 3 "" H 15950 6300 50  0001 C CNN
+	1    15950 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1F26
+P 16850 6050
+F 0 "D?" H 17194 6096 50  0000 L CNN
+F 1 "WS2812B" H 17194 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 16900 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 16950 5675 50  0001 L TNN
+	1    16850 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1F2C
+P 16850 5750
+F 0 "#PWR?" H 16850 5600 50  0001 C CNN
+F 1 "+3.3V" H 16865 5923 50  0000 C CNN
+F 2 "" H 16850 5750 50  0001 C CNN
+F 3 "" H 16850 5750 50  0001 C CNN
+	1    16850 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1F32
+P 16850 6350
+F 0 "#PWR?" H 16850 6150 50  0001 C CNN
+F 1 "GNDPWR" H 16854 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 16850 6300 50  0001 C CNN
+F 3 "" H 16850 6300 50  0001 C CNN
+	1    16850 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16250 6050 16550 6050
+Wire Wire Line
+	17150 6050 17450 6050
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1F3A
+P 17750 6050
+F 0 "D?" H 18094 6096 50  0000 L CNN
+F 1 "WS2812B" H 18094 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 17800 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 17850 5675 50  0001 L TNN
+	1    17750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1F40
+P 17750 5750
+F 0 "#PWR?" H 17750 5600 50  0001 C CNN
+F 1 "+3.3V" H 17765 5923 50  0000 C CNN
+F 2 "" H 17750 5750 50  0001 C CNN
+F 3 "" H 17750 5750 50  0001 C CNN
+	1    17750 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1F46
+P 17750 6350
+F 0 "#PWR?" H 17750 6150 50  0001 C CNN
+F 1 "GNDPWR" H 17754 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 17750 6300 50  0001 C CNN
+F 3 "" H 17750 6300 50  0001 C CNN
+	1    17750 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1F4C
+P 18650 6050
+F 0 "D?" H 18994 6096 50  0000 L CNN
+F 1 "WS2812B" H 18994 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 18700 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 18750 5675 50  0001 L TNN
+	1    18650 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1F52
+P 18650 5750
+F 0 "#PWR?" H 18650 5600 50  0001 C CNN
+F 1 "+3.3V" H 18665 5923 50  0000 C CNN
+F 2 "" H 18650 5750 50  0001 C CNN
+F 3 "" H 18650 5750 50  0001 C CNN
+	1    18650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1F58
+P 18650 6350
+F 0 "#PWR?" H 18650 6150 50  0001 C CNN
+F 1 "GNDPWR" H 18654 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 18650 6300 50  0001 C CNN
+F 3 "" H 18650 6300 50  0001 C CNN
+	1    18650 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18050 6050 18350 6050
+Wire Wire Line
+	18950 6050 19250 6050
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1F60
+P 19550 6050
+F 0 "D?" H 19894 6096 50  0000 L CNN
+F 1 "WS2812B" H 19894 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 19600 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 19650 5675 50  0001 L TNN
+	1    19550 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1F66
+P 19550 5750
+F 0 "#PWR?" H 19550 5600 50  0001 C CNN
+F 1 "+3.3V" H 19565 5923 50  0000 C CNN
+F 2 "" H 19550 5750 50  0001 C CNN
+F 3 "" H 19550 5750 50  0001 C CNN
+	1    19550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1F6C
+P 19550 6350
+F 0 "#PWR?" H 19550 6150 50  0001 C CNN
+F 1 "GNDPWR" H 19554 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 19550 6300 50  0001 C CNN
+F 3 "" H 19550 6300 50  0001 C CNN
+	1    19550 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1F72
+P 20450 6050
+F 0 "D?" H 20794 6096 50  0000 L CNN
+F 1 "WS2812B" H 20794 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 20500 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 20550 5675 50  0001 L TNN
+	1    20450 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1F78
+P 20450 5750
+F 0 "#PWR?" H 20450 5600 50  0001 C CNN
+F 1 "+3.3V" H 20465 5923 50  0000 C CNN
+F 2 "" H 20450 5750 50  0001 C CNN
+F 3 "" H 20450 5750 50  0001 C CNN
+	1    20450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1F7E
+P 20450 6350
+F 0 "#PWR?" H 20450 6150 50  0001 C CNN
+F 1 "GNDPWR" H 20454 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 20450 6300 50  0001 C CNN
+F 3 "" H 20450 6300 50  0001 C CNN
+	1    20450 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19850 6050 20150 6050
+Wire Wire Line
+	20750 6050 21050 6050
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1F86
+P 21350 6050
+F 0 "D?" H 21694 6096 50  0000 L CNN
+F 1 "WS2812B" H 21694 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 21400 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 21450 5675 50  0001 L TNN
+	1    21350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1F8C
+P 21350 5750
+F 0 "#PWR?" H 21350 5600 50  0001 C CNN
+F 1 "+3.3V" H 21365 5923 50  0000 C CNN
+F 2 "" H 21350 5750 50  0001 C CNN
+F 3 "" H 21350 5750 50  0001 C CNN
+	1    21350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1F92
+P 21350 6350
+F 0 "#PWR?" H 21350 6150 50  0001 C CNN
+F 1 "GNDPWR" H 21354 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 21350 6300 50  0001 C CNN
+F 3 "" H 21350 6300 50  0001 C CNN
+	1    21350 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65BA1F98
+P 22250 6050
+F 0 "D?" H 22594 6096 50  0000 L CNN
+F 1 "WS2812B" H 22594 6005 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 22300 5750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 22350 5675 50  0001 L TNN
+	1    22250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65BA1F9E
+P 22250 5750
+F 0 "#PWR?" H 22250 5600 50  0001 C CNN
+F 1 "+3.3V" H 22265 5923 50  0000 C CNN
+F 2 "" H 22250 5750 50  0001 C CNN
+F 3 "" H 22250 5750 50  0001 C CNN
+	1    22250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65BA1FA4
+P 22250 6350
+F 0 "#PWR?" H 22250 6150 50  0001 C CNN
+F 1 "GNDPWR" H 22254 6196 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 22250 6300 50  0001 C CNN
+F 3 "" H 22250 6300 50  0001 C CNN
+	1    22250 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21650 6050 21950 6050
+Wire Wire Line
+	22550 6050 22850 6050
+Text Label 1250 6050 2    50   ~ 0
+rgb_continue_1
+Text Label 22850 6050 1    50   ~ 0
+rgb_continue_2
+$Comp
+L LED:WS2812B D?
+U 1 1 65C55FD8
+P 1550 7150
+F 0 "D?" H 1894 7196 50  0000 L CNN
+F 1 "WS2812B" H 1894 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1600 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1650 6775 50  0001 L TNN
+	1    1550 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C55FDE
+P 1550 6850
+F 0 "#PWR?" H 1550 6700 50  0001 C CNN
+F 1 "+3.3V" H 1565 7023 50  0000 C CNN
+F 2 "" H 1550 6850 50  0001 C CNN
+F 3 "" H 1550 6850 50  0001 C CNN
+	1    1550 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C55FE4
+P 1550 7450
+F 0 "#PWR?" H 1550 7250 50  0001 C CNN
+F 1 "GNDPWR" H 1554 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1550 7400 50  0001 C CNN
+F 3 "" H 1550 7400 50  0001 C CNN
+	1    1550 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65C55FEA
+P 2450 7150
+F 0 "D?" H 2794 7196 50  0000 L CNN
+F 1 "WS2812B" H 2794 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2500 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2550 6775 50  0001 L TNN
+	1    2450 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C55FF0
+P 2450 6850
+F 0 "#PWR?" H 2450 6700 50  0001 C CNN
+F 1 "+3.3V" H 2465 7023 50  0000 C CNN
+F 2 "" H 2450 6850 50  0001 C CNN
+F 3 "" H 2450 6850 50  0001 C CNN
+	1    2450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C55FF6
+P 2450 7450
+F 0 "#PWR?" H 2450 7250 50  0001 C CNN
+F 1 "GNDPWR" H 2454 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2450 7400 50  0001 C CNN
+F 3 "" H 2450 7400 50  0001 C CNN
+	1    2450 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 7150 2150 7150
+Wire Wire Line
+	2750 7150 3050 7150
+$Comp
+L LED:WS2812B D?
+U 1 1 65C55FFE
+P 3350 7150
+F 0 "D?" H 3694 7196 50  0000 L CNN
+F 1 "WS2812B" H 3694 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3400 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3450 6775 50  0001 L TNN
+	1    3350 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C56004
+P 3350 6850
+F 0 "#PWR?" H 3350 6700 50  0001 C CNN
+F 1 "+3.3V" H 3365 7023 50  0000 C CNN
+F 2 "" H 3350 6850 50  0001 C CNN
+F 3 "" H 3350 6850 50  0001 C CNN
+	1    3350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C5600A
+P 3350 7450
+F 0 "#PWR?" H 3350 7250 50  0001 C CNN
+F 1 "GNDPWR" H 3354 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3350 7400 50  0001 C CNN
+F 3 "" H 3350 7400 50  0001 C CNN
+	1    3350 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65C56010
+P 4250 7150
+F 0 "D?" H 4594 7196 50  0000 L CNN
+F 1 "WS2812B" H 4594 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4300 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4350 6775 50  0001 L TNN
+	1    4250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C56016
+P 4250 6850
+F 0 "#PWR?" H 4250 6700 50  0001 C CNN
+F 1 "+3.3V" H 4265 7023 50  0000 C CNN
+F 2 "" H 4250 6850 50  0001 C CNN
+F 3 "" H 4250 6850 50  0001 C CNN
+	1    4250 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C5601C
+P 4250 7450
+F 0 "#PWR?" H 4250 7250 50  0001 C CNN
+F 1 "GNDPWR" H 4254 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4250 7400 50  0001 C CNN
+F 3 "" H 4250 7400 50  0001 C CNN
+	1    4250 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 7150 3950 7150
+Wire Wire Line
+	4550 7150 4850 7150
+$Comp
+L LED:WS2812B D?
+U 1 1 65C56024
+P 5150 7150
+F 0 "D?" H 5494 7196 50  0000 L CNN
+F 1 "WS2812B" H 5494 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5200 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5250 6775 50  0001 L TNN
+	1    5150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C5602A
+P 5150 6850
+F 0 "#PWR?" H 5150 6700 50  0001 C CNN
+F 1 "+3.3V" H 5165 7023 50  0000 C CNN
+F 2 "" H 5150 6850 50  0001 C CNN
+F 3 "" H 5150 6850 50  0001 C CNN
+	1    5150 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C56030
+P 5150 7450
+F 0 "#PWR?" H 5150 7250 50  0001 C CNN
+F 1 "GNDPWR" H 5154 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5150 7400 50  0001 C CNN
+F 3 "" H 5150 7400 50  0001 C CNN
+	1    5150 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65C56036
+P 6050 7150
+F 0 "D?" H 6394 7196 50  0000 L CNN
+F 1 "WS2812B" H 6394 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6100 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6150 6775 50  0001 L TNN
+	1    6050 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C5603C
+P 6050 6850
+F 0 "#PWR?" H 6050 6700 50  0001 C CNN
+F 1 "+3.3V" H 6065 7023 50  0000 C CNN
+F 2 "" H 6050 6850 50  0001 C CNN
+F 3 "" H 6050 6850 50  0001 C CNN
+	1    6050 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C56042
+P 6050 7450
+F 0 "#PWR?" H 6050 7250 50  0001 C CNN
+F 1 "GNDPWR" H 6054 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6050 7400 50  0001 C CNN
+F 3 "" H 6050 7400 50  0001 C CNN
+	1    6050 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 7150 5750 7150
+Wire Wire Line
+	6350 7150 6650 7150
+$Comp
+L LED:WS2812B D?
+U 1 1 65C5604A
+P 6950 7150
+F 0 "D?" H 7294 7196 50  0000 L CNN
+F 1 "WS2812B" H 7294 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7000 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7050 6775 50  0001 L TNN
+	1    6950 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C56050
+P 6950 6850
+F 0 "#PWR?" H 6950 6700 50  0001 C CNN
+F 1 "+3.3V" H 6965 7023 50  0000 C CNN
+F 2 "" H 6950 6850 50  0001 C CNN
+F 3 "" H 6950 6850 50  0001 C CNN
+	1    6950 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C56056
+P 6950 7450
+F 0 "#PWR?" H 6950 7250 50  0001 C CNN
+F 1 "GNDPWR" H 6954 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6950 7400 50  0001 C CNN
+F 3 "" H 6950 7400 50  0001 C CNN
+	1    6950 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65C5605C
+P 7850 7150
+F 0 "D?" H 8194 7196 50  0000 L CNN
+F 1 "WS2812B" H 8194 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7900 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 6775 50  0001 L TNN
+	1    7850 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C56062
+P 7850 6850
+F 0 "#PWR?" H 7850 6700 50  0001 C CNN
+F 1 "+3.3V" H 7865 7023 50  0000 C CNN
+F 2 "" H 7850 6850 50  0001 C CNN
+F 3 "" H 7850 6850 50  0001 C CNN
+	1    7850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C56068
+P 7850 7450
+F 0 "#PWR?" H 7850 7250 50  0001 C CNN
+F 1 "GNDPWR" H 7854 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7850 7400 50  0001 C CNN
+F 3 "" H 7850 7400 50  0001 C CNN
+	1    7850 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 7150 7550 7150
+Wire Wire Line
+	8150 7150 8450 7150
+$Comp
+L LED:WS2812B D?
+U 1 1 65C56070
+P 8750 7150
+F 0 "D?" H 9094 7196 50  0000 L CNN
+F 1 "WS2812B" H 9094 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8800 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8850 6775 50  0001 L TNN
+	1    8750 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C56076
+P 8750 6850
+F 0 "#PWR?" H 8750 6700 50  0001 C CNN
+F 1 "+3.3V" H 8765 7023 50  0000 C CNN
+F 2 "" H 8750 6850 50  0001 C CNN
+F 3 "" H 8750 6850 50  0001 C CNN
+	1    8750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C5607C
+P 8750 7450
+F 0 "#PWR?" H 8750 7250 50  0001 C CNN
+F 1 "GNDPWR" H 8754 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8750 7400 50  0001 C CNN
+F 3 "" H 8750 7400 50  0001 C CNN
+	1    8750 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65C56082
+P 9650 7150
+F 0 "D?" H 9994 7196 50  0000 L CNN
+F 1 "WS2812B" H 9994 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9700 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9750 6775 50  0001 L TNN
+	1    9650 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C56088
+P 9650 6850
+F 0 "#PWR?" H 9650 6700 50  0001 C CNN
+F 1 "+3.3V" H 9665 7023 50  0000 C CNN
+F 2 "" H 9650 6850 50  0001 C CNN
+F 3 "" H 9650 6850 50  0001 C CNN
+	1    9650 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C5608E
+P 9650 7450
+F 0 "#PWR?" H 9650 7250 50  0001 C CNN
+F 1 "GNDPWR" H 9654 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9650 7400 50  0001 C CNN
+F 3 "" H 9650 7400 50  0001 C CNN
+	1    9650 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 7150 9350 7150
+Wire Wire Line
+	9950 7150 10250 7150
+$Comp
+L LED:WS2812B D?
+U 1 1 65C56096
+P 10550 7150
+F 0 "D?" H 10894 7196 50  0000 L CNN
+F 1 "WS2812B" H 10894 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10600 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10650 6775 50  0001 L TNN
+	1    10550 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C5609C
+P 10550 6850
+F 0 "#PWR?" H 10550 6700 50  0001 C CNN
+F 1 "+3.3V" H 10565 7023 50  0000 C CNN
+F 2 "" H 10550 6850 50  0001 C CNN
+F 3 "" H 10550 6850 50  0001 C CNN
+	1    10550 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C560A2
+P 10550 7450
+F 0 "#PWR?" H 10550 7250 50  0001 C CNN
+F 1 "GNDPWR" H 10554 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10550 7400 50  0001 C CNN
+F 3 "" H 10550 7400 50  0001 C CNN
+	1    10550 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65C560A8
+P 11450 7150
+F 0 "D?" H 11794 7196 50  0000 L CNN
+F 1 "WS2812B" H 11794 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11500 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11550 6775 50  0001 L TNN
+	1    11450 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C560AE
+P 11450 6850
+F 0 "#PWR?" H 11450 6700 50  0001 C CNN
+F 1 "+3.3V" H 11465 7023 50  0000 C CNN
+F 2 "" H 11450 6850 50  0001 C CNN
+F 3 "" H 11450 6850 50  0001 C CNN
+	1    11450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C560B4
+P 11450 7450
+F 0 "#PWR?" H 11450 7250 50  0001 C CNN
+F 1 "GNDPWR" H 11454 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 11450 7400 50  0001 C CNN
+F 3 "" H 11450 7400 50  0001 C CNN
+	1    11450 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 7150 11150 7150
+Wire Wire Line
+	11750 7150 12050 7150
+$Comp
+L LED:WS2812B D?
+U 1 1 65C560BC
+P 12350 7150
+F 0 "D?" H 12694 7196 50  0000 L CNN
+F 1 "WS2812B" H 12694 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12400 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12450 6775 50  0001 L TNN
+	1    12350 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C560C2
+P 12350 6850
+F 0 "#PWR?" H 12350 6700 50  0001 C CNN
+F 1 "+3.3V" H 12365 7023 50  0000 C CNN
+F 2 "" H 12350 6850 50  0001 C CNN
+F 3 "" H 12350 6850 50  0001 C CNN
+	1    12350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C560C8
+P 12350 7450
+F 0 "#PWR?" H 12350 7250 50  0001 C CNN
+F 1 "GNDPWR" H 12354 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12350 7400 50  0001 C CNN
+F 3 "" H 12350 7400 50  0001 C CNN
+	1    12350 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65C560CE
+P 13250 7150
+F 0 "D?" H 13594 7196 50  0000 L CNN
+F 1 "WS2812B" H 13594 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 13300 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13350 6775 50  0001 L TNN
+	1    13250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C560D4
+P 13250 6850
+F 0 "#PWR?" H 13250 6700 50  0001 C CNN
+F 1 "+3.3V" H 13265 7023 50  0000 C CNN
+F 2 "" H 13250 6850 50  0001 C CNN
+F 3 "" H 13250 6850 50  0001 C CNN
+	1    13250 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C560DA
+P 13250 7450
+F 0 "#PWR?" H 13250 7250 50  0001 C CNN
+F 1 "GNDPWR" H 13254 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13250 7400 50  0001 C CNN
+F 3 "" H 13250 7400 50  0001 C CNN
+	1    13250 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12650 7150 12950 7150
+Wire Wire Line
+	13550 7150 13850 7150
+$Comp
+L LED:WS2812B D?
+U 1 1 65C560E2
+P 14150 7150
+F 0 "D?" H 14494 7196 50  0000 L CNN
+F 1 "WS2812B" H 14494 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 14200 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14250 6775 50  0001 L TNN
+	1    14150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C560E8
+P 14150 6850
+F 0 "#PWR?" H 14150 6700 50  0001 C CNN
+F 1 "+3.3V" H 14165 7023 50  0000 C CNN
+F 2 "" H 14150 6850 50  0001 C CNN
+F 3 "" H 14150 6850 50  0001 C CNN
+	1    14150 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C560EE
+P 14150 7450
+F 0 "#PWR?" H 14150 7250 50  0001 C CNN
+F 1 "GNDPWR" H 14154 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 14150 7400 50  0001 C CNN
+F 3 "" H 14150 7400 50  0001 C CNN
+	1    14150 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65C560F4
+P 15050 7150
+F 0 "D?" H 15394 7196 50  0000 L CNN
+F 1 "WS2812B" H 15394 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 15100 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 15150 6775 50  0001 L TNN
+	1    15050 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C560FA
+P 15050 6850
+F 0 "#PWR?" H 15050 6700 50  0001 C CNN
+F 1 "+3.3V" H 15065 7023 50  0000 C CNN
+F 2 "" H 15050 6850 50  0001 C CNN
+F 3 "" H 15050 6850 50  0001 C CNN
+	1    15050 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C56100
+P 15050 7450
+F 0 "#PWR?" H 15050 7250 50  0001 C CNN
+F 1 "GNDPWR" H 15054 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 7400 50  0001 C CNN
+F 3 "" H 15050 7400 50  0001 C CNN
+	1    15050 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 7150 14750 7150
+Wire Wire Line
+	15350 7150 15650 7150
+$Comp
+L LED:WS2812B D?
+U 1 1 65C56108
+P 15950 7150
+F 0 "D?" H 16294 7196 50  0000 L CNN
+F 1 "WS2812B" H 16294 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 16000 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 16050 6775 50  0001 L TNN
+	1    15950 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C5610E
+P 15950 6850
+F 0 "#PWR?" H 15950 6700 50  0001 C CNN
+F 1 "+3.3V" H 15965 7023 50  0000 C CNN
+F 2 "" H 15950 6850 50  0001 C CNN
+F 3 "" H 15950 6850 50  0001 C CNN
+	1    15950 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C56114
+P 15950 7450
+F 0 "#PWR?" H 15950 7250 50  0001 C CNN
+F 1 "GNDPWR" H 15954 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15950 7400 50  0001 C CNN
+F 3 "" H 15950 7400 50  0001 C CNN
+	1    15950 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65C5611A
+P 16850 7150
+F 0 "D?" H 17194 7196 50  0000 L CNN
+F 1 "WS2812B" H 17194 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 16900 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 16950 6775 50  0001 L TNN
+	1    16850 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C56120
+P 16850 6850
+F 0 "#PWR?" H 16850 6700 50  0001 C CNN
+F 1 "+3.3V" H 16865 7023 50  0000 C CNN
+F 2 "" H 16850 6850 50  0001 C CNN
+F 3 "" H 16850 6850 50  0001 C CNN
+	1    16850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C56126
+P 16850 7450
+F 0 "#PWR?" H 16850 7250 50  0001 C CNN
+F 1 "GNDPWR" H 16854 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 16850 7400 50  0001 C CNN
+F 3 "" H 16850 7400 50  0001 C CNN
+	1    16850 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16250 7150 16550 7150
+Wire Wire Line
+	17150 7150 17450 7150
+$Comp
+L LED:WS2812B D?
+U 1 1 65C5612E
+P 17750 7150
+F 0 "D?" H 18094 7196 50  0000 L CNN
+F 1 "WS2812B" H 18094 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 17800 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 17850 6775 50  0001 L TNN
+	1    17750 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C56134
+P 17750 6850
+F 0 "#PWR?" H 17750 6700 50  0001 C CNN
+F 1 "+3.3V" H 17765 7023 50  0000 C CNN
+F 2 "" H 17750 6850 50  0001 C CNN
+F 3 "" H 17750 6850 50  0001 C CNN
+	1    17750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C5613A
+P 17750 7450
+F 0 "#PWR?" H 17750 7250 50  0001 C CNN
+F 1 "GNDPWR" H 17754 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 17750 7400 50  0001 C CNN
+F 3 "" H 17750 7400 50  0001 C CNN
+	1    17750 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65C56140
+P 18650 7150
+F 0 "D?" H 18994 7196 50  0000 L CNN
+F 1 "WS2812B" H 18994 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 18700 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 18750 6775 50  0001 L TNN
+	1    18650 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C56146
+P 18650 6850
+F 0 "#PWR?" H 18650 6700 50  0001 C CNN
+F 1 "+3.3V" H 18665 7023 50  0000 C CNN
+F 2 "" H 18650 6850 50  0001 C CNN
+F 3 "" H 18650 6850 50  0001 C CNN
+	1    18650 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C5614C
+P 18650 7450
+F 0 "#PWR?" H 18650 7250 50  0001 C CNN
+F 1 "GNDPWR" H 18654 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 18650 7400 50  0001 C CNN
+F 3 "" H 18650 7400 50  0001 C CNN
+	1    18650 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18050 7150 18350 7150
+Wire Wire Line
+	18950 7150 19250 7150
+$Comp
+L LED:WS2812B D?
+U 1 1 65C56154
+P 19550 7150
+F 0 "D?" H 19894 7196 50  0000 L CNN
+F 1 "WS2812B" H 19894 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 19600 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 19650 6775 50  0001 L TNN
+	1    19550 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C5615A
+P 19550 6850
+F 0 "#PWR?" H 19550 6700 50  0001 C CNN
+F 1 "+3.3V" H 19565 7023 50  0000 C CNN
+F 2 "" H 19550 6850 50  0001 C CNN
+F 3 "" H 19550 6850 50  0001 C CNN
+	1    19550 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C56160
+P 19550 7450
+F 0 "#PWR?" H 19550 7250 50  0001 C CNN
+F 1 "GNDPWR" H 19554 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 19550 7400 50  0001 C CNN
+F 3 "" H 19550 7400 50  0001 C CNN
+	1    19550 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65C56166
+P 20450 7150
+F 0 "D?" H 20794 7196 50  0000 L CNN
+F 1 "WS2812B" H 20794 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 20500 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 20550 6775 50  0001 L TNN
+	1    20450 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C5616C
+P 20450 6850
+F 0 "#PWR?" H 20450 6700 50  0001 C CNN
+F 1 "+3.3V" H 20465 7023 50  0000 C CNN
+F 2 "" H 20450 6850 50  0001 C CNN
+F 3 "" H 20450 6850 50  0001 C CNN
+	1    20450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C56172
+P 20450 7450
+F 0 "#PWR?" H 20450 7250 50  0001 C CNN
+F 1 "GNDPWR" H 20454 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 20450 7400 50  0001 C CNN
+F 3 "" H 20450 7400 50  0001 C CNN
+	1    20450 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19850 7150 20150 7150
+Wire Wire Line
+	20750 7150 21050 7150
+$Comp
+L LED:WS2812B D?
+U 1 1 65C5617A
+P 21350 7150
+F 0 "D?" H 21694 7196 50  0000 L CNN
+F 1 "WS2812B" H 21694 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 21400 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 21450 6775 50  0001 L TNN
+	1    21350 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C56180
+P 21350 6850
+F 0 "#PWR?" H 21350 6700 50  0001 C CNN
+F 1 "+3.3V" H 21365 7023 50  0000 C CNN
+F 2 "" H 21350 6850 50  0001 C CNN
+F 3 "" H 21350 6850 50  0001 C CNN
+	1    21350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C56186
+P 21350 7450
+F 0 "#PWR?" H 21350 7250 50  0001 C CNN
+F 1 "GNDPWR" H 21354 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 21350 7400 50  0001 C CNN
+F 3 "" H 21350 7400 50  0001 C CNN
+	1    21350 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65C5618C
+P 22250 7150
+F 0 "D?" H 22594 7196 50  0000 L CNN
+F 1 "WS2812B" H 22594 7105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 22300 6850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 22350 6775 50  0001 L TNN
+	1    22250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65C56192
+P 22250 6850
+F 0 "#PWR?" H 22250 6700 50  0001 C CNN
+F 1 "+3.3V" H 22265 7023 50  0000 C CNN
+F 2 "" H 22250 6850 50  0001 C CNN
+F 3 "" H 22250 6850 50  0001 C CNN
+	1    22250 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65C56198
+P 22250 7450
+F 0 "#PWR?" H 22250 7250 50  0001 C CNN
+F 1 "GNDPWR" H 22254 7296 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 22250 7400 50  0001 C CNN
+F 3 "" H 22250 7400 50  0001 C CNN
+	1    22250 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21650 7150 21950 7150
+Wire Wire Line
+	22550 7150 22850 7150
+Text Label 1250 7150 2    50   ~ 0
+rgb_continue_2
+Text Label 22850 7150 1    50   ~ 0
+rgb_continue_3
+$Comp
+L LED:WS2812B D?
+U 1 1 65CF89A5
+P 1550 8250
+F 0 "D?" H 1894 8296 50  0000 L CNN
+F 1 "WS2812B" H 1894 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1600 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1650 7875 50  0001 L TNN
+	1    1550 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65CF89AB
+P 1550 7950
+F 0 "#PWR?" H 1550 7800 50  0001 C CNN
+F 1 "+3.3V" H 1565 8123 50  0000 C CNN
+F 2 "" H 1550 7950 50  0001 C CNN
+F 3 "" H 1550 7950 50  0001 C CNN
+	1    1550 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65CF89B1
+P 1550 8550
+F 0 "#PWR?" H 1550 8350 50  0001 C CNN
+F 1 "GNDPWR" H 1554 8396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1550 8500 50  0001 C CNN
+F 3 "" H 1550 8500 50  0001 C CNN
+	1    1550 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65CF89B7
+P 2450 8250
+F 0 "D?" H 2794 8296 50  0000 L CNN
+F 1 "WS2812B" H 2794 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2500 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2550 7875 50  0001 L TNN
+	1    2450 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65CF89BD
+P 2450 7950
+F 0 "#PWR?" H 2450 7800 50  0001 C CNN
+F 1 "+3.3V" H 2465 8123 50  0000 C CNN
+F 2 "" H 2450 7950 50  0001 C CNN
+F 3 "" H 2450 7950 50  0001 C CNN
+	1    2450 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65CF89C3
+P 2450 8550
+F 0 "#PWR?" H 2450 8350 50  0001 C CNN
+F 1 "GNDPWR" H 2454 8396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2450 8500 50  0001 C CNN
+F 3 "" H 2450 8500 50  0001 C CNN
+	1    2450 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 8250 2150 8250
+Wire Wire Line
+	2750 8250 3050 8250
+$Comp
+L LED:WS2812B D?
+U 1 1 65CF89CB
+P 3350 8250
+F 0 "D?" H 3694 8296 50  0000 L CNN
+F 1 "WS2812B" H 3694 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3400 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3450 7875 50  0001 L TNN
+	1    3350 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65CF89D1
+P 3350 7950
+F 0 "#PWR?" H 3350 7800 50  0001 C CNN
+F 1 "+3.3V" H 3365 8123 50  0000 C CNN
+F 2 "" H 3350 7950 50  0001 C CNN
+F 3 "" H 3350 7950 50  0001 C CNN
+	1    3350 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65CF89D7
+P 3350 8550
+F 0 "#PWR?" H 3350 8350 50  0001 C CNN
+F 1 "GNDPWR" H 3354 8396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3350 8500 50  0001 C CNN
+F 3 "" H 3350 8500 50  0001 C CNN
+	1    3350 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65CF89DD
+P 4250 8250
+F 0 "D?" H 4594 8296 50  0000 L CNN
+F 1 "WS2812B" H 4594 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4300 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4350 7875 50  0001 L TNN
+	1    4250 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65CF89E3
+P 4250 7950
+F 0 "#PWR?" H 4250 7800 50  0001 C CNN
+F 1 "+3.3V" H 4265 8123 50  0000 C CNN
+F 2 "" H 4250 7950 50  0001 C CNN
+F 3 "" H 4250 7950 50  0001 C CNN
+	1    4250 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65CF89E9
+P 4250 8550
+F 0 "#PWR?" H 4250 8350 50  0001 C CNN
+F 1 "GNDPWR" H 4254 8396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4250 8500 50  0001 C CNN
+F 3 "" H 4250 8500 50  0001 C CNN
+	1    4250 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 8250 3950 8250
+Wire Wire Line
+	4550 8250 4850 8250
+$Comp
+L LED:WS2812B D?
+U 1 1 65CF89F1
+P 5150 8250
+F 0 "D?" H 5494 8296 50  0000 L CNN
+F 1 "WS2812B" H 5494 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5200 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5250 7875 50  0001 L TNN
+	1    5150 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65CF89F7
+P 5150 7950
+F 0 "#PWR?" H 5150 7800 50  0001 C CNN
+F 1 "+3.3V" H 5165 8123 50  0000 C CNN
+F 2 "" H 5150 7950 50  0001 C CNN
+F 3 "" H 5150 7950 50  0001 C CNN
+	1    5150 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65CF89FD
+P 5150 8550
+F 0 "#PWR?" H 5150 8350 50  0001 C CNN
+F 1 "GNDPWR" H 5154 8396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5150 8500 50  0001 C CNN
+F 3 "" H 5150 8500 50  0001 C CNN
+	1    5150 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65CF8A03
+P 6050 8250
+F 0 "D?" H 6394 8296 50  0000 L CNN
+F 1 "WS2812B" H 6394 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6100 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6150 7875 50  0001 L TNN
+	1    6050 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65CF8A09
+P 6050 7950
+F 0 "#PWR?" H 6050 7800 50  0001 C CNN
+F 1 "+3.3V" H 6065 8123 50  0000 C CNN
+F 2 "" H 6050 7950 50  0001 C CNN
+F 3 "" H 6050 7950 50  0001 C CNN
+	1    6050 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65CF8A0F
+P 6050 8550
+F 0 "#PWR?" H 6050 8350 50  0001 C CNN
+F 1 "GNDPWR" H 6054 8396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6050 8500 50  0001 C CNN
+F 3 "" H 6050 8500 50  0001 C CNN
+	1    6050 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 8250 5750 8250
+Wire Wire Line
+	6350 8250 6650 8250
+$Comp
+L LED:WS2812B D?
+U 1 1 65CF8A17
+P 6950 8250
+F 0 "D?" H 7294 8296 50  0000 L CNN
+F 1 "WS2812B" H 7294 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7000 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7050 7875 50  0001 L TNN
+	1    6950 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65CF8A1D
+P 6950 7950
+F 0 "#PWR?" H 6950 7800 50  0001 C CNN
+F 1 "+3.3V" H 6965 8123 50  0000 C CNN
+F 2 "" H 6950 7950 50  0001 C CNN
+F 3 "" H 6950 7950 50  0001 C CNN
+	1    6950 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65CF8A23
+P 6950 8550
+F 0 "#PWR?" H 6950 8350 50  0001 C CNN
+F 1 "GNDPWR" H 6954 8396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6950 8500 50  0001 C CNN
+F 3 "" H 6950 8500 50  0001 C CNN
+	1    6950 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 65CF8A29
+P 7850 8250
+F 0 "D?" H 8194 8296 50  0000 L CNN
+F 1 "WS2812B" H 8194 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7900 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 7875 50  0001 L TNN
+	1    7850 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65CF8A2F
+P 7850 7950
+F 0 "#PWR?" H 7850 7800 50  0001 C CNN
+F 1 "+3.3V" H 7865 8123 50  0000 C CNN
+F 2 "" H 7850 7950 50  0001 C CNN
+F 3 "" H 7850 7950 50  0001 C CNN
+	1    7850 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 65CF8A35
+P 7850 8550
+F 0 "#PWR?" H 7850 8350 50  0001 C CNN
+F 1 "GNDPWR" H 7854 8396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7850 8500 50  0001 C CNN
+F 3 "" H 7850 8500 50  0001 C CNN
+	1    7850 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 8250 7550 8250
+Wire Wire Line
+	8150 8250 8450 8250
+Text Label 1250 8250 2    50   ~ 0
+rgb_continue_3
+Wire Notes Line
+	550  8950 22900 8950
+Wire Notes Line
+	22900 8950 22900 8700
+Wire Notes Line
+	5750 13300 5750 8950
+Wire Notes Line
+	550  550  550  13300
+Wire Notes Line
+	550  550  22850 550 
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 66150B00
+P 7100 10850
+F 0 "J?" H 7207 11717 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 7207 11626 50  0000 C CNN
+F 2 "" H 7250 10850 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7250 10850 50  0001 C CNN
+	1    7100 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 66151FE0
+P 8600 10550
+F 0 "R?" V 8650 10400 50  0000 C CNN
+F 1 "1K" V 8700 10550 50  0000 C CNN
+F 2 "" H 8600 10550 50  0001 C CNN
+F 3 "~" H 8600 10550 50  0001 C CNN
+	1    8600 10550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 66153224
+P 8600 10450
+F 0 "R?" V 8550 10300 50  0000 C CNN
+F 1 "5.1K" V 8495 10450 50  0000 C CNN
+F 2 "" H 8600 10450 50  0001 C CNN
+F 3 "~" H 8600 10450 50  0001 C CNN
+	1    8600 10450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7700 10450 8500 10450
+Wire Wire Line
+	7700 10550 8500 10550
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 663CA762
+P 8850 10600
+F 0 "#PWR?" H 8850 10400 50  0001 C CNN
+F 1 "GNDPWR" H 8854 10446 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8850 10550 50  0001 C CNN
+F 3 "" H 8850 10550 50  0001 C CNN
+	1    8850 10600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 10450 8850 10450
+Wire Wire Line
+	8850 10450 8850 10550
+Wire Wire Line
+	8700 10550 8850 10550
+Connection ~ 8850 10550
+Wire Wire Line
+	8850 10550 8850 10600
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 665080B6
+P 7100 11750
+F 0 "#PWR?" H 7100 11550 50  0001 C CNN
+F 1 "GNDPWR" H 7104 11596 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7100 11700 50  0001 C CNN
+F 3 "" H 7100 11700 50  0001 C CNN
+	1    7100 11750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66508737
+P 8000 10250
+F 0 "#PWR?" H 8000 10100 50  0001 C CNN
+F 1 "+3.3V" H 8015 10423 50  0000 C CNN
+F 2 "" H 8000 10250 50  0001 C CNN
+F 3 "" H 8000 10250 50  0001 C CNN
+	1    8000 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 10250 8000 10250
+Text Label 8100 11050 0    50   ~ 0
+USB_DP
+Wire Wire Line
+	7700 10950 7700 11050
+Wire Wire Line
+	7700 11050 8100 11050
+Connection ~ 7700 11050
+Text Label 8100 10750 0    50   ~ 0
+USB_DN
+Wire Wire Line
+	7700 10850 7700 10750
+Wire Wire Line
+	7700 10750 8100 10750
+Connection ~ 7700 10750
+Wire Wire Line
+	6800 11750 7100 11750
+Connection ~ 7100 11750
+NoConn ~ 7700 11350
+NoConn ~ 7700 11450
+Wire Notes Line
+	9900 13300 9900 9000
+Wire Notes Line
+	550  13300 9900 13300
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 66AB48A3
+P 11300 9600
+F 0 "J?" H 11380 9592 50  0000 L CNN
+F 1 "STLINK_PLUG" H 11380 9501 50  0000 L CNN
+F 2 "" H 11300 9600 50  0001 C CNN
+F 3 "~" H 11300 9600 50  0001 C CNN
+	1    11300 9600
+	1    0    0    -1  
+$EndComp
+Text Label 1100 1550 0    50   ~ 0
+SPI1_MISO
+NoConn ~ 1400 1850
+NoConn ~ 3450 1850
+NoConn ~ 7950 1850
+NoConn ~ 5750 1850
+NoConn ~ 9950 1850
+NoConn ~ 11900 1850
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 671995DA
+P 10800 9800
+F 0 "#PWR?" H 10800 9600 50  0001 C CNN
+F 1 "GNDPWR" H 10804 9646 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10800 9750 50  0001 C CNN
+F 3 "" H 10800 9750 50  0001 C CNN
+	1    10800 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 9800 11100 9800
+Text Label 11100 9700 2    50   ~ 0
+SWCLK
+Text Label 11100 9600 2    50   ~ 0
+SWDIO
+NoConn ~ 11100 9500
+Wire Notes Line
+	9900 10400 12100 10400
+Wire Notes Line
+	12100 10400 12100 8950
+$Comp
+L Device:Rotary_Encoder_Switch SW?
+U 1 1 67385153
+P 22300 4100
+F 0 "SW?" H 22300 4467 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 22300 4376 50  0000 C CNN
+F 2 "" H 22150 4260 50  0001 C CNN
+F 3 "~" H 22300 4360 50  0001 C CNN
+	1    22300 4100
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	22900 600  22900 4400
+Wire Wire Line
+	14050 1550 15900 1550
+Wire Wire Line
+	16000 1550 17850 1550
+Wire Wire Line
+	20150 1150 20150 1850
+$Comp
+L Switch:SW_SPST SW24
+U 1 1 62EAD767
+P 20250 3750
+F 0 "SW24" H 20250 3985 50  0000 C CNN
+F 1 "SW_SPST" H 20250 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 20250 3750 50  0001 C CNN
+F 3 "~" H 20250 3750 50  0001 C CNN
+	1    20250 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW23
+U 1 1 62EAF075
+P 20150 3750
+F 0 "SW23" H 20150 3985 50  0000 C CNN
+F 1 "SW_SPST" H 20150 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 20150 3750 50  0001 C CNN
+F 3 "~" H 20150 3750 50  0001 C CNN
+	1    20150 3750
+	0    1    1    0   
+$EndComp
+Connection ~ 20150 3950
+Wire Wire Line
+	20150 3950 20250 3950
+Wire Wire Line
+	20050 3950 20150 3950
+$Comp
+L Switch:SW_SPST SW22
+U 1 1 62EB056A
+P 20050 3750
+F 0 "SW22" H 20050 3985 50  0000 C CNN
+F 1 "SW_SPST" H 20050 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 20050 3750 50  0001 C CNN
+F 3 "~" H 20050 3750 50  0001 C CNN
+	1    20050 3750
+	0    1    1    0   
+$EndComp
+Connection ~ 20050 3950
+Wire Wire Line
+	19950 3950 20050 3950
+NoConn ~ 19650 1850
+NoConn ~ 17750 1850
+NoConn ~ 15800 1850
+NoConn ~ 13850 1850
+Wire Wire Line
+	17950 1550 19750 1550
+Wire Wire Line
+	17850 1550 17850 1850
+Wire Wire Line
+	16000 1850 16000 1550
+Wire Wire Line
+	13950 1550 13950 1850
+Wire Wire Line
+	15050 3300 15050 3200
+Connection ~ 15050 3300
+Wire Wire Line
+	15050 3200 15050 3100
+Connection ~ 15050 3200
+Wire Wire Line
+	15050 3100 15050 3000
+Connection ~ 15050 3100
+Wire Wire Line
+	15050 3000 15050 2900
+Connection ~ 15050 3000
+Wire Wire Line
+	15050 2900 15050 2800
+Connection ~ 15050 2900
+Wire Wire Line
+	15050 2800 15050 2700
+Connection ~ 15050 2800
+Wire Wire Line
+	15050 2700 15050 1750
+Connection ~ 15050 2700
+Wire Wire Line
+	15050 1750 15150 1750
+Connection ~ 15050 1750
+Wire Wire Line
+	15050 3400 15050 3300
+Wire Wire Line
+	14550 1750 15050 1750
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 630A94A7
+P 14850 3300
+F 0 "RN?" V 14433 3300 50  0000 C CNN
+F 1 "R_Pack04" V 14524 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 15125 3300 50  0001 C CNN
+F 3 "~" H 14850 3300 50  0001 C CNN
+	1    14850 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 630A94A1
+P 14850 2900
+F 0 "RN?" V 14433 2900 50  0000 C CNN
+F 1 "R_Pack04" V 14524 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 15125 2900 50  0001 C CNN
+F 3 "~" H 14850 2900 50  0001 C CNN
+	1    14850 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14050 1550 14050 1850
+Connection ~ 13500 3950
+Wire Wire Line
+	14150 1850 14150 1250
+Wire Wire Line
+	14350 1850 14350 1150
+Wire Wire Line
+	14250 1350 14250 1850
+Wire Wire Line
+	13750 3950 13850 3950
+Connection ~ 13750 3950
+Wire Wire Line
+	13850 3950 13950 3950
+Connection ~ 13850 3950
+Wire Wire Line
+	13950 3950 14050 3950
+Connection ~ 13950 3950
+Wire Wire Line
+	14050 3950 14150 3950
+Connection ~ 14050 3950
+Wire Wire Line
+	14150 3950 14250 3950
+Connection ~ 14150 3950
+Wire Wire Line
+	14250 3950 14350 3950
+Connection ~ 14250 3950
+Wire Wire Line
+	14350 3950 14450 3950
+Connection ~ 14350 3950
+Wire Wire Line
+	13500 3950 13750 3950
+Wire Wire Line
+	13500 1750 13500 3950
+Wire Wire Line
+	13650 1750 13500 1750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 630A93EB
+P 15150 1750
+F 0 "#PWR?" H 15150 1600 50  0001 C CNN
+F 1 "+3.3V" H 15165 1923 50  0000 C CNN
+F 2 "" H 15150 1750 50  0001 C CNN
+F 3 "" H 15150 1750 50  0001 C CNN
+	1    15150 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14550 1750 14550 1850
+Wire Wire Line
+	13650 1750 13650 1850
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A93E3
+P 14050 3750
+F 0 "SW?" H 14050 3985 50  0000 C CNN
+F 1 "SW_SPST" H 14050 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 14050 3750 50  0001 C CNN
+F 3 "~" H 14050 3750 50  0001 C CNN
+	1    14050 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13850 3550 13850 3300
+Wire Wire Line
+	14050 3550 14050 3100
+Wire Wire Line
+	13750 3400 13750 3550
+Connection ~ 13750 3400
+Wire Wire Line
+	13750 2650 13750 3400
+Wire Wire Line
+	14650 3400 13750 3400
+Wire Wire Line
+	13850 3300 13850 2650
+Connection ~ 13850 3300
+Wire Wire Line
+	14650 3300 13850 3300
+Wire Wire Line
+	13950 3200 13950 3550
+Connection ~ 13950 3200
+Wire Wire Line
+	14650 3200 13950 3200
+Wire Wire Line
+	14050 3100 14050 2650
+Connection ~ 14050 3100
+Wire Wire Line
+	14650 3100 14050 3100
+Wire Wire Line
+	14150 3000 14150 3550
+Connection ~ 14150 3000
+Wire Wire Line
+	14650 3000 14150 3000
+Wire Wire Line
+	14250 2900 14250 3550
+Connection ~ 14250 2900
+Wire Wire Line
+	14650 2900 14250 2900
+Wire Wire Line
+	14350 2800 14350 3550
+Connection ~ 14350 2800
+Wire Wire Line
+	14650 2800 14350 2800
+Wire Wire Line
+	14450 2700 14450 3550
+Connection ~ 14450 2700
+Wire Wire Line
+	14650 2700 14450 2700
+Wire Wire Line
+	13950 2650 13950 3200
+Wire Wire Line
+	14150 2650 14150 3000
+Wire Wire Line
+	14250 2650 14250 2900
+Wire Wire Line
+	14350 2650 14350 2800
+Wire Wire Line
+	14450 2650 14450 2700
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A93BD
+P 14350 3750
+F 0 "SW?" H 14350 3985 50  0000 C CNN
+F 1 "SW_SPST" H 14350 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 14350 3750 50  0001 C CNN
+F 3 "~" H 14350 3750 50  0001 C CNN
+	1    14350 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A93B7
+P 13750 3750
+F 0 "SW?" H 13750 3985 50  0000 C CNN
+F 1 "SW_SPST" H 13750 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 13750 3750 50  0001 C CNN
+F 3 "~" H 13750 3750 50  0001 C CNN
+	1    13750 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A93B1
+P 13850 3750
+F 0 "SW?" H 13850 3985 50  0000 C CNN
+F 1 "SW_SPST" H 13850 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 13850 3750 50  0001 C CNN
+F 3 "~" H 13850 3750 50  0001 C CNN
+	1    13850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A93AB
+P 13950 3750
+F 0 "SW?" H 13950 3985 50  0000 C CNN
+F 1 "SW_SPST" H 13950 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 13950 3750 50  0001 C CNN
+F 3 "~" H 13950 3750 50  0001 C CNN
+	1    13950 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A93A5
+P 14150 3750
+F 0 "SW?" H 14150 3985 50  0000 C CNN
+F 1 "SW_SPST" H 14150 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 14150 3750 50  0001 C CNN
+F 3 "~" H 14150 3750 50  0001 C CNN
+	1    14150 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A939F
+P 14250 3750
+F 0 "SW?" H 14250 3985 50  0000 C CNN
+F 1 "SW_SPST" H 14250 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 14250 3750 50  0001 C CNN
+F 3 "~" H 14250 3750 50  0001 C CNN
+	1    14250 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 630A9399
+P 14450 3750
+F 0 "SW?" H 14450 3985 50  0000 C CNN
+F 1 "SW_SPST" H 14450 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 14450 3750 50  0001 C CNN
+F 3 "~" H 14450 3750 50  0001 C CNN
+	1    14450 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-IC-Logic:74HC165D U?
+U 1 1 630A9393
+P 14050 2250
+F 0 "U?" H 14050 3004 45  0000 C CNN
+F 1 "74HC165D" H 14050 2920 45  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 14050 2950 20  0001 C CNN
+F 3 "" H 14050 2250 50  0001 C CNN
+F 4 "" H 14050 2250 60  0001 C CNN "Field4"
+	1    14050 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 630A938C
+P 13500 3950
+F 0 "#PWR?" H 13500 3750 50  0001 C CNN
+F 1 "GNDPWR" H 13504 3796 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13500 3900 50  0001 C CNN
+F 3 "" H 13500 3900 50  0001 C CNN
+	1    13500 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19750 1850 19750 1550
+Wire Wire Line
+	20850 3300 20850 3200
+Connection ~ 20850 3300
+Wire Wire Line
+	20850 3200 20850 3100
+Connection ~ 20850 3200
+Wire Wire Line
+	20850 3100 20850 3000
+Connection ~ 20850 3100
+Wire Wire Line
+	20850 3000 20850 2900
+Connection ~ 20850 3000
+Wire Wire Line
+	20850 2900 20850 2800
+Connection ~ 20850 2900
+Wire Wire Line
+	20850 2800 20850 2700
+Connection ~ 20850 2800
+Wire Wire Line
+	20850 2700 20850 1750
+Connection ~ 20850 2700
+Wire Wire Line
+	20850 1750 20950 1750
+Connection ~ 20850 1750
+Wire Wire Line
+	20850 3400 20850 3300
+$Comp
+L Device:R_Pack04 RN6
+U 1 1 6303BC0A
+P 20650 3300
+F 0 "RN6" V 20233 3300 50  0000 C CNN
+F 1 "R_Pack04" V 20324 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 20925 3300 50  0001 C CNN
+F 3 "~" H 20650 3300 50  0001 C CNN
+	1    20650 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN3
+U 1 1 6303BC04
+P 20650 2900
+F 0 "RN3" V 20233 2900 50  0000 C CNN
+F 1 "R_Pack04" V 20324 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 20925 2900 50  0001 C CNN
+F 3 "~" H 20650 2900 50  0001 C CNN
+	1    20650 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	20350 1750 20850 1750
+Wire Wire Line
+	18950 3300 18950 3200
+Connection ~ 18950 3300
+Wire Wire Line
+	18950 3200 18950 3100
+Connection ~ 18950 3200
+Wire Wire Line
+	18950 3100 18950 3000
+Connection ~ 18950 3100
+Wire Wire Line
+	18950 3000 18950 2900
+Connection ~ 18950 3000
+Wire Wire Line
+	18950 2900 18950 2800
+Connection ~ 18950 2900
+Wire Wire Line
+	18950 2800 18950 2700
+Connection ~ 18950 2800
+Wire Wire Line
+	18950 2700 18950 1750
+Connection ~ 18950 2700
+Wire Wire Line
+	18950 1750 19050 1750
+Connection ~ 18950 1750
+Wire Wire Line
+	18950 3400 18950 3300
+Wire Wire Line
+	18450 1750 18950 1750
+$Comp
+L Device:R_Pack04 RN5
+U 1 1 630291E3
+P 18750 3300
+F 0 "RN5" V 18333 3300 50  0000 C CNN
+F 1 "R_Pack04" V 18424 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 19025 3300 50  0001 C CNN
+F 3 "~" H 18750 3300 50  0001 C CNN
+	1    18750 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN2
+U 1 1 630291DD
+P 18750 2900
+F 0 "RN2" V 18333 2900 50  0000 C CNN
+F 1 "R_Pack04" V 18424 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 19025 2900 50  0001 C CNN
+F 3 "~" H 18750 2900 50  0001 C CNN
+	1    18750 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17000 3300 17000 3200
+Connection ~ 17000 3300
+Wire Wire Line
+	17000 3200 17000 3100
+Connection ~ 17000 3200
+Wire Wire Line
+	17000 3100 17000 3000
+Connection ~ 17000 3100
+Wire Wire Line
+	17000 3000 17000 2900
+Connection ~ 17000 3000
+Wire Wire Line
+	17000 2900 17000 2800
+Connection ~ 17000 2900
+Wire Wire Line
+	17000 2800 17000 2700
+Connection ~ 17000 2800
+Connection ~ 17000 2700
+Wire Wire Line
+	17000 3400 17000 3300
+$Comp
+L Device:R_Pack04 RN4
+U 1 1 6301128F
+P 16800 3300
+F 0 "RN4" V 16383 3300 50  0000 C CNN
+F 1 "R_Pack04" V 16474 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 17075 3300 50  0001 C CNN
+F 3 "~" H 16800 3300 50  0001 C CNN
+	1    16800 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17000 1750 17000 2700
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 6300EC03
+P 16800 2900
+F 0 "RN1" V 16383 2900 50  0000 C CNN
+F 1 "R_Pack04" V 16474 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 17075 2900 50  0001 C CNN
+F 3 "~" H 16800 2900 50  0001 C CNN
+	1    16800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 62EE16DF
+P 17100 1750
+F 0 "#PWR0107" H 17100 1600 50  0001 C CNN
+F 1 "+3.3V" H 17115 1923 50  0000 C CNN
+F 2 "" H 17100 1750 50  0001 C CNN
+F 3 "" H 17100 1750 50  0001 C CNN
+	1    17100 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17950 1550 17950 1850
+Wire Wire Line
+	15900 1550 15900 1850
+Connection ~ 19300 3950
+Connection ~ 15450 3950
+Connection ~ 17400 3950
+Wire Wire Line
+	16200 1350 16200 1850
+Wire Wire Line
+	18050 1850 18050 1250
+Wire Wire Line
+	18250 1850 18250 1150
+Wire Wire Line
+	18150 1350 18150 1850
+Wire Wire Line
+	20050 1350 20050 1850
+Wire Wire Line
+	19950 1850 19950 1250
+Wire Wire Line
+	16100 1850 16100 1250
+Wire Wire Line
+	16300 1850 16300 1150
+Wire Wire Line
+	15700 3950 15800 3950
+Connection ~ 15700 3950
+Wire Wire Line
+	15800 3950 15900 3950
+Connection ~ 15800 3950
+Wire Wire Line
+	15900 3950 16000 3950
+Connection ~ 15900 3950
+Wire Wire Line
+	16000 3950 16100 3950
+Connection ~ 16000 3950
+Wire Wire Line
+	16100 3950 16200 3950
+Connection ~ 16100 3950
+Wire Wire Line
+	16200 3950 16300 3950
+Connection ~ 16200 3950
+Wire Wire Line
+	16300 3950 16400 3950
+Connection ~ 16300 3950
+Wire Wire Line
+	15450 3950 15700 3950
+Wire Wire Line
+	15450 1750 15450 3950
+Wire Wire Line
+	15600 1750 15450 1750
+Wire Wire Line
+	17000 1750 16500 1750
+Connection ~ 17000 1750
+Wire Wire Line
+	17100 1750 17000 1750
+Wire Wire Line
+	16500 1750 16500 1850
+Wire Wire Line
+	15600 1750 15600 1850
+$Comp
+L Switch:SW_SPST SW4
+U 1 1 62EE16D7
+P 16000 3750
+F 0 "SW4" H 16000 3985 50  0000 C CNN
+F 1 "SW_SPST" H 16000 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 16000 3750 50  0001 C CNN
+F 3 "~" H 16000 3750 50  0001 C CNN
+	1    16000 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15800 3550 15800 3300
+Wire Wire Line
+	16000 3550 16000 3100
+Wire Wire Line
+	15700 3400 15700 3550
+Connection ~ 15700 3400
+Wire Wire Line
+	15700 2650 15700 3400
+Wire Wire Line
+	16600 3400 15700 3400
+Wire Wire Line
+	15800 3300 15800 2650
+Connection ~ 15800 3300
+Wire Wire Line
+	16600 3300 15800 3300
+Wire Wire Line
+	15900 3200 15900 3550
+Connection ~ 15900 3200
+Wire Wire Line
+	16600 3200 15900 3200
+Wire Wire Line
+	16000 3100 16000 2650
+Connection ~ 16000 3100
+Wire Wire Line
+	16600 3100 16000 3100
+Wire Wire Line
+	16100 3000 16100 3550
+Connection ~ 16100 3000
+Wire Wire Line
+	16600 3000 16100 3000
+Wire Wire Line
+	16200 2900 16200 3550
+Connection ~ 16200 2900
+Wire Wire Line
+	16600 2900 16200 2900
+Wire Wire Line
+	16300 2800 16300 3550
+Connection ~ 16300 2800
+Wire Wire Line
+	16600 2800 16300 2800
+Wire Wire Line
+	16400 2700 16400 3550
+Connection ~ 16400 2700
+Wire Wire Line
+	16600 2700 16400 2700
+Wire Wire Line
+	15900 2650 15900 3200
+Wire Wire Line
+	16100 2650 16100 3000
+Wire Wire Line
+	16200 2650 16200 2900
+Wire Wire Line
+	16300 2650 16300 2800
+Wire Wire Line
+	16400 2650 16400 2700
+$Comp
+L Switch:SW_SPST SW7
+U 1 1 62EE16B1
+P 16300 3750
+F 0 "SW7" H 16300 3985 50  0000 C CNN
+F 1 "SW_SPST" H 16300 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 16300 3750 50  0001 C CNN
+F 3 "~" H 16300 3750 50  0001 C CNN
+	1    16300 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 62EE16AB
+P 15700 3750
+F 0 "SW1" H 15700 3985 50  0000 C CNN
+F 1 "SW_SPST" H 15700 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 15700 3750 50  0001 C CNN
+F 3 "~" H 15700 3750 50  0001 C CNN
+	1    15700 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 62EE16A5
+P 15800 3750
+F 0 "SW2" H 15800 3985 50  0000 C CNN
+F 1 "SW_SPST" H 15800 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 15800 3750 50  0001 C CNN
+F 3 "~" H 15800 3750 50  0001 C CNN
+	1    15800 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW3
+U 1 1 62EE169F
+P 15900 3750
+F 0 "SW3" H 15900 3985 50  0000 C CNN
+F 1 "SW_SPST" H 15900 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 15900 3750 50  0001 C CNN
+F 3 "~" H 15900 3750 50  0001 C CNN
+	1    15900 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW5
+U 1 1 62EE1699
+P 16100 3750
+F 0 "SW5" H 16100 3985 50  0000 C CNN
+F 1 "SW_SPST" H 16100 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 16100 3750 50  0001 C CNN
+F 3 "~" H 16100 3750 50  0001 C CNN
+	1    16100 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW6
+U 1 1 62EE1693
+P 16200 3750
+F 0 "SW6" H 16200 3985 50  0000 C CNN
+F 1 "SW_SPST" H 16200 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 16200 3750 50  0001 C CNN
+F 3 "~" H 16200 3750 50  0001 C CNN
+	1    16200 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW8
+U 1 1 62EE168D
+P 16400 3750
+F 0 "SW8" H 16400 3985 50  0000 C CNN
+F 1 "SW_SPST" H 16400 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 16400 3750 50  0001 C CNN
+F 3 "~" H 16400 3750 50  0001 C CNN
+	1    16400 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-IC-Logic:74HC165D U1
+U 1 1 62EE1674
+P 16000 2250
+F 0 "U1" H 16000 3004 45  0000 C CNN
+F 1 "74HC165D" H 16000 2920 45  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 16000 2950 20  0001 C CNN
+F 3 "" H 16000 2250 50  0001 C CNN
+F 4 "" H 16000 2250 60  0001 C CNN "Field4"
+	1    16000 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDPWR #PWR0104
+U 1 1 62EE166D
+P 15450 3950
+F 0 "#PWR0104" H 15450 3750 50  0001 C CNN
+F 1 "GNDPWR" H 15454 3796 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15450 3900 50  0001 C CNN
+F 3 "" H 15450 3900 50  0001 C CNN
+	1    15450 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17650 3950 17750 3950
+Connection ~ 17650 3950
+Wire Wire Line
+	17750 3950 17850 3950
+Connection ~ 17750 3950
+Wire Wire Line
+	17850 3950 17950 3950
+Connection ~ 17850 3950
+Wire Wire Line
+	17950 3950 18050 3950
+Connection ~ 17950 3950
+Wire Wire Line
+	18050 3950 18150 3950
+Connection ~ 18050 3950
+Wire Wire Line
+	18150 3950 18250 3950
+Connection ~ 18150 3950
+Wire Wire Line
+	18250 3950 18350 3950
+Connection ~ 18250 3950
+Wire Wire Line
+	17400 3950 17650 3950
+Wire Wire Line
+	17400 1750 17400 3950
+Wire Wire Line
+	17550 1750 17400 1750
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 62EDAE1A
+P 19050 1750
+F 0 "#PWR0103" H 19050 1600 50  0001 C CNN
+F 1 "+3.3V" H 19065 1923 50  0000 C CNN
+F 2 "" H 19050 1750 50  0001 C CNN
+F 3 "" H 19050 1750 50  0001 C CNN
+	1    19050 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18450 1750 18450 1850
+Wire Wire Line
+	17550 1750 17550 1850
+$Comp
+L Switch:SW_SPST SW12
+U 1 1 62EDAE12
+P 17950 3750
+F 0 "SW12" H 17950 3985 50  0000 C CNN
+F 1 "SW_SPST" H 17950 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 17950 3750 50  0001 C CNN
+F 3 "~" H 17950 3750 50  0001 C CNN
+	1    17950 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17750 3550 17750 3300
+Wire Wire Line
+	17950 3550 17950 3100
+Wire Wire Line
+	17650 3400 17650 3550
+Connection ~ 17650 3400
+Wire Wire Line
+	17650 2650 17650 3400
+Wire Wire Line
+	18550 3400 17650 3400
+Wire Wire Line
+	17750 3300 17750 2650
+Connection ~ 17750 3300
+Wire Wire Line
+	18550 3300 17750 3300
+Wire Wire Line
+	17850 3200 17850 3550
+Connection ~ 17850 3200
+Wire Wire Line
+	18550 3200 17850 3200
+Wire Wire Line
+	17950 3100 17950 2650
+Connection ~ 17950 3100
+Wire Wire Line
+	18550 3100 17950 3100
+Wire Wire Line
+	18050 3000 18050 3550
+Connection ~ 18050 3000
+Wire Wire Line
+	18550 3000 18050 3000
+Wire Wire Line
+	18150 2900 18150 3550
+Connection ~ 18150 2900
+Wire Wire Line
+	18550 2900 18150 2900
+Wire Wire Line
+	18250 2800 18250 3550
+Connection ~ 18250 2800
+Wire Wire Line
+	18550 2800 18250 2800
+Wire Wire Line
+	18350 2700 18350 3550
+Connection ~ 18350 2700
+Wire Wire Line
+	18550 2700 18350 2700
+Wire Wire Line
+	17850 2650 17850 3200
+Wire Wire Line
+	18050 2650 18050 3000
+Wire Wire Line
+	18150 2650 18150 2900
+Wire Wire Line
+	18250 2650 18250 2800
+Wire Wire Line
+	18350 2650 18350 2700
+$Comp
+L Switch:SW_SPST SW15
+U 1 1 62EDADEC
+P 18250 3750
+F 0 "SW15" H 18250 3985 50  0000 C CNN
+F 1 "SW_SPST" H 18250 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 18250 3750 50  0001 C CNN
+F 3 "~" H 18250 3750 50  0001 C CNN
+	1    18250 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW9
+U 1 1 62EDADE6
+P 17650 3750
+F 0 "SW9" H 17650 3985 50  0000 C CNN
+F 1 "SW_SPST" H 17650 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 17650 3750 50  0001 C CNN
+F 3 "~" H 17650 3750 50  0001 C CNN
+	1    17650 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW10
+U 1 1 62EDADE0
+P 17750 3750
+F 0 "SW10" H 17750 3985 50  0000 C CNN
+F 1 "SW_SPST" H 17750 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 17750 3750 50  0001 C CNN
+F 3 "~" H 17750 3750 50  0001 C CNN
+	1    17750 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW11
+U 1 1 62EDADDA
+P 17850 3750
+F 0 "SW11" H 17850 3985 50  0000 C CNN
+F 1 "SW_SPST" H 17850 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 17850 3750 50  0001 C CNN
+F 3 "~" H 17850 3750 50  0001 C CNN
+	1    17850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW13
+U 1 1 62EDADD4
+P 18050 3750
+F 0 "SW13" H 18050 3985 50  0000 C CNN
+F 1 "SW_SPST" H 18050 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 18050 3750 50  0001 C CNN
+F 3 "~" H 18050 3750 50  0001 C CNN
+	1    18050 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW14
+U 1 1 62EDADCE
+P 18150 3750
+F 0 "SW14" H 18150 3985 50  0000 C CNN
+F 1 "SW_SPST" H 18150 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 18150 3750 50  0001 C CNN
+F 3 "~" H 18150 3750 50  0001 C CNN
+	1    18150 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW16
+U 1 1 62EDADC8
+P 18350 3750
+F 0 "SW16" H 18350 3985 50  0000 C CNN
+F 1 "SW_SPST" H 18350 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 18350 3750 50  0001 C CNN
+F 3 "~" H 18350 3750 50  0001 C CNN
+	1    18350 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-IC-Logic:74HC165D U2
+U 1 1 62EDADAF
+P 17950 2250
+F 0 "U2" H 17950 3004 45  0000 C CNN
+F 1 "74HC165D" H 17950 2920 45  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 17950 2950 20  0001 C CNN
+F 3 "" H 17950 2250 50  0001 C CNN
+F 4 "" H 17950 2250 60  0001 C CNN "Field4"
+	1    17950 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDPWR #PWR0102
+U 1 1 62EDADA8
+P 17400 3950
+F 0 "#PWR0102" H 17400 3750 50  0001 C CNN
+F 1 "GNDPWR" H 17404 3796 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 17400 3900 50  0001 C CNN
+F 3 "" H 17400 3900 50  0001 C CNN
+	1    17400 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19550 3950 19650 3950
+Connection ~ 19550 3950
+Wire Wire Line
+	19650 3950 19750 3950
+Connection ~ 19650 3950
+Wire Wire Line
+	19750 3950 19850 3950
+Connection ~ 19750 3950
+Wire Wire Line
+	19850 3950 19950 3950
+Connection ~ 19850 3950
+Connection ~ 19950 3950
+Wire Wire Line
+	19300 3950 19550 3950
+Wire Wire Line
+	19300 1750 19300 3950
+Wire Wire Line
+	19450 1750 19300 1750
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 62EBC96F
+P 20950 1750
+F 0 "#PWR0101" H 20950 1600 50  0001 C CNN
+F 1 "+3.3V" H 20965 1923 50  0000 C CNN
+F 2 "" H 20950 1750 50  0001 C CNN
+F 3 "" H 20950 1750 50  0001 C CNN
+	1    20950 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	20350 1750 20350 1850
+Wire Wire Line
+	19450 1750 19450 1850
+$Comp
+L Switch:SW_SPST SW20
+U 1 1 62EB07AA
+P 19850 3750
+F 0 "SW20" H 19850 3985 50  0000 C CNN
+F 1 "SW_SPST" H 19850 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 19850 3750 50  0001 C CNN
+F 3 "~" H 19850 3750 50  0001 C CNN
+	1    19850 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19650 3550 19650 3300
+Wire Wire Line
+	19850 3550 19850 3100
+Wire Wire Line
+	19550 3400 19550 3550
+Connection ~ 19550 3400
+Wire Wire Line
+	19550 2650 19550 3400
+Wire Wire Line
+	20450 3400 19550 3400
+Wire Wire Line
+	19650 3300 19650 2650
+Connection ~ 19650 3300
+Wire Wire Line
+	20450 3300 19650 3300
+Wire Wire Line
+	19750 3200 19750 3550
+Connection ~ 19750 3200
+Wire Wire Line
+	20450 3200 19750 3200
+Wire Wire Line
+	19850 3100 19850 2650
+Connection ~ 19850 3100
+Wire Wire Line
+	20450 3100 19850 3100
+Wire Wire Line
+	19950 3000 19950 3550
+Connection ~ 19950 3000
+Wire Wire Line
+	20450 3000 19950 3000
+Wire Wire Line
+	20050 2900 20050 3550
+Connection ~ 20050 2900
+Wire Wire Line
+	20450 2900 20050 2900
+Wire Wire Line
+	20150 2800 20150 3550
+Connection ~ 20150 2800
+Wire Wire Line
+	20450 2800 20150 2800
+Wire Wire Line
+	20250 2700 20250 3550
+Connection ~ 20250 2700
+Wire Wire Line
+	20450 2700 20250 2700
+Wire Wire Line
+	19750 2650 19750 3200
+Wire Wire Line
+	19950 2650 19950 3000
+Wire Wire Line
+	20050 2650 20050 2900
+Wire Wire Line
+	20150 2650 20150 2800
+Wire Wire Line
+	20250 2650 20250 2700
+$Comp
+L Switch:SW_SPST SW17
+U 1 1 62EB0D04
+P 19550 3750
+F 0 "SW17" H 19550 3985 50  0000 C CNN
+F 1 "SW_SPST" H 19550 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 19550 3750 50  0001 C CNN
+F 3 "~" H 19550 3750 50  0001 C CNN
+	1    19550 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW18
+U 1 1 62EB0CFE
+P 19650 3750
+F 0 "SW18" H 19650 3985 50  0000 C CNN
+F 1 "SW_SPST" H 19650 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 19650 3750 50  0001 C CNN
+F 3 "~" H 19650 3750 50  0001 C CNN
+	1    19650 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW19
+U 1 1 62EB07B0
+P 19750 3750
+F 0 "SW19" H 19750 3985 50  0000 C CNN
+F 1 "SW_SPST" H 19750 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 19750 3750 50  0001 C CNN
+F 3 "~" H 19750 3750 50  0001 C CNN
+	1    19750 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW21
+U 1 1 62EB0570
+P 19950 3750
+F 0 "SW21" H 19950 3985 50  0000 C CNN
+F 1 "SW_SPST" H 19950 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 19950 3750 50  0001 C CNN
+F 3 "~" H 19950 3750 50  0001 C CNN
+	1    19950 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-IC-Logic:74HC165D U3
+U 1 1 62E44DCD
+P 19850 2250
+F 0 "U3" H 19850 3004 45  0000 C CNN
+F 1 "74HC165D" H 19850 2920 45  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 19850 2950 20  0001 C CNN
+F 3 "" H 19850 2250 50  0001 C CNN
+F 4 "" H 19850 2250 60  0001 C CNN "Field4"
+	1    19850 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDPWR #PWR04
+U 1 1 60DB9A1C
+P 19300 3950
+F 0 "#PWR04" H 19300 3750 50  0001 C CNN
+F 1 "GNDPWR" H 19304 3796 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 19300 3900 50  0001 C CNN
+F 3 "" H 19300 3900 50  0001 C CNN
+	1    19300 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 10250 1250
+Connection ~ 10350 1350
+Connection ~ 10450 1150
+Wire Wire Line
+	10450 1150 12400 1150
+Wire Wire Line
+	10250 1250 12200 1250
+Wire Wire Line
+	10350 1350 12300 1350
+Connection ~ 12200 1250
+Connection ~ 12300 1350
+Connection ~ 12400 1150
+Wire Wire Line
+	12300 1350 14250 1350
+Wire Wire Line
+	12200 1250 14150 1250
+Wire Wire Line
+	12400 1150 14350 1150
+Connection ~ 14150 1250
+Connection ~ 14250 1350
+Connection ~ 14350 1150
+Connection ~ 16100 1250
+Connection ~ 16200 1350
+Connection ~ 16300 1150
+Connection ~ 18050 1250
+Connection ~ 18150 1350
+Connection ~ 18250 1150
+Connection ~ 19950 1250
+Connection ~ 20050 1350
+Connection ~ 20150 1150
+Wire Wire Line
+	18150 1350 20050 1350
+Wire Wire Line
+	18050 1250 19950 1250
+Wire Wire Line
+	18250 1150 20150 1150
+Wire Wire Line
+	14250 1350 16200 1350
+Wire Wire Line
+	16200 1350 18150 1350
+Wire Wire Line
+	14150 1250 16100 1250
+Wire Wire Line
+	16100 1250 18050 1250
+Wire Wire Line
+	14350 1150 16300 1150
+Wire Wire Line
+	16300 1150 18250 1150
+Wire Wire Line
+	12100 1550 13950 1550
+Wire Wire Line
+	12000 1550 10150 1550
+Wire Wire Line
+	10050 1550 8150 1550
+Wire Wire Line
+	22050 1150 22050 1850
+NoConn ~ 21550 1850
+NoConn ~ 21750 1850
+Wire Wire Line
+	19850 1550 21650 1550
+Wire Wire Line
+	21650 1850 21650 1550
+Wire Wire Line
+	22750 3300 22750 3200
+Connection ~ 22750 3300
+Wire Wire Line
+	22750 3200 22750 3100
+Connection ~ 22750 3200
+Wire Wire Line
+	22750 3100 22750 3000
+Connection ~ 22750 3100
+Wire Wire Line
+	22750 3000 22750 2900
+Connection ~ 22750 3000
+Wire Wire Line
+	22750 2900 22750 2800
+Connection ~ 22750 2900
+Wire Wire Line
+	22750 2800 22750 2700
+Connection ~ 22750 2800
+Wire Wire Line
+	22750 2700 22750 1750
+Connection ~ 22750 2700
+Wire Wire Line
+	22750 1750 22850 1750
+Connection ~ 22750 1750
+Wire Wire Line
+	22750 3400 22750 3300
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 638F2558
+P 22550 3300
+F 0 "RN?" V 22133 3300 50  0000 C CNN
+F 1 "R_Pack04" V 22224 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 22825 3300 50  0001 C CNN
+F 3 "~" H 22550 3300 50  0001 C CNN
+	1    22550 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 638F255E
+P 22550 2900
+F 0 "RN?" V 22133 2900 50  0000 C CNN
+F 1 "R_Pack04" V 22224 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 22825 2900 50  0001 C CNN
+F 3 "~" H 22550 2900 50  0001 C CNN
+	1    22550 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	22250 1750 22750 1750
+Connection ~ 21200 3950
+Wire Wire Line
+	21950 1350 21950 1850
+Wire Wire Line
+	21450 3950 21550 3950
+Connection ~ 21450 3950
+Wire Wire Line
+	21200 3950 21450 3950
+Wire Wire Line
+	21200 1750 21200 3950
+Wire Wire Line
+	21350 1750 21200 1750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 638F2574
+P 22850 1750
+F 0 "#PWR?" H 22850 1600 50  0001 C CNN
+F 1 "+3.3V" H 22865 1923 50  0000 C CNN
+F 2 "" H 22850 1750 50  0001 C CNN
+F 3 "" H 22850 1750 50  0001 C CNN
+	1    22850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22250 1750 22250 1850
+Wire Wire Line
+	21350 1750 21350 1850
+Wire Wire Line
+	21550 3550 21550 3300
+Wire Wire Line
+	21450 3400 21450 3550
+Connection ~ 21450 3400
+Wire Wire Line
+	21450 2650 21450 3400
+Wire Wire Line
+	22350 3400 21450 3400
+Wire Wire Line
+	21550 3300 21550 2650
+Connection ~ 21550 3300
+Wire Wire Line
+	22350 3300 21550 3300
+Connection ~ 21650 3200
+Wire Wire Line
+	22350 3200 21650 3200
+Wire Wire Line
+	21750 3100 21750 2650
+Connection ~ 21750 3100
+Wire Wire Line
+	22350 3100 21750 3100
+Connection ~ 21850 3000
+Wire Wire Line
+	22350 3000 21850 3000
+Wire Wire Line
+	21950 2900 21950 3550
+Connection ~ 21950 2900
+Wire Wire Line
+	22350 2900 21950 2900
+Wire Wire Line
+	22050 2800 22050 3550
+Connection ~ 22050 2800
+Wire Wire Line
+	22350 2800 22050 2800
+Wire Wire Line
+	22150 2700 22150 3550
+Connection ~ 22150 2700
+Wire Wire Line
+	22350 2700 22150 2700
+Wire Wire Line
+	21650 2650 21650 3200
+Wire Wire Line
+	21850 2650 21850 3000
+Wire Wire Line
+	21950 2650 21950 2900
+Wire Wire Line
+	22050 2650 22050 2800
+Wire Wire Line
+	22150 2650 22150 2700
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 638F25A2
+P 21450 3750
+F 0 "SW?" H 21450 3985 50  0000 C CNN
+F 1 "SW_SPST" H 21450 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 21450 3750 50  0001 C CNN
+F 3 "~" H 21450 3750 50  0001 C CNN
+	1    21450 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 638F25A8
+P 21550 3750
+F 0 "SW?" H 21550 3985 50  0000 C CNN
+F 1 "SW_SPST" H 21550 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile" H 21550 3750 50  0001 C CNN
+F 3 "~" H 21550 3750 50  0001 C CNN
+	1    21550 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-IC-Logic:74HC165D U?
+U 1 1 638F25BB
+P 21750 2250
+F 0 "U?" H 21750 3004 45  0000 C CNN
+F 1 "74HC165D" H 21750 2920 45  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 21750 2950 20  0001 C CNN
+F 3 "" H 21750 2250 50  0001 C CNN
+F 4 "" H 21750 2250 60  0001 C CNN "Field4"
+	1    21750 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 638F25C1
+P 21200 3950
+F 0 "#PWR?" H 21200 3750 50  0001 C CNN
+F 1 "GNDPWR" H 21204 3796 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 21200 3900 50  0001 C CNN
+F 3 "" H 21200 3900 50  0001 C CNN
+	1    21200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19850 1850 19850 1550
+Wire Wire Line
+	22000 4000 21650 4000
+Wire Wire Line
+	21650 3200 21650 4000
+Wire Wire Line
+	22000 4200 21750 4200
+Wire Wire Line
+	21750 3100 21750 4200
+Wire Wire Line
+	22000 4100 21550 4100
+Wire Wire Line
+	21550 4100 21550 3950
+Connection ~ 21550 3950
+Wire Wire Line
+	22600 4000 22600 3850
+Wire Wire Line
+	22600 3850 21850 3850
+Wire Wire Line
+	21850 3000 21850 3850
+Wire Wire Line
+	22600 4200 22600 4100
+Wire Wire Line
+	22600 4100 22000 4100
+Connection ~ 22000 4100
+$Comp
+L LED:WS2812B D?
+U 1 1 63EF1057
+P 8750 8250
+F 0 "D?" H 9094 8296 50  0000 L CNN
+F 1 "WS2812B" H 9094 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8800 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8850 7875 50  0001 L TNN
+	1    8750 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 63EF105D
+P 8750 7950
+F 0 "#PWR?" H 8750 7800 50  0001 C CNN
+F 1 "+3.3V" H 8765 8123 50  0000 C CNN
+F 2 "" H 8750 7950 50  0001 C CNN
+F 3 "" H 8750 7950 50  0001 C CNN
+	1    8750 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 63EF1063
+P 8750 8550
+F 0 "#PWR?" H 8750 8350 50  0001 C CNN
+F 1 "GNDPWR" H 8754 8396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8750 8500 50  0001 C CNN
+F 3 "" H 8750 8500 50  0001 C CNN
+	1    8750 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 8250 9350 8250
+$Comp
+L LED:WS2812B D?
+U 1 1 63EF106A
+P 9650 8250
+F 0 "D?" H 9994 8296 50  0000 L CNN
+F 1 "WS2812B" H 9994 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9700 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9750 7875 50  0001 L TNN
+	1    9650 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 63EF1070
+P 9650 7950
+F 0 "#PWR?" H 9650 7800 50  0001 C CNN
+F 1 "+3.3V" H 9665 8123 50  0000 C CNN
+F 2 "" H 9650 7950 50  0001 C CNN
+F 3 "" H 9650 7950 50  0001 C CNN
+	1    9650 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 63EF1076
+P 9650 8550
+F 0 "#PWR?" H 9650 8350 50  0001 C CNN
+F 1 "GNDPWR" H 9654 8396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9650 8500 50  0001 C CNN
+F 3 "" H 9650 8500 50  0001 C CNN
+	1    9650 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 63EF107C
+P 10550 8250
+F 0 "D?" H 10894 8296 50  0000 L CNN
+F 1 "WS2812B" H 10894 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10600 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10650 7875 50  0001 L TNN
+	1    10550 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 63EF1082
+P 10550 7950
+F 0 "#PWR?" H 10550 7800 50  0001 C CNN
+F 1 "+3.3V" H 10565 8123 50  0000 C CNN
+F 2 "" H 10550 7950 50  0001 C CNN
+F 3 "" H 10550 7950 50  0001 C CNN
+	1    10550 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 63EF1088
+P 10550 8550
+F 0 "#PWR?" H 10550 8350 50  0001 C CNN
+F 1 "GNDPWR" H 10554 8396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10550 8500 50  0001 C CNN
+F 3 "" H 10550 8500 50  0001 C CNN
+	1    10550 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 8250 10250 8250
+Wire Wire Line
+	10850 8250 11150 8250
+$Comp
+L LED:WS2812B D?
+U 1 1 63EF1090
+P 11450 8250
+F 0 "D?" H 11794 8296 50  0000 L CNN
+F 1 "WS2812B" H 11794 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11500 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11550 7875 50  0001 L TNN
+	1    11450 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 63EF1096
+P 11450 7950
+F 0 "#PWR?" H 11450 7800 50  0001 C CNN
+F 1 "+3.3V" H 11465 8123 50  0000 C CNN
+F 2 "" H 11450 7950 50  0001 C CNN
+F 3 "" H 11450 7950 50  0001 C CNN
+	1    11450 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 63EF109C
+P 11450 8550
+F 0 "#PWR?" H 11450 8350 50  0001 C CNN
+F 1 "GNDPWR" H 11454 8396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 11450 8500 50  0001 C CNN
+F 3 "" H 11450 8500 50  0001 C CNN
+	1    11450 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 63EF10A2
+P 12350 8250
+F 0 "D?" H 12694 8296 50  0000 L CNN
+F 1 "WS2812B" H 12694 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12400 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12450 7875 50  0001 L TNN
+	1    12350 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 63EF10A8
+P 12350 7950
+F 0 "#PWR?" H 12350 7800 50  0001 C CNN
+F 1 "+3.3V" H 12365 8123 50  0000 C CNN
+F 2 "" H 12350 7950 50  0001 C CNN
+F 3 "" H 12350 7950 50  0001 C CNN
+	1    12350 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 63EF10AE
+P 12350 8550
+F 0 "#PWR?" H 12350 8350 50  0001 C CNN
+F 1 "GNDPWR" H 12354 8396 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12350 8500 50  0001 C CNN
+F 3 "" H 12350 8500 50  0001 C CNN
+	1    12350 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 8250 12050 8250
+Wire Wire Line
+	12650 8250 12950 8250
+NoConn ~ 12950 8250
+Wire Wire Line
+	20150 1150 22050 1150
+Wire Wire Line
+	20050 1350 21950 1350
+Wire Wire Line
+	19950 1250 21850 1250
+Wire Wire Line
+	21850 1850 21850 1250
+Connection ~ 21850 1250
+Wire Wire Line
+	21850 1250 22250 1250
+Wire Wire Line
+	21950 1350 22250 1350
+Connection ~ 21950 1350
+Wire Wire Line
+	22050 1150 22250 1150
+Connection ~ 22050 1150
+Text Label 22250 1250 0    50   ~ 0
+SCAN_CE
+Text Label 22250 1150 0    50   ~ 0
+SCAN_PL
+Text Label 22250 1350 0    50   ~ 0
+SPI1_CLK
+Wire Wire Line
+	1500 1550 1100 1550
+$EndSCHEMATC
