@@ -1,4 +1,4 @@
-20771686483102972
+20779999858739838
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -81921,6 +81921,27 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 48
 48
 Switch_Keyboard_Alps_Matias
+LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
+0
+4
+4
+Switch_Keyboard_Alps_Matias
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+Switch_Keyboard_Alps_Matias
+MountingHole_5.3mm_M5_DIN965
+Mounting Hole 5.3mm, no annular, M5, DIN965
+mounting hole 5.3mm no annular m5 din965
+0
+0
+0
+Switch_Keyboard_Alps_Matias
 SW_Alps_Matias
 Alps/Matias keyswitch
 Alps Matias Keyboard Keyswitch Switch Plate Cutout
@@ -82046,6 +82067,13 @@ Alps Matias Keyboard Keyswitch Switch Plate Cutout ISOEnter
 0
 4
 2
+Switch_Keyboard_Alps_Matias
+lp_logo
+
+
+0
+0
+0
 Switch_Keyboard_Cherry_MX
 SW_Cherry_MX_PCB
 Cherry MX keyswitch PCB Mount
@@ -82466,6 +82494,13 @@ Cherry MX Keyboard Keyswitch Switch Plate Cutout ISOEnter 270deg
 0
 4
 2
+Switch_Keyboard_Hotswap_Kailh
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
 Switch_Keyboard_Hotswap_Kailh
 SW_Hotswap_Kailh_Choc_V1
 Kailh keyswitch Hotswap Socket
