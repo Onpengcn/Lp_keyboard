@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 48)
+    (start_pass_no 20)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -29,6 +29,7 @@
     (width 200.0)
     (clear 180.2)
     (clear 100.0 (type smd_to_turn_gap))
+    (clear 45.0 (type smd_smd))
   )
   (padstack "Via[0-1]_800:400_um"
     (shape
@@ -92,7 +93,7 @@
     "Net-(U12-Pad42)" "Net-(U12-Pad41)" "Net-(U12-Pad38)" "Net-(U12-Pad31)" "Net-(U12-Pad30)" "Net-(U12-Pad29)" "/SPI2_CLK" "Net-(U12-Pad25)"
     "Net-(U12-Pad22)" "Net-(U12-Pad21)" "Net-(U12-Pad20)" "Net-(U12-Pad19)" "Net-(U12-Pad18)" "Net-(U12-Pad17)" "Net-(U12-Pad14)" "Net-(U12-Pad13)"
     "Net-(U12-Pad12)" "Net-(U12-Pad11)" "Net-(U12-Pad10)" "Net-(U12-Pad4)" "Net-(U12-Pad3)" "Net-(U12-Pad2)" "Net-(U12-Pad1)" "Net-(D86-Pad2)"
-    "/CAPS_LED"
+    "/CAPS_LED" +5V "Net-(D83-Pad2)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

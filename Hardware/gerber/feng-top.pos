@@ -1,4 +1,4 @@
-### Module positions - created on 08/23/22 22:03:14 ###
+### Module positions - created on 09/12/22 19:20:34 ###
 ### Printed by Pcbnew version kicad (5.1.6)-1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -85,20 +85,22 @@ D79       WS2812B   LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm   366.0140  -225.8060    
 D80       WS2812B   LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm   385.3180  -225.8060    0.0000  top
 D81       WS2812B   LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm   416.3060  -225.8060    0.0000  top
 D82       WS2812B   LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm   282.9560  -263.9060    0.0000  top
-D86       LED       LED_0805_2012Metric                  444.0000  -179.0000  270.0000  top
-R8        1K        0805                                 444.1970  -183.2290  270.0000  top
-SW1       SW_SPST   SW_Hotswap_Kailh_MX_1.00u            452.0400  -263.8000    0.0000  top
+D83       LED       LED_0805_2012Metric                  465.4200  -170.5300  180.0000  top
+D86       LED       LED_0805_2012Metric                  442.3000  -176.9000  270.0000  top
+R8        1K        0805                                 442.4970  -181.1290  270.0000  top
+R9        1K        0805                                 460.2200  -170.6300  180.0000  top
+SW1       SW_SPST   SW_Hotswap_Kailh_MX_1.00u            452.0400  -262.1000    0.0000  top
 SW2       SW_SPST   SW_Hotswap_Kailh_MX_1.00u            299.6820  -239.9920    0.0000  top
 SW3       SW_SPST   SW_Hotswap_Kailh_MX_1.00u            242.5320  -239.9920    0.0000  top
 SW4       SW_SPST   SW_Hotswap_Kailh_MX_1.00u            261.5820  -239.9920    0.0000  top
 SW5       SW_SPST   SW_Hotswap_Kailh_MX_1.00u            318.7320  -239.9920    0.0000  top
-SW6       SW_SPST   SW_Hotswap_Kailh_MX_1.00u            432.9810  -263.7970    0.0000  top
+SW6       SW_SPST   SW_Hotswap_Kailh_MX_1.00u            432.9810  -262.0970    0.0000  top
 SW7       SW_SPST   SW_Hotswap_Kailh_MX_1.00u            282.9660  -259.0370    0.0000  top
 SW8       SW_SPST   SW_Hotswap_Kailh_MX_1.00u            280.6320  -239.9920    0.0000  top
 SW9       SW_SPST   SW_Hotswap_Kailh_MX_1.00u            323.5070  -201.8920    0.0000  top
 SW10      SW_SPST   SW_Hotswap_Kailh_MX_1.00u            228.2190  -201.8920    0.0000  top
 SW11      SW_SPST   SW_Hotswap_Kailh_MX_1.00u            204.3870  -239.9920    0.0000  top
-SW12      SW_SPST   SW_Hotswap_Kailh_MX_1.00u            413.9360  -263.8000    0.0000  top
+SW12      SW_SPST   SW_Hotswap_Kailh_MX_1.00u            413.9360  -262.1000    0.0000  top
 SW13      SW_SPST   SW_Hotswap_Kailh_MX_1.00u            247.3200  -201.8920    0.0000  top
 SW14      SW_SPST   SW_Hotswap_Kailh_MX_1.00u            333.0830  -182.8290  180.0000  top
 SW15      SW_SPST   SW_Hotswap_Kailh_MX_1.00u            232.9630  -220.9390    0.0000  top

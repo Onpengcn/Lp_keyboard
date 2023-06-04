@@ -1,26 +1,30 @@
-### Module positions - created on 08/23/22 22:03:14 ###
+### Module positions - created on 09/12/22 19:20:34 ###
 ### Printed by Pcbnew version kicad (5.1.6)-1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val                      Package                                PosX       PosY       Rot  Side
-C1        0.1uf                    0805                              -241.1550  -263.8980  270.0000  bottom
-C2        22pf                     0805                              -251.7930  -254.5440   90.0000  bottom
-C3        10uf                     0805                              -233.8350  -263.9120  180.0000  bottom
-C4        0.1uf                    0805                              -238.0240  -263.9120  180.0000  bottom
-C5        0.1uf                    0805                              -230.1300  -253.6800   90.0000  bottom
-C6        0.1uf                    0805                              -240.3300  -250.1000    0.0000  bottom
-C7        0.1uf                    0805                              -243.7900  -259.8800  270.0000  bottom
-C8        22pf                     0805                              -251.7930  -259.2500  270.0000  bottom
+C1        0.1uf                    0805                              -329.6550  -265.4980  270.0000  bottom
+C2        22pf                     0805                              -303.4930  -261.9440   90.0000  bottom
+C3        10uf                     0805                              -322.3350  -265.5120  180.0000  bottom
+C4        0.1uf                    0805                              -326.5240  -265.5120  180.0000  bottom
+C5        0.1uf                    0805                              -318.6300  -255.2800   90.0000  bottom
+C6        0.1uf                    0805                              -328.8300  -251.7000    0.0000  bottom
+C7        0.1uf                    0805                              -332.2900  -261.4800  270.0000  bottom
+C8        22pf                     0805                              -303.4930  -266.6500  270.0000  bottom
+C9        10uf                     0805                              -218.6200  -171.6300   90.0000  bottom
+C10       0.1uf                    0805                              -221.9200  -171.6300   90.0000  bottom
+C11       10uf                     0805                              -236.4200  -172.0900   90.0000  bottom
+C12       0.1uf                    0805                              -240.4200  -172.0900   90.0000  bottom
 J2        USB_C_Receptacle_USB2.0  USB_C_Receptacle_Palconn_UTC16-G  -214.3760  -152.4000    0.0000  bottom
-R1        10K                      0805                              -243.6190  -263.8910  270.0000  bottom
-R2        1M                       0805                              -260.8250  -256.8750  270.0000  bottom
+R1        10K                      0805                              -332.1190  -265.4910  270.0000  bottom
+R2        1M                       0805                              -312.5250  -264.2750  270.0000  bottom
 R3        5.1K                     0805                              -195.1500  -152.3400    0.0000  bottom
 R4        1K                       0805                              -195.1700  -149.8800    0.0000  bottom
-R5        22                       0805                              -212.3440  -158.4960  270.0000  bottom
-R6        22                       0805                              -215.3920  -161.5440   90.0000  bottom
-R7        1.5k                     0805                              -215.3920  -158.4960   90.0000  bottom
-RN1       R_Pack04                 R_Array_Convex_4x0603             -294.4400  -259.1100  180.0000  bottom
-RN2       R_Pack04                 R_Array_Convex_4x0603             -320.3900  -257.6200  180.0000  bottom
+R5        22                       0805                              -207.7200  -173.6300  270.0000  bottom
+R6        22                       0805                              -210.6200  -177.2300   90.0000  bottom
+R7        1.5k                     0805                              -210.6200  -173.7300   90.0000  bottom
+RN1       R_Pack04                 R_Array_Convex_4x0603             -249.9400  -252.5100  180.0000  bottom
+RN2       R_Pack04                 R_Array_Convex_4x0603             -224.0900  -258.6200  180.0000  bottom
 RN3       R_Pack04                 R_Array_Convex_4x0603             -175.4900  -165.5700  180.0000  bottom
 RN4       R_Pack04                 R_Array_Convex_4x0603             -267.7800  -171.5200   90.0000  bottom
 RN5       R_Pack04                 R_Array_Convex_4x0603             -321.5300  -170.5500  180.0000  bottom
@@ -29,9 +33,9 @@ RN7       R_Pack04                 R_Array_Convex_4x0603             -408.0400  
 RN8       R_Pack04                 R_Array_Convex_4x0603             -428.4800  -191.0800   90.0000  bottom
 RN9       R_Pack04                 R_Array_Convex_4x0603             -399.1200  -212.6500   90.0000  bottom
 RN10      R_Pack04                 R_Array_Convex_4x0603             -425.1500  -233.3800   90.0000  bottom
-RN11      R_Pack04                 R_Array_Convex_4x0603             -441.4600  -164.5000  270.0000  bottom
-RN12      R_Pack04                 R_Array_Convex_4x0603             -315.1700  -266.9500    0.0000  bottom
-RN13      R_Pack04                 R_Array_Convex_4x0603             -341.2500  -266.8900    0.0000  bottom
+RN11      R_Pack04                 R_Array_Convex_4x0603             -442.0200  -160.3300  270.0000  bottom
+RN12      R_Pack04                 R_Array_Convex_4x0603             -271.3200  -252.0300    0.0000  bottom
+RN13      R_Pack04                 R_Array_Convex_4x0603             -245.4200  -258.6300    0.0000  bottom
 RN14      R_Pack04                 R_Array_Convex_4x0603             -202.2700  -170.9000    0.0000  bottom
 RN15      R_Pack04                 R_Array_Convex_4x0603             -282.7100  -170.7700    0.0000  bottom
 RN16      R_Pack04                 R_Array_Convex_4x0603             -352.2000  -170.5500    0.0000  bottom
@@ -41,8 +45,8 @@ RN19      R_Pack04                 R_Array_Convex_4x0603             -428.3600  
 RN20      R_Pack04                 R_Array_Convex_4x0603             -407.7900  -229.6200    0.0000  bottom
 RN21      R_Pack04                 R_Array_Convex_4x0603             -415.7800  -234.8200  270.0000  bottom
 RN22      R_Pack04                 R_Array_Convex_4x0603             -441.3600  -189.9700   90.0000  bottom
-U1        74HC165D                 SOP-16_4.55x10.3mm_P1.27mm        -304.7700  -262.0400  270.0000  bottom
-U2        74HC165D                 SOP-16_4.55x10.3mm_P1.27mm        -330.9400  -261.7100  270.0000  bottom
+U1        74HC165D                 SOP-16_4.55x10.3mm_P1.27mm        -260.2700  -255.4400  270.0000  bottom
+U2        74HC165D                 SOP-16_4.55x10.3mm_P1.27mm        -234.6400  -262.7100  270.0000  bottom
 U3        74HC165D                 SOP-16_4.55x10.3mm_P1.27mm        -189.7700  -171.7700  270.0000  bottom
 U4        74HC165D                 SOP-16_4.55x10.3mm_P1.27mm        -254.0600  -169.7600  270.0000  bottom
 U5        74HC165D                 SOP-16_4.55x10.3mm_P1.27mm        -335.2300  -169.3100  270.0000  bottom
@@ -52,5 +56,6 @@ U8        74HC165D                 SOP-16_4.55x10.3mm_P1.27mm        -439.4100  
 U9        74HC165D                 SOP-16_4.55x10.3mm_P1.27mm        -400.3900  -222.6400    0.0000  bottom
 U10       74HC165D                 SOP-16_4.55x10.3mm_P1.27mm        -437.9200  -221.3400  270.0000  bottom
 U11       74HC165D                 SOP-16_4.55x10.3mm_P1.27mm        -433.7600  -177.2900   90.0000  bottom
-U12       STM32F103C8Tx            LQFP-48_7x7mm_P0.5mm              -236.9210  -256.8910   90.0000  bottom
+U12       STM32F103C8Tx            LQFP-48_7x7mm_P0.5mm              -325.4210  -258.4910   90.0000  bottom
+U13       AMS1117-3.3              SOT-223-3_TabPin2                 -228.7200  -172.8300    0.0000  bottom
 ## End

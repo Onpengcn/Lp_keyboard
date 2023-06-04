@@ -1,0 +1,13 @@
+### Module positions - created on 09/04/22 01:09:23 ###
+### Printed by Pcbnew version kicad (5.1.6)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                      Package                                PosX       PosY       Rot  Side
+C1        10uf                     C_0805_2012Metric                  139.4800   -85.6900    0.0000  top
+C2        0.1uf                    C_0805_2012Metric                  139.4500   -91.1000  180.0000  top
+C3        10uf                     C_0805_2012Metric                  152.7700   -91.0400    0.0000  top
+C4        0.1uf                    C_0805_2012Metric                  152.7700   -85.7200    0.0000  top
+J1        USB_C_Receptacle_USB2.0  USB_C_Receptacle_Palconn_UTC16-G   132.7200   -88.3800  270.0000  top
+J2        USB_C_Receptacle_USB2.0  USB_C_Plug_Molex_105444            157.3600   -88.4400  270.0000  top
+U1        AMS1117-3.3              SOT-223-3_TabPin2                  146.2700   -88.3800    0.0000  top
+## End

@@ -1,0 +1,219 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:AMS1117-3.3 U?
+U 1 1 63137DF4
+P 3100 1800
+F 0 "U?" H 3100 2042 50  0000 C CNN
+F 1 "AMS1117-3.3" H 3100 1951 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3100 2000 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3200 1550 50  0001 C CNN
+	1    3100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:1.0UF-0805-25V-10% C?
+U 1 1 63139081
+P 2500 2000
+F 0 "C?" H 2608 2145 45  0000 L CNN
+F 1 "0.1uf" H 2608 2061 45  0000 L CNN
+F 2 "0805" H 2500 2250 20  0001 C CNN
+F 3 "" H 2500 2000 50  0001 C CNN
+F 4 "CAP-08064" H 2608 1966 60  0000 L CNN "Field4"
+	1    2500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:1.0UF-0805-25V-10% C?
+U 1 1 63139AD5
+P 2100 2000
+F 0 "C?" H 2208 2145 45  0000 L CNN
+F 1 "10uf" H 2208 2061 45  0000 L CNN
+F 2 "0805" H 2100 2250 20  0001 C CNN
+F 3 "" H 2100 2000 50  0001 C CNN
+F 4 "CAP-08064" H 2208 1966 60  0000 L CNN "Field4"
+	1    2100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:1.0UF-0805-25V-10% C?
+U 1 1 6313A27A
+P 3550 2000
+F 0 "C?" H 3658 2145 45  0000 L CNN
+F 1 "10uf" H 3658 2061 45  0000 L CNN
+F 2 "0805" H 3550 2250 20  0001 C CNN
+F 3 "" H 3550 2000 50  0001 C CNN
+F 4 "CAP-08064" H 3658 1966 60  0000 L CNN "Field4"
+	1    3550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:1.0UF-0805-25V-10% C?
+U 1 1 6313AAA5
+P 3950 2000
+F 0 "C?" H 4058 2145 45  0000 L CNN
+F 1 "0.1uf" H 4058 2061 45  0000 L CNN
+F 2 "0805" H 3950 2250 20  0001 C CNN
+F 3 "" H 3950 2000 50  0001 C CNN
+F 4 "CAP-08064" H 4058 1966 60  0000 L CNN "Field4"
+	1    3950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6313B4FB
+P 3100 2300
+F 0 "#PWR?" H 3100 2050 50  0001 C CNN
+F 1 "GND" H 3105 2127 50  0000 C CNN
+F 2 "" H 3100 2300 50  0001 C CNN
+F 3 "" H 3100 2300 50  0001 C CNN
+	1    3100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-PowerSymbols:5V #SUPPLY?
+U 1 1 6313BB25
+P 1950 1800
+F 0 "#SUPPLY?" H 2000 1800 45  0001 L BNN
+F 1 "5V" H 1950 2076 45  0000 C CNN
+F 2 "XXX-00000" H 1950 1981 60  0000 C CNN
+F 3 "" H 1950 1800 60  0001 C CNN
+	1    1950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-PowerSymbols:3.3V #SUPPLY?
+U 1 1 6313C8CD
+P 4100 1800
+F 0 "#SUPPLY?" H 4150 1800 45  0001 L BNN
+F 1 "3.3V" H 4100 2076 45  0000 C CNN
+F 2 "XXX-00000" H 4100 1981 60  0000 C CNN
+F 3 "" H 4100 1800 60  0001 C CNN
+	1    4100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1800 2100 1800
+Connection ~ 2100 1800
+Wire Wire Line
+	2100 1800 2500 1800
+Connection ~ 2500 1800
+Wire Wire Line
+	2500 1800 2800 1800
+Wire Wire Line
+	2100 2100 2500 2100
+Connection ~ 2500 2100
+Wire Wire Line
+	2500 2100 3100 2100
+Connection ~ 3100 2100
+Wire Wire Line
+	3100 2100 3550 2100
+Connection ~ 3550 2100
+Wire Wire Line
+	3550 2100 3950 2100
+Wire Wire Line
+	3100 2100 3100 2300
+Wire Wire Line
+	3400 1800 3550 1800
+Connection ~ 3550 1800
+Wire Wire Line
+	3550 1800 3950 1800
+Connection ~ 3950 1800
+Wire Wire Line
+	3950 1800 4100 1800
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 6313E207
+P 2450 3350
+F 0 "J?" H 2557 4217 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 2557 4126 50  0000 C CNN
+F 2 "" H 2600 3350 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2600 3350 50  0001 C CNN
+	1    2450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 6313FD05
+P 4100 3350
+F 0 "J?" V 4253 4079 50  0000 L CNN
+F 1 "USB_C_Receptacle_USB2.0" V 4162 4079 50  0000 L CNN
+F 2 "" H 4250 3350 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4250 3350 50  0001 C CNN
+	1    4100 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4250 2450 4250
+Wire Wire Line
+	4100 4250 3800 4250
+$Comp
+L power:GND #PWR?
+U 1 1 6314C776
+P 3100 4250
+F 0 "#PWR?" H 3100 4000 50  0001 C CNN
+F 1 "GND" H 3105 4077 50  0000 C CNN
+F 2 "" H 3100 4250 50  0001 C CNN
+F 3 "" H 3100 4250 50  0001 C CNN
+	1    3100 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4250 3100 4250
+Connection ~ 2450 4250
+Connection ~ 3800 4250
+Connection ~ 3100 4250
+Wire Wire Line
+	3100 4250 3800 4250
+Wire Wire Line
+	3050 3950 4700 3950
+Wire Wire Line
+	3050 3850 4700 3850
+Wire Wire Line
+	4700 3550 3050 3550
+Wire Wire Line
+	3050 3450 4700 3450
+Wire Wire Line
+	4700 3350 3050 3350
+Wire Wire Line
+	3050 3250 4700 3250
+Wire Wire Line
+	4700 3050 3050 3050
+Wire Wire Line
+	3050 2950 4700 2950
+$Comp
+L SparkFun-PowerSymbols:5V #SUPPLY?
+U 1 1 6314FCE8
+P 3050 2750
+F 0 "#SUPPLY?" H 3100 2750 45  0001 L BNN
+F 1 "5V" H 3050 3026 45  0000 C CNN
+F 2 "XXX-00000" H 3050 2931 60  0000 C CNN
+F 3 "" H 3050 2750 60  0001 C CNN
+	1    3050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-PowerSymbols:3.3V #SUPPLY?
+U 1 1 63150222
+P 4700 2750
+F 0 "#SUPPLY?" H 4750 2750 45  0001 L BNN
+F 1 "3.3V" H 4700 3026 45  0000 C CNN
+F 2 "XXX-00000" H 4700 2931 60  0000 C CNN
+F 3 "" H 4700 2750 60  0001 C CNN
+	1    4700 2750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
