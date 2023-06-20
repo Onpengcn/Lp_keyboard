@@ -56,8 +56,8 @@ SPI_HandleTypeDef hspi1;
 
 /* USER CODE BEGIN PV */
 
-uint8_t spiBuffer[IO_NUMBER / 8 ];
-uint8_t debounceBuffer[IO_NUMBER / 8];
+uint8_t spiBuffer[IO_NUMBER / 8 + 1];
+uint8_t debounceBuffer[IO_NUMBER / 8 + 1];
 unsigned char hidBuffer[16];
 /* USER CODE END PV */
 
@@ -83,6 +83,7 @@ void keymap_t_hbuf();
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+  HAL_RCC_DeInit();
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -122,6 +123,7 @@ int main(void)
 
 	  // Report HID key states
 	  USBD_CUSTOM_HID_SendReport_FS(hidBuffer, KEY_REPORT_SIZE);
+    DelayUs(1000);
   }
   /* USER CODE END 3 */
 }
@@ -192,10 +194,10 @@ static void MX_SPI1_Init(void)
   hspi1.Init.Mode = SPI_MODE_MASTER;
   hspi1.Init.Direction = SPI_DIRECTION_2LINES_RXONLY;
   hspi1.Init.DataSize = SPI_DATASIZE_8BIT;
-  hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
+  hspi1.Init.CLKPolarity = SPI_POLARITY_HIGH;
   hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
   hspi1.Init.NSS = SPI_NSS_SOFT;
-  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_4;
+  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_16;
   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
@@ -217,21 +219,27 @@ static void MX_SPI1_Init(void)
   */
 static void MX_GPIO_Init(void)
 {
-
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
   /* GPIO Ports Clock Enable */
-  __HAL_RCC_GPIOD_CLK_ENABLE();
-  __HAL_RCC_GPIOA_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
 
+  /*Configure GPIO pins : PBPin PBPin */
+  GPIO_InitStruct.Pin = CE_Pin|PL_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  HAL_GPIO_WritePin(GPIOB, CE_Pin, GPIO_PIN_RESET);
 }
 
 /* USER CODE BEGIN 4 */
 uint8_t* ScanKeyStates()
 {
-    memset(spiBuffer, 0xFF, IO_NUMBER / 8);
+    memset(spiBuffer, 0xFF, IO_NUMBER / 8 + 1);
     PL_GPIO_Port->BSRR = PL_Pin; // Latch
-
     hspi1.pRxBuffPtr = (uint8_t*) spiBuffer;
-    hspi1.RxXferCount = IO_NUMBER / 8;
+    hspi1.RxXferCount = IO_NUMBER / 8 + 1;
     __HAL_SPI_ENABLE(&hspi1);
     while (hspi1.RxXferCount > 0U)
     {
@@ -247,19 +255,20 @@ uint8_t* ScanKeyStates()
     __HAL_SPI_DISABLE(&hspi1);
 
     PL_GPIO_Port->BRR = PL_Pin; // Sample
-    return (void*)0;
-}
+    return (void*)0;}
 
 void ApplyDebounceFilter(uint32_t _filterTimeUs)
 {
-    memcpy(debounceBuffer, spiBuffer, IO_NUMBER / 8);
+    memcpy(debounceBuffer, spiBuffer, IO_NUMBER / 8 + 1);
 
     DelayUs(_filterTimeUs);
     ScanKeyStates();
 
     uint8_t mask;
-    for (int i = 0; i < IO_NUMBER / 8; i++)
+    for (int i = 0; i < IO_NUMBER / 8 + 1; i++)
     {
+        mask = spiBuffer[i];
+
         mask = debounceBuffer[i] ^ spiBuffer[i];
         spiBuffer[i] |= mask;
     }
@@ -269,29 +278,25 @@ void keymap_t_hbuf()
 {
 	int16_t index, bitIndex;
 
-	    memset(debounceBuffer, 0, IO_NUMBER / 8 + 1);
-	    //for (int16_t i = 0; i < IO_NUMBER / 8; i++)
-		for (int16_t i = 0; i < 2; i++)
+	  memset(debounceBuffer, 0, IO_NUMBER / 8 + 1);
+		for (int16_t i = 0; i < IO_NUMBER / 8; i++)
 	    {
 	        for (int16_t j = 0; j < 8; j++)
 	        {
 	            index = (int16_t) (leapmotor_keymap[0][i * 8 + j] / 8);
 	            bitIndex = (int16_t) (leapmotor_keymap[0][i * 8 + j] % 8);
-	            if ( ! (spiBuffer[index] & (0x80 >> bitIndex))) // accrouding real key pressed to find
+	            if (spiBuffer[index + 1] & (0x80 >> bitIndex)) // accrouding real key pressed to find
 	                debounceBuffer[i] |= 0x80 >> j;
-//	            if (spiBuffer[index] & (0x80 >> bitIndex)) // accrouding real key pressed to find
-//	                debounceBuffer[i] |= 0x80 >> j;
 	        }
-//	        debounceBuffer[i] = ~debounceBuffer[i];
+	        debounceBuffer[i] = ~debounceBuffer[i];
 	    }
 
 	    memset(hidBuffer, 0, KEY_REPORT_SIZE);
-	    //for (int i = 0; i < IO_NUMBER / 8; i++)
-		for (int i = 0; i < 2; i++)
+	    for (int i = 0; i < IO_NUMBER / 8; i++)
 	    {
 	        for (int j = 0; j < 8; j++)
 	        {
-	            index = (int16_t) (leapmotor_keymap[1][i * 8 + j] / 8 + 1); // +1 for modifier
+	            index = (int16_t) (leapmotor_keymap[1][i * 8 + j] / 8 + 0); // +1 for modifier
 	            bitIndex = (int16_t) (leapmotor_keymap[1][i * 8 + j] % 8);
 	            if (bitIndex < 0)
 	            {
@@ -301,7 +306,7 @@ void keymap_t_hbuf()
 	                continue;
 
 	            if (debounceBuffer[i] & (0x80 >> j))
-	                hidBuffer[index] |= 1 << (bitIndex); // +1 for Report-ID
+	                hidBuffer[index+1] |= 1 << (bitIndex); // +1 for Report-ID
 
 	        }
 	    }

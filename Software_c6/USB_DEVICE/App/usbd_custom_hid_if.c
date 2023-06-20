@@ -101,7 +101,7 @@ __ALIGN_BEGIN static uint8_t CUSTOM_HID_ReportDesc_FS[USBD_CUSTOM_HID_REPORT_DES
 		0x25, 0x01,                    //   LOGICAL_MAXIMUM (1)
 		0x19, 0xe0,                    //   USAGE_MINIMUM (Keyboard LeftControl)
 		0x29, 0xe7,                    //   USAGE_MAXIMUM (Keyboard Right GUI)
-		0x81, 0x00,                    //   INPUT (Data,Ary,Abs)
+		0x81, 0x02,                    //   INPUT (Data,Ary,Abs)
 		0x75, 0x01,                    //   REPORT_SIZE (1)
 		0x95, 0x78,                    //   REPORT_COUNT (120)
 		0x15, 0x00,                    //   LOGICAL_MINIMUM (0)
@@ -109,7 +109,7 @@ __ALIGN_BEGIN static uint8_t CUSTOM_HID_ReportDesc_FS[USBD_CUSTOM_HID_REPORT_DES
 		0x05, 0x07,                    //   USAGE_PAGE (Keyboard)
 		0x19, 0x00,                    //   USAGE_MINIMUM (Reserved (no event indicated))
 		0x29, 0x84,                    //   USAGE_MAXIMUM (Keyboard Locking Scroll Lock)
-		0x81, 0x00,                    //   INPUT (Data,Ary,Abs)
+		0x81, 0x02,                    //   INPUT (Data,Ary,Abs)
   /* USER CODE END 0 */
   0xC0    /*     END_COLLECTION	             */
 };

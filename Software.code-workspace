@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "Software_c6"
+		},
+		{
+			"path": "Bear-3.1.2"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"usbd_custom_hid_if.h": "c"
+		}
+	}
+}
